@@ -1,0 +1,1105 @@
+Model_Year,Make,Model,Vehicle_Class,Vehicle_Type,Engine_Size_L,Cylinders,Motor_kW,Transmission,Fuel_Type_Primary,Fuel_Type_Secondary,Fuel_Cons_City_L100km,Fuel_Cons_Hwy_L100km,Fuel_Cons_Comb_L100km,Fuel_Cons_Comb_mpg,Elec_Cons_City_kWh100km,Elec_Cons_Hwy_kWh100km,Elec_Cons_Comb_kWh100km,Elec_Range_km,Total_Range_km,Recharge_Time_h,CO2_Emissions_g_km,CO2_Rating,Smog_Rating,vehicle_id
+,ACURA,RDX AWD,Suv - Small,Conventional/Hybrid,3.5,6,,AS6,Z,,12.1,8.7,10.6,27,,,,,,,244,,,ACURA_RDX AWD_Suv - Small_Conventional/Hybrid_AS6
+,ACURA,RLX,Mid-Size,Conventional/Hybrid,3.5,6,,AS6,Z,,11.9,7.7,10.0,28,,,,,,,230,,,ACURA_RLX_Mid-Size_Conventional/Hybrid_AS6
+,ALFA ROMEO,4C,Two-Seater,Conventional/Hybrid,1.8,4,,AM6,Z,,9.7,6.9,8.4,34,,,,,,,193,,,ALFA ROMEO_4C_Two-Seater_Conventional/Hybrid_AM6
+,ASTON MARTIN,DB9,Minicompact,Conventional/Hybrid,5.9,12,,A6,Z,,18.0,12.6,15.6,18,,,,,,,359,,,ASTON MARTIN_DB9_Minicompact_Conventional/Hybrid_A6
+,ASTON MARTIN,V8 VANTAGE,Two-Seater,Conventional/Hybrid,4.7,8,,AM7,Z,,17.4,11.3,14.7,19,,,,,,,338,,,ASTON MARTIN_V8 VANTAGE_Two-Seater_Conventional/Hybrid_AM7
+,ASTON MARTIN,V8 VANTAGE S,Two-Seater,Conventional/Hybrid,4.7,8,,AM7,Z,,17.4,11.3,14.7,19,,,,,,,338,,,ASTON MARTIN_V8 VANTAGE S_Two-Seater_Conventional/Hybrid_AM7
+,AUDI,A6 QUATTRO,Mid-Size,Conventional/Hybrid,3.0,6,,AS8,Z,,12.8,8.6,10.9,26,,,,,,,251,,,AUDI_A6 QUATTRO_Mid-Size_Conventional/Hybrid_AS8
+,AUDI,A6 QUATTRO TDI (modified),Mid-Size,Conventional/Hybrid,3.0,6,,AS8,D,,9.8,6.2,8.1,35,,,,,,,217,,,AUDI_A6 QUATTRO TDI (modified)_Mid-Size_Conventional/Hybrid_AS8
+,AUDI,A7 QUATTRO TDI (modified),Mid-Size,Conventional/Hybrid,3.0,6,,AS8,D,,9.8,6.2,8.1,35,,,,,,,217,,,AUDI_A7 QUATTRO TDI (modified)_Mid-Size_Conventional/Hybrid_AS8
+,AUDI,A8 TDI (modified),Mid-Size,Conventional/Hybrid,3.0,6,,AS8,D,,9.8,6.5,8.4,34,,,,,,,224,,,AUDI_A8 TDI (modified)_Mid-Size_Conventional/Hybrid_AS8
+,AUDI,A8L TDI (modified),Full-Size,Conventional/Hybrid,3.0,6,,AS8,D,,9.8,6.5,8.4,34,,,,,,,224,,,AUDI_A8L TDI (modified)_Full-Size_Conventional/Hybrid_AS8
+,AUDI,Q5,Suv - Small,Conventional/Hybrid,2.0,4,,AS8,Z,,12.0,8.5,10.4,27,,,,,,,239,,,AUDI_Q5_Suv - Small_Conventional/Hybrid_AS8
+,AUDI,Q5 TDI (modified),Suv - Small,Conventional/Hybrid,3.0,6,,AS8,D,,10.2,7.8,9.0,31,,,,,,,244,,,AUDI_Q5 TDI (modified)_Suv - Small_Conventional/Hybrid_AS8
+,AUDI,Q7 TDI (modified),Suv - Standard,Conventional/Hybrid,3.0,6,,AS8,D,,12.4,8.7,10.7,26,,,,,,,290,,,AUDI_Q7 TDI (modified)_Suv - Standard_Conventional/Hybrid_AS8
+,BENTLEY,FLYING SPUR,Mid-Size,Conventional/Hybrid,6.0,12,,AS8,Z,,20.3,11.9,16.5,17,,,,,,,388,,,BENTLEY_FLYING SPUR_Mid-Size_Conventional/Hybrid_AS8
+,BMW,M6 CABRIOLET,Subcompact,Conventional/Hybrid,4.4,8,,AM7,Z,,17.3,11.5,14.7,19,,,,,,,338,,,BMW_M6 CABRIOLET_Subcompact_Conventional/Hybrid_AM7
+,BMW,M6 GRAN COUPE,Compact,Conventional/Hybrid,4.4,8,,AM7,Z,,17.3,11.5,14.7,19,,,,,,,338,,,BMW_M6 GRAN COUPE_Compact_Conventional/Hybrid_AM7
+,BMW,Z4 sDRIVE35i,Two-Seater,Conventional/Hybrid,3.0,6,,M6,Z,,12.7,9.0,11.0,26,,,,,,,253,,,BMW_Z4 sDRIVE35i_Two-Seater_Conventional/Hybrid_M6
+,BUICK,ENCLAVE AWD,Suv - Standard,Conventional/Hybrid,3.6,6,,A6,X,,14.6,10.2,12.6,22,,,,,,,290,,,BUICK_ENCLAVE AWD_Suv - Standard_Conventional/Hybrid_A6
+,BUICK,ENCORE,Suv - Small,Conventional/Hybrid,1.4,4,,AS6,X,,9.5,7.2,8.5,33,,,,,,,196,,,BUICK_ENCORE_Suv - Small_Conventional/Hybrid_AS6
+,BUICK,ENCORE AWD,Suv - Small,Conventional/Hybrid,1.4,4,,AS6,X,,10.2,8.0,9.2,31,,,,,,,212,,,BUICK_ENCORE AWD_Suv - Small_Conventional/Hybrid_AS6
+,BUICK,LACROSSE eASSIST,Mid-Size,Conventional/Hybrid,2.4,4,,AS6,X,,9.6,6.5,8.2,34,,,,,,,189,,,BUICK_LACROSSE eASSIST_Mid-Size_Conventional/Hybrid_AS6
+,BUICK,REGAL eASSIST,Mid-Size,Conventional/Hybrid,2.4,4,,AS6,X,,9.6,6.5,8.2,34,,,,,,,189,,,BUICK_REGAL eASSIST_Mid-Size_Conventional/Hybrid_AS6
+,CADILLAC,SRX AWD,Suv - Standard,Conventional/Hybrid,3.6,6,,AS6,X,,14.8,10.4,12.8,22,,,,,,,294,,,CADILLAC_SRX AWD_Suv - Standard_Conventional/Hybrid_AS6
+,CHEVROLET,CORVETTE,Two-Seater,Conventional/Hybrid,6.2,8,,M7,Z,,13.7,8.2,11.2,25,,,,,,,258,,,CHEVROLET_CORVETTE_Two-Seater_Conventional/Hybrid_M7
+,CHEVROLET,CRUZE,Mid-Size,Conventional/Hybrid,1.4,4,,AS6,X,,9.1,6.3,7.8,36,,,,,,,179,,,CHEVROLET_CRUZE_Mid-Size_Conventional/Hybrid_AS6
+,CHEVROLET,CRUZE DIESEL,Mid-Size,Conventional/Hybrid,2.0,4,,AS6,D,,8.7,5.1,7.1,40,,,,,,,192,,,CHEVROLET_CRUZE DIESEL_Mid-Size_Conventional/Hybrid_AS6
+,CHEVROLET,CRUZE ECO,Mid-Size,Conventional/Hybrid,1.4,4,,M6,X,,8.4,5.6,7.1,40,,,,,,,163,,,CHEVROLET_CRUZE ECO_Mid-Size_Conventional/Hybrid_M6
+,CHEVROLET,EQUINOX,Suv - Small,Conventional/Hybrid,2.4,4,,A6,X,,10.5,7.3,9.1,31,,,,,,,209,,,CHEVROLET_EQUINOX_Suv - Small_Conventional/Hybrid_A6
+,CHEVROLET,EQUINOX AWD,Suv - Small,Conventional/Hybrid,2.4,4,,A6,X,,11.5,8.2,10.0,28,,,,,,,230,,,CHEVROLET_EQUINOX AWD_Suv - Small_Conventional/Hybrid_A6
+,CHEVROLET,EQUINOX AWD,Suv - Small,Conventional/Hybrid,3.6,6,,A6,X,,14.8,9.9,12.6,22,,,,,,,290,,,CHEVROLET_EQUINOX AWD_Suv - Small_Conventional/Hybrid_A6
+,CHEVROLET,MALIBU,Mid-Size,Conventional/Hybrid,2.5,4,,AS6,X,,9.3,6.4,8.0,35,,,,,,,184,,,CHEVROLET_MALIBU_Mid-Size_Conventional/Hybrid_AS6
+,CHEVROLET,SILVERADO,Pickup Truck - Standard,Conventional/Hybrid,5.3,8,,A6,X,,14.6,10.3,12.7,22,,,,,,,292,,,CHEVROLET_SILVERADO_Pickup Truck - Standard_Conventional/Hybrid_A6
+,CHEVROLET,SONIC,Compact,Conventional/Hybrid,1.4,4,,M6,X,,8.5,6.2,7.5,38,,,,,,,173,,,CHEVROLET_SONIC_Compact_Conventional/Hybrid_M6
+,CHEVROLET,SONIC RS,Compact,Conventional/Hybrid,1.4,4,,AS6,X,,9.4,7.0,8.3,34,,,,,,,191,,,CHEVROLET_SONIC RS_Compact_Conventional/Hybrid_AS6
+,CHEVROLET,SONIC 5 RS,Mid-Size,Conventional/Hybrid,1.4,4,,AS6,X,,9.4,7.0,8.3,34,,,,,,,191,,,CHEVROLET_SONIC 5 RS_Mid-Size_Conventional/Hybrid_AS6
+,CHEVROLET,TRAVERSE AWD,Suv - Standard,Conventional/Hybrid,3.6,6,,A6,X,,14.6,10.2,12.6,22,,,,,,,290,,,CHEVROLET_TRAVERSE AWD_Suv - Standard_Conventional/Hybrid_A6
+,CHRYSLER,300,Full-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.4,7.7,10.3,27,,,,,,,237,,,CHRYSLER_300_Full-Size_Conventional/Hybrid_A8
+,CHRYSLER,300 FFV,Full-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.4,7.7,10.3,27,,,,,,,237,,,CHRYSLER_300 FFV_Full-Size_Conventional/Hybrid_A8
+,CHRYSLER,300 FFV,Full-Size,Conventional/Hybrid,3.6,6,,A8,E,,16.8,10.3,13.9,20,,,,,,,222,,,CHRYSLER_300 FFV_Full-Size_Conventional/Hybrid_A8
+,CHRYSLER,300 AWD,Full-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.8,8.6,10.9,26,,,,,,,251,,,CHRYSLER_300 AWD_Full-Size_Conventional/Hybrid_A8
+,CHRYSLER,300 AWD FFV,Full-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.8,8.6,10.9,26,,,,,,,251,,,CHRYSLER_300 AWD FFV_Full-Size_Conventional/Hybrid_A8
+,CHRYSLER,300 AWD FFV,Full-Size,Conventional/Hybrid,3.6,6,,A8,E,,17.3,11.7,14.8,19,,,,,,,237,,,CHRYSLER_300 AWD FFV_Full-Size_Conventional/Hybrid_A8
+,CHRYSLER,TOWN & COUNTRY FFV,Minivan,Conventional/Hybrid,3.6,6,,A6,X,,14.1,9.5,12.0,24,,,,,,,276,,,CHRYSLER_TOWN & COUNTRY FFV_Minivan_Conventional/Hybrid_A6
+,CHRYSLER,TOWN & COUNTRY FFV,Minivan,Conventional/Hybrid,3.6,6,,A6,E,,19.7,13.3,16.8,17,,,,,,,269,,,CHRYSLER_TOWN & COUNTRY FFV_Minivan_Conventional/Hybrid_A6
+,DODGE,CHALLENGER,Mid-Size,Conventional/Hybrid,5.7,8,,M6,X,,15.6,10.0,13.1,22,,,,,,,301,,,DODGE_CHALLENGER_Mid-Size_Conventional/Hybrid_M6
+,DODGE,CHALLENGER SRT,Mid-Size,Conventional/Hybrid,6.4,8,,M6,Z,,16.8,10.4,13.9,20,,,,,,,320,,,DODGE_CHALLENGER SRT_Mid-Size_Conventional/Hybrid_M6
+,DODGE,CHARGER,Full-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.4,7.7,10.3,27,,,,,,,237,,,DODGE_CHARGER_Full-Size_Conventional/Hybrid_A8
+,DODGE,CHARGER FFV,Full-Size,Conventional/Hybrid,3.6,6,,A8,E,,16.8,10.3,13.9,20,,,,,,,222,,,DODGE_CHARGER FFV_Full-Size_Conventional/Hybrid_A8
+,DODGE,CHARGER AWD,Full-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.8,8.6,10.9,26,,,,,,,251,,,DODGE_CHARGER AWD_Full-Size_Conventional/Hybrid_A8
+,DODGE,CHARGER AWD FFV,Full-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.8,8.6,10.9,26,,,,,,,251,,,DODGE_CHARGER AWD FFV_Full-Size_Conventional/Hybrid_A8
+,DODGE,CHARGER AWD FFV,Full-Size,Conventional/Hybrid,3.6,6,,A8,E,,17.3,11.7,14.8,19,,,,,,,237,,,DODGE_CHARGER AWD FFV_Full-Size_Conventional/Hybrid_A8
+,DODGE,CHARGER AWD (MDS),Full-Size,Conventional/Hybrid,5.7,8,,A5,X,,16.1,10.0,13.4,21,,,,,,,308,,,DODGE_CHARGER AWD (MDS)_Full-Size_Conventional/Hybrid_A5
+,DODGE,DART,Mid-Size,Conventional/Hybrid,2.0,4,,M6,X,,9.4,6.5,8.1,35,,,,,,,186,,,DODGE_DART_Mid-Size_Conventional/Hybrid_M6
+,DODGE,DART FFV,Mid-Size,Conventional/Hybrid,2.0,4,,A6,X,,9.9,7.0,8.6,33,,,,,,,198,,,DODGE_DART FFV_Mid-Size_Conventional/Hybrid_A6
+,DODGE,DART,Mid-Size,Conventional/Hybrid,2.4,4,,A6,X,,10.1,6.8,8.6,33,,,,,,,198,,,DODGE_DART_Mid-Size_Conventional/Hybrid_A6
+,DODGE,DART,Mid-Size,Conventional/Hybrid,2.4,4,,M6,X,,10.5,6.7,8.8,32,,,,,,,202,,,DODGE_DART_Mid-Size_Conventional/Hybrid_M6
+,DODGE,DART GT,Mid-Size,Conventional/Hybrid,2.4,4,,A6,X,,10.6,7.5,9.2,31,,,,,,,212,,,DODGE_DART GT_Mid-Size_Conventional/Hybrid_A6
+,DODGE,DART GT,Mid-Size,Conventional/Hybrid,2.4,4,,M6,X,,10.2,7.0,8.8,32,,,,,,,202,,,DODGE_DART GT_Mid-Size_Conventional/Hybrid_M6
+,DODGE,DART TURBO AERO,Mid-Size,Conventional/Hybrid,1.4,4,,AM6,X,,8.4,5.9,7.3,39,,,,,,,168,,,DODGE_DART TURBO AERO_Mid-Size_Conventional/Hybrid_AM6
+,DODGE,DART TURBO AERO,Mid-Size,Conventional/Hybrid,1.4,4,,M6,X,,8.5,5.8,7.3,39,,,,,,,168,,,DODGE_DART TURBO AERO_Mid-Size_Conventional/Hybrid_M6
+,DODGE,DURANGO AWD FFV,Suv - Standard,Conventional/Hybrid,3.6,6,,A8,X,,13.9,9.8,12.1,23,,,,,,,278,,,DODGE_DURANGO AWD FFV_Suv - Standard_Conventional/Hybrid_A8
+,DODGE,DURANGO AWD FFV,Suv - Standard,Conventional/Hybrid,3.6,6,,A8,E,,17.7,13.0,15.6,18,,,,,,,250,,,DODGE_DURANGO AWD FFV_Suv - Standard_Conventional/Hybrid_A8
+,DODGE,GRAND CARAVAN FFV,Minivan,Conventional/Hybrid,3.6,6,,A6,X,,13.7,9.4,11.8,24,,,,,,,271,,,DODGE_GRAND CARAVAN FFV_Minivan_Conventional/Hybrid_A6
+,DODGE,JOURNEY,Suv - Small,Conventional/Hybrid,2.4,4,,A4,X,,12.7,9.1,11.1,25,,,,,,,255,,,DODGE_JOURNEY_Suv - Small_Conventional/Hybrid_A4
+,DODGE,JOURNEY FFV,Suv - Small,Conventional/Hybrid,3.6,6,,A6,E,,18.9,12.9,16.2,17,,,,,,,259,,,DODGE_JOURNEY FFV_Suv - Small_Conventional/Hybrid_A6
+,DODGE,JOURNEY AWD,Suv - Small,Conventional/Hybrid,3.6,6,,A6,X,,14.5,9.9,12.4,23,,,,,,,285,,,DODGE_JOURNEY AWD_Suv - Small_Conventional/Hybrid_A6
+,FIAT,500 CABRIO,Minicompact,Conventional/Hybrid,1.4,4,,A6,X,,8.7,6.9,7.9,36,,,,,,,182,,,FIAT_500 CABRIO_Minicompact_Conventional/Hybrid_A6
+,FIAT,500 CABRIO,Minicompact,Conventional/Hybrid,1.4,4,,M5,X,,7.9,6.3,7.2,39,,,,,,,166,,,FIAT_500 CABRIO_Minicompact_Conventional/Hybrid_M5
+,FIAT,500 HATCHBACK,Minicompact,Conventional/Hybrid,1.4,4,,A6,X,,8.7,6.9,7.9,36,,,,,,,182,,,FIAT_500 HATCHBACK_Minicompact_Conventional/Hybrid_A6
+,FIAT,500 HATCHBACK,Minicompact,Conventional/Hybrid,1.4,4,,M5,X,,7.6,5.9,6.8,42,,,,,,,156,,,FIAT_500 HATCHBACK_Minicompact_Conventional/Hybrid_M5
+,FIAT,500 HATCHBACK TURBO,Minicompact,Conventional/Hybrid,1.4,4,,M5,X,,8.5,6.9,7.8,36,,,,,,,179,,,FIAT_500 HATCHBACK TURBO_Minicompact_Conventional/Hybrid_M5
+,FIAT,500 ABARTH CABRIO,Minicompact,Conventional/Hybrid,1.4,4,,M5,X,,8.5,6.9,7.8,36,,,,,,,179,,,FIAT_500 ABARTH CABRIO_Minicompact_Conventional/Hybrid_M5
+,FIAT,500 ABARTH HATCHBACK,Minicompact,Conventional/Hybrid,1.4,4,,M5,X,,8.5,6.9,7.8,36,,,,,,,179,,,FIAT_500 ABARTH HATCHBACK_Minicompact_Conventional/Hybrid_M5
+,FORD,C-MAX HYBRID,Full-Size,Conventional/Hybrid,2.0,4,,AV,X,,5.6,6.4,6.0,47,,,,,,,138,,,FORD_C-MAX HYBRID_Full-Size_Conventional/Hybrid_AV
+,FORD,ESCAPE,Suv - Small,Conventional/Hybrid,2.0,4,,AS6,X,,10.9,8.0,9.6,29,,,,,,,221,,,FORD_ESCAPE_Suv - Small_Conventional/Hybrid_AS6
+,FORD,EXPLORER FFV,Suv - Standard,Conventional/Hybrid,3.5,6,,AS6,X,,13.7,9.7,11.9,24,,,,,,,274,,,FORD_EXPLORER FFV_Suv - Standard_Conventional/Hybrid_AS6
+,GMC,SIERRA,Pickup Truck - Standard,Conventional/Hybrid,5.3,8,,A6,X,,14.6,10.3,12.7,22,,,,,,,292,,,GMC_SIERRA_Pickup Truck - Standard_Conventional/Hybrid_A6
+,GMC,TERRAIN,Suv - Small,Conventional/Hybrid,2.4,4,,A6,X,,10.5,7.3,9.1,31,,,,,,,209,,,GMC_TERRAIN_Suv - Small_Conventional/Hybrid_A6
+,GMC,TERRAIN AWD,Suv - Small,Conventional/Hybrid,2.4,4,,A6,X,,11.5,8.2,10.0,28,,,,,,,230,,,GMC_TERRAIN AWD_Suv - Small_Conventional/Hybrid_A6
+,GMC,TERRAIN AWD,Suv - Small,Conventional/Hybrid,3.6,6,,A6,X,,14.8,9.9,12.6,22,,,,,,,290,,,GMC_TERRAIN AWD_Suv - Small_Conventional/Hybrid_A6
+,HONDA,ACCORD,Mid-Size,Conventional/Hybrid,2.4,4,,M6,X,,10.1,6.9,8.7,32,,,,,,,200,,,HONDA_ACCORD_Mid-Size_Conventional/Hybrid_M6
+,HONDA,ACCORD,Mid-Size,Conventional/Hybrid,3.5,6,,A6,X,,11.0,6.8,9.1,31,,,,,,,209,,,HONDA_ACCORD_Mid-Size_Conventional/Hybrid_A6
+,HONDA,ACCORD,Mid-Size,Conventional/Hybrid,3.5,6,,M6,X,,13.0,8.4,10.9,26,,,,,,,251,,,HONDA_ACCORD_Mid-Size_Conventional/Hybrid_M6
+,HONDA,CIVIC,Compact,Conventional/Hybrid,1.8,4,,AV7,X,,8.1,6.2,7.2,39,,,,,,,166,,,HONDA_CIVIC_Compact_Conventional/Hybrid_AV7
+,HONDA,CR-Z,Two-Seater,Conventional/Hybrid,1.5,4,,AV7,X,,6.6,6.0,6.3,45,,,,,,,145,,,HONDA_CR-Z_Two-Seater_Conventional/Hybrid_AV7
+,HONDA,CR-Z,Two-Seater,Conventional/Hybrid,1.5,4,,M6,X,,7.6,6.1,6.9,41,,,,,,,159,,,HONDA_CR-Z_Two-Seater_Conventional/Hybrid_M6
+,HONDA,ODYSSEY,Minivan,Conventional/Hybrid,3.5,6,,A6,X,,12.3,8.5,10.6,27,,,,,,,244,,,HONDA_ODYSSEY_Minivan_Conventional/Hybrid_A6
+,HYUNDAI,SONATA HYBRID LIMITED,Mid-Size,Conventional/Hybrid,2.4,4,,AS6,X,,6.6,5.9,6.3,45,,,,,,,145,,,HYUNDAI_SONATA HYBRID LIMITED_Mid-Size_Conventional/Hybrid_AS6
+,HYUNDAI,VELOSTER,Compact,Conventional/Hybrid,1.6,4,,AM6,X,,8.6,6.6,7.7,37,,,,,,,177,,,HYUNDAI_VELOSTER_Compact_Conventional/Hybrid_AM6
+,INFINITI,Q50 HYBRID,Compact,Conventional/Hybrid,3.5,6,,AS7,Z,,8.2,6.7,7.5,38,,,,,,,172,,,INFINITI_Q50 HYBRID_Compact_Conventional/Hybrid_AS7
+,INFINITI,Q50 HYBRID AWD,Compact,Conventional/Hybrid,3.5,6,,AS7,Z,,8.7,7.5,8.2,34,,,,,,,189,,,INFINITI_Q50 HYBRID AWD_Compact_Conventional/Hybrid_AS7
+,INFINITI,Q60 CONVERTIBLE,Subcompact,Conventional/Hybrid,3.7,6,,AS7,Z,,13.6,9.3,11.7,24,,,,,,,269,,,INFINITI_Q60 CONVERTIBLE_Subcompact_Conventional/Hybrid_AS7
+,INFINITI,Q60 CONVERTIBLE,Subcompact,Conventional/Hybrid,3.7,6,,M6,Z,,14.3,9.8,12.3,23,,,,,,,283,,,INFINITI_Q60 CONVERTIBLE_Subcompact_Conventional/Hybrid_M6
+,INFINITI,Q70,Mid-Size,Conventional/Hybrid,3.7,6,,AS7,Z,,12.8,8.9,11.0,26,,,,,,,253,,,INFINITI_Q70_Mid-Size_Conventional/Hybrid_AS7
+,INFINITI,Q70 AWD,Mid-Size,Conventional/Hybrid,3.7,6,,AS7,Z,,13.2,9.6,11.6,24,,,,,,,267,,,INFINITI_Q70 AWD_Mid-Size_Conventional/Hybrid_AS7
+,JAGUAR,F-TYPE CONVERTIBLE,Two-Seater,Conventional/Hybrid,3.0,6,,AS8,Z,,11.8,8.4,10.3,27,,,,,,,237,,,JAGUAR_F-TYPE CONVERTIBLE_Two-Seater_Conventional/Hybrid_AS8
+,JAGUAR,F-TYPE S CONVERTIBLE,Two-Seater,Conventional/Hybrid,3.0,6,,AS8,Z,,12.2,8.7,10.6,27,,,,,,,244,,,JAGUAR_F-TYPE S CONVERTIBLE_Two-Seater_Conventional/Hybrid_AS8
+,JAGUAR,F-TYPE V8 S CONVERTIBLE,Two-Seater,Conventional/Hybrid,5.0,8,,AS8,Z,,15.0,10.2,12.8,22,,,,,,,294,,,JAGUAR_F-TYPE V8 S CONVERTIBLE_Two-Seater_Conventional/Hybrid_AS8
+,JAGUAR,XF,Mid-Size,Conventional/Hybrid,2.0,4,,AS8,Z,,12.3,8.2,10.5,27,,,,,,,242,,,JAGUAR_XF_Mid-Size_Conventional/Hybrid_AS8
+,JAGUAR,XFR,Mid-Size,Conventional/Hybrid,5.0,8,,AS8,E,,21.3,14.1,18.1,16,,,,,,,290,,,JAGUAR_XFR_Mid-Size_Conventional/Hybrid_AS8
+,JAGUAR,XJ AWD,Full-Size,Conventional/Hybrid,3.0,6,,AS8,Z,,14.6,9.6,12.4,23,,,,,,,285,,,JAGUAR_XJ AWD_Full-Size_Conventional/Hybrid_AS8
+,JAGUAR,XJ SUPERCHARGED,Full-Size,Conventional/Hybrid,5.0,8,,AS8,Z,,15.8,10.2,13.3,21,,,,,,,306,,,JAGUAR_XJ SUPERCHARGED_Full-Size_Conventional/Hybrid_AS8
+,JAGUAR,XJ SUPERCHARGED,Full-Size,Conventional/Hybrid,5.0,8,,AS8,E,,20.6,13.6,17.5,16,,,,,,,280,,,JAGUAR_XJ SUPERCHARGED_Full-Size_Conventional/Hybrid_AS8
+,JAGUAR,XJL SUPERCHARGED,Full-Size,Conventional/Hybrid,5.0,8,,AS8,Z,,15.8,10.2,13.3,21,,,,,,,306,,,JAGUAR_XJL SUPERCHARGED_Full-Size_Conventional/Hybrid_AS8
+,JAGUAR,XJL SUPERCHARGED,Full-Size,Conventional/Hybrid,5.0,8,,AS8,E,,20.6,13.6,17.5,16,,,,,,,280,,,JAGUAR_XJL SUPERCHARGED_Full-Size_Conventional/Hybrid_AS8
+,JAGUAR,XJR,Full-Size,Conventional/Hybrid,5.0,8,,AS8,Z,,15.8,10.2,13.3,21,,,,,,,306,,,JAGUAR_XJR_Full-Size_Conventional/Hybrid_AS8
+,JAGUAR,XJR LWB,Full-Size,Conventional/Hybrid,5.0,8,,AS8,Z,,15.8,10.2,13.3,21,,,,,,,306,,,JAGUAR_XJR LWB_Full-Size_Conventional/Hybrid_AS8
+,JEEP,CHEROKEE,Suv - Small,Conventional/Hybrid,2.4,4,,A9,X,,10.9,7.7,9.5,30,,,,,,,218,,,JEEP_CHEROKEE_Suv - Small_Conventional/Hybrid_A9
+,JEEP,CHEROKEE 4X4,Suv - Small,Conventional/Hybrid,2.4,4,,A9,X,,11.3,8.3,10.0,28,,,,,,,230,,,JEEP_CHEROKEE 4X4_Suv - Small_Conventional/Hybrid_A9
+,JEEP,CHEROKEE 4X4 ACTIVE DRIVE II,Suv - Small,Conventional/Hybrid,2.4,4,,A9,X,,11.4,8.6,10.1,28,,,,,,,232,,,JEEP_CHEROKEE 4X4 ACTIVE DRIVE II_Suv - Small_Conventional/Hybrid_A9
+,JEEP,CHEROKEE TRAILHAWK 4X4,Suv - Small,Conventional/Hybrid,2.4,4,,A9,X,,12.1,9.4,10.9,26,,,,,,,251,,,JEEP_CHEROKEE TRAILHAWK 4X4_Suv - Small_Conventional/Hybrid_A9
+,JEEP,COMPASS,Suv - Small,Conventional/Hybrid,2.0,4,,AV,X,,10.7,8.8,9.9,29,,,,,,,228,,,JEEP_COMPASS_Suv - Small_Conventional/Hybrid_AV
+,JEEP,COMPASS 4X4,Suv - Small,Conventional/Hybrid,2.4,4,,A6,X,,11.4,8.7,10.2,28,,,,,,,235,,,JEEP_COMPASS 4X4_Suv - Small_Conventional/Hybrid_A6
+,JEEP,COMPASS 4X4 TRAIL RATED,Suv - Small,Conventional/Hybrid,2.4,4,,AV,X,,11.7,10.3,11.1,25,,,,,,,255,,,JEEP_COMPASS 4X4 TRAIL RATED_Suv - Small_Conventional/Hybrid_AV
+,JEEP,GRAND CHEROKEE 4X4 DIESEL,Suv - Standard,Conventional/Hybrid,3.0,6,,A8,D,,11.2,8.4,9.9,29,,,,,,,267,,,JEEP_GRAND CHEROKEE 4X4 DIESEL_Suv - Standard_Conventional/Hybrid_A8
+,JEEP,GRAND CHEROKEE 4X4 FFV,Suv - Standard,Conventional/Hybrid,3.6,6,,A8,X,,13.9,9.8,12.1,23,,,,,,,278,,,JEEP_GRAND CHEROKEE 4X4 FFV_Suv - Standard_Conventional/Hybrid_A8
+,JEEP,GRAND CHEROKEE 4X4 FFV,Suv - Standard,Conventional/Hybrid,3.6,6,,A8,E,,17.7,13.0,15.6,18,,,,,,,250,,,JEEP_GRAND CHEROKEE 4X4 FFV_Suv - Standard_Conventional/Hybrid_A8
+,JEEP,GRAND CHEROKEE SRT 4X4 (MDS),Suv - Standard,Conventional/Hybrid,6.4,8,,A8,Z,,18.5,12.6,15.8,18,,,,,,,363,,,JEEP_GRAND CHEROKEE SRT 4X4 (MDS)_Suv - Standard_Conventional/Hybrid_A8
+,JEEP,PATRIOT,Suv - Small,Conventional/Hybrid,2.0,4,,AV,X,,10.7,8.8,9.9,29,,,,,,,228,,,JEEP_PATRIOT_Suv - Small_Conventional/Hybrid_AV
+,JEEP,PATRIOT 4X4,Suv - Small,Conventional/Hybrid,2.4,4,,A6,X,,11.4,8.7,10.2,28,,,,,,,235,,,JEEP_PATRIOT 4X4_Suv - Small_Conventional/Hybrid_A6
+,JEEP,PATRIOT 4X4 TRAIL RATED,Suv - Small,Conventional/Hybrid,2.4,4,,AV,X,,11.7,10.3,11.1,25,,,,,,,255,,,JEEP_PATRIOT 4X4 TRAIL RATED_Suv - Small_Conventional/Hybrid_AV
+,KIA,FORTE 5,Full-Size,Conventional/Hybrid,1.6,4,,M6,X,,11.1,8.2,9.8,29,,,,,,,225,,,KIA_FORTE 5_Full-Size_Conventional/Hybrid_M6
+,KIA,FORTE KOUP,Compact,Conventional/Hybrid,1.6,4,,M6,X,,10.8,8.1,9.6,29,,,,,,,221,,,KIA_FORTE KOUP_Compact_Conventional/Hybrid_M6
+,KIA,RIO,Compact,Conventional/Hybrid,1.6,4,,M6,X,,8.7,6.4,7.7,37,,,,,,,177,,,KIA_RIO_Compact_Conventional/Hybrid_M6
+,KIA,RONDO,Station Wagon - Mid-Size,Conventional/Hybrid,2.0,4,,M6,X,,10.8,7.4,9.3,30,,,,,,,214,,,KIA_RONDO_Station Wagon - Mid-Size_Conventional/Hybrid_M6
+,KIA,SOUL,Station Wagon - Small,Conventional/Hybrid,1.6,4,,M6,X,,9.9,7.8,9.0,31,,,,,,,207,,,KIA_SOUL_Station Wagon - Small_Conventional/Hybrid_M6
+,LAND ROVER,LR2,Suv - Small,Conventional/Hybrid,2.0,4,,AS6,Z,,13.5,9.9,11.9,24,,,,,,,274,,,LAND ROVER_LR2_Suv - Small_Conventional/Hybrid_AS6
+,LEXUS,IS 250 AWD,Compact,Conventional/Hybrid,2.5,6,,AS6,Z,,11.8,8.7,10.4,27,,,,,,,239,,,LEXUS_IS 250 AWD_Compact_Conventional/Hybrid_AS6
+,LEXUS,RX 350 AWD,Suv - Small,Conventional/Hybrid,3.5,6,,AS6,X,,13.3,9.8,11.7,24,,,,,,,269,,,LEXUS_RX 350 AWD_Suv - Small_Conventional/Hybrid_AS6
+,LEXUS,RX 350 AWD,Suv - Small,Conventional/Hybrid,3.5,6,,AS8,X,,12.7,9.1,11.1,25,,,,,,,255,,,LEXUS_RX 350 AWD_Suv - Small_Conventional/Hybrid_AS8
+,MASERATI,GHIBLI,Mid-Size,Conventional/Hybrid,3.0,6,,AS8,Z,,15.2,9.6,12.7,22,,,,,,,292,,,MASERATI_GHIBLI_Mid-Size_Conventional/Hybrid_AS8
+,MASERATI,GRANTURISMO,Subcompact,Conventional/Hybrid,4.7,8,,AS6,Z,,18.2,11.4,15.1,19,,,,,,,347,,,MASERATI_GRANTURISMO_Subcompact_Conventional/Hybrid_AS6
+,MAZDA,CX-5,Suv - Small,Conventional/Hybrid,2.0,4,,AS6,X,,8.9,7.3,8.2,34,,,,,,,189,,,MAZDA_CX-5_Suv - Small_Conventional/Hybrid_AS6
+,MAZDA,CX-5,Suv - Small,Conventional/Hybrid,2.0,4,,M6,X,,9.0,6.8,8.0,35,,,,,,,184,,,MAZDA_CX-5_Suv - Small_Conventional/Hybrid_M6
+,MAZDA,CX-5,Suv - Small,Conventional/Hybrid,2.5,4,,AS6,X,,9.6,7.4,8.6,33,,,,,,,198,,,MAZDA_CX-5_Suv - Small_Conventional/Hybrid_AS6
+,MAZDA,CX-5 4WD,Suv - Small,Conventional/Hybrid,2.0,4,,AS6,X,,9.3,7.6,8.5,33,,,,,,,196,,,MAZDA_CX-5 4WD_Suv - Small_Conventional/Hybrid_AS6
+,MAZDA,CX-9,Suv - Small,Conventional/Hybrid,3.7,6,,AS6,X,,14.2,10.0,12.3,23,,,,,,,283,,,MAZDA_CX-9_Suv - Small_Conventional/Hybrid_AS6
+,MAZDA,MAZDA3 4-DOOR,Compact,Conventional/Hybrid,2.0,4,,AS6,X,,7.9,5.7,6.9,41,,,,,,,159,,,MAZDA_MAZDA3 4-DOOR_Compact_Conventional/Hybrid_AS6
+,MAZDA,MAZDA3 4-DOOR (SIL),Compact,Conventional/Hybrid,2.0,4,,M6,X,,8.0,5.8,7.0,40,,,,,,,161,,,MAZDA_MAZDA3 4-DOOR (SIL)_Compact_Conventional/Hybrid_M6
+,MAZDA,MAZDA3 4-DOOR,Compact,Conventional/Hybrid,2.5,4,,AS6,X,,8.4,6.1,7.4,38,,,,,,,170,,,MAZDA_MAZDA3 4-DOOR_Compact_Conventional/Hybrid_AS6
+,MAZDA,MAZDA3 5-DOOR,Mid-Size,Conventional/Hybrid,2.5,4,,AS6,X,,8.7,6.5,7.7,37,,,,,,,177,,,MAZDA_MAZDA3 5-DOOR_Mid-Size_Conventional/Hybrid_AS6
+,MAZDA,MAZDA5,Minivan,Conventional/Hybrid,2.5,4,,M6,X,,11.1,8.3,9.8,29,,,,,,,225,,,MAZDA_MAZDA5_Minivan_Conventional/Hybrid_M6
+,MAZDA,MAZDA6,Mid-Size,Conventional/Hybrid,2.5,4,,M6,X,,9.4,6.4,8.1,35,,,,,,,186,,,MAZDA_MAZDA6_Mid-Size_Conventional/Hybrid_M6
+,MAZDA,MAZDA6 (i-ELOOP),Mid-Size,Conventional/Hybrid,2.5,4,,AS6,X,,8.4,5.9,7.3,39,,,,,,,168,,,MAZDA_MAZDA6 (i-ELOOP)_Mid-Size_Conventional/Hybrid_AS6
+,MAZDA,MX-5,Two-Seater,Conventional/Hybrid,2.0,4,,M5,Z,,10.5,8.5,9.6,29,,,,,,,221,,,MAZDA_MX-5_Two-Seater_Conventional/Hybrid_M5
+,MAZDA,MX-5,Two-Seater,Conventional/Hybrid,2.0,4,,M6,Z,,11.1,8.4,9.9,29,,,,,,,228,,,MAZDA_MX-5_Two-Seater_Conventional/Hybrid_M6
+,MERCEDES-BENZ,B 250,Station Wagon - Small,Conventional/Hybrid,2.0,4,,AS7,Z,,9.2,6.6,8.0,35,,,,,,,184,,,MERCEDES-BENZ_B 250_Station Wagon - Small_Conventional/Hybrid_AS7
+,MERCEDES-BENZ,C 350 4MATIC COUPE,Subcompact,Conventional/Hybrid,3.5,6,,AS7,Z,,12.1,8.7,10.6,27,,,,,,,244,,,MERCEDES-BENZ_C 350 4MATIC COUPE_Subcompact_Conventional/Hybrid_AS7
+,MERCEDES-BENZ,C 350 COUPE,Subcompact,Conventional/Hybrid,3.5,6,,AS7,Z,,12.1,8.6,10.5,27,,,,,,,242,,,MERCEDES-BENZ_C 350 COUPE_Subcompact_Conventional/Hybrid_AS7
+,MERCEDES-BENZ,ML 350 BLUETEC 4MATIC,Suv - Standard,Conventional/Hybrid,3.0,6,,AS7,D,,11.8,8.5,10.3,27,,,,,,,278,,,MERCEDES-BENZ_ML 350 BLUETEC 4MATIC_Suv - Standard_Conventional/Hybrid_AS7
+,MERCEDES-BENZ,SLK 350,Two-Seater,Conventional/Hybrid,3.5,6,,AS7,Z,,11.1,8.1,9.8,29,,,,,,,225,,,MERCEDES-BENZ_SLK 350_Two-Seater_Conventional/Hybrid_AS7
+,MINI,COOPER COUPE,Two-Seater,Conventional/Hybrid,1.6,4,,M6,Z,,8.0,6.4,7.3,39,,,,,,,168,,,MINI_COOPER COUPE_Two-Seater_Conventional/Hybrid_M6
+,MITSUBISHI,LANCER EVOLUTION,Compact,Conventional/Hybrid,2.0,4,,AM6,Z,,14.2,10.5,12.5,23,,,,,,,288,,,MITSUBISHI_LANCER EVOLUTION_Compact_Conventional/Hybrid_AM6
+,MITSUBISHI,LANCER EVOLUTION,Compact,Conventional/Hybrid,2.0,4,,M5,Z,,14.0,10.3,12.3,23,,,,,,,283,,,MITSUBISHI_LANCER EVOLUTION_Compact_Conventional/Hybrid_M5
+,MITSUBISHI,LANCER RALLIART,Compact,Conventional/Hybrid,2.0,4,,AM6,Z,,13.4,9.4,11.6,24,,,,,,,267,,,MITSUBISHI_LANCER RALLIART_Compact_Conventional/Hybrid_AM6
+,MITSUBISHI,LANCER SPORTBACK,Station Wagon - Small,Conventional/Hybrid,2.0,4,,AV6,X,,9.6,7.3,8.6,33,,,,,,,198,,,MITSUBISHI_LANCER SPORTBACK_Station Wagon - Small_Conventional/Hybrid_AV6
+,MITSUBISHI,LANCER SPORTBACK,Station Wagon - Small,Conventional/Hybrid,2.0,4,,M5,X,,9.8,7.1,8.6,33,,,,,,,198,,,MITSUBISHI_LANCER SPORTBACK_Station Wagon - Small_Conventional/Hybrid_M5
+,MITSUBISHI,OUTLANDER,Suv - Small,Conventional/Hybrid,2.4,4,,AV6,X,,9.5,7.5,8.6,33,,,,,,,198,,,MITSUBISHI_OUTLANDER_Suv - Small_Conventional/Hybrid_AV6
+,MITSUBISHI,OUTLANDER 4WD,Suv - Small,Conventional/Hybrid,2.4,4,,AV6,X,,9.9,8.1,9.1,31,,,,,,,209,,,MITSUBISHI_OUTLANDER 4WD_Suv - Small_Conventional/Hybrid_AV6
+,NISSAN,ALTIMA,Mid-Size,Conventional/Hybrid,2.5,4,,AV,X,,8.7,6.2,7.6,37,,,,,,,175,,,NISSAN_ALTIMA_Mid-Size_Conventional/Hybrid_AV
+,NISSAN,FRONTIER,Pickup Truck - Small,Conventional/Hybrid,2.5,4,,A5,X,,13.7,10.6,12.3,23,,,,,,,283,,,NISSAN_FRONTIER_Pickup Truck - Small_Conventional/Hybrid_A5
+,NISSAN,FRONTIER,Pickup Truck - Small,Conventional/Hybrid,2.5,4,,M5,X,,12.2,10.2,11.3,25,,,,,,,260,,,NISSAN_FRONTIER_Pickup Truck - Small_Conventional/Hybrid_M5
+,NISSAN,PATHFINDER HYBRID 4WD,Suv - Standard,Conventional/Hybrid,2.5,4,,AV,X,,9.1,8.5,8.8,32,,,,,,,202,,,NISSAN_PATHFINDER HYBRID 4WD_Suv - Standard_Conventional/Hybrid_AV
+,NISSAN,ROGUE,Suv - Small,Conventional/Hybrid,2.5,4,,AV,X,,9.2,7.2,8.3,34,,,,,,,191,,,NISSAN_ROGUE_Suv - Small_Conventional/Hybrid_AV
+,NISSAN,VERSA,Compact,Conventional/Hybrid,1.6,4,,M5,X,,8.6,6.5,7.7,37,,,,,,,177,,,NISSAN_VERSA_Compact_Conventional/Hybrid_M5
+,PORSCHE,911 GT3,Two-Seater,Conventional/Hybrid,3.8,6,,AM7,Z,,16.0,11.5,14.0,20,,,,,,,322,,,PORSCHE_911 GT3_Two-Seater_Conventional/Hybrid_AM7
+,PORSCHE,911 TURBO,Minicompact,Conventional/Hybrid,3.8,6,,AM7,Z,,13.7,9.6,11.9,24,,,,,,,274,,,PORSCHE_911 TURBO_Minicompact_Conventional/Hybrid_AM7
+,PORSCHE,911 TURBO CABRIOLET,Minicompact,Conventional/Hybrid,3.8,6,,AM7,Z,,13.7,9.6,11.9,24,,,,,,,274,,,PORSCHE_911 TURBO CABRIOLET_Minicompact_Conventional/Hybrid_AM7
+,PORSCHE,911 TURBO S,Minicompact,Conventional/Hybrid,3.8,6,,AM7,Z,,13.7,9.6,11.9,24,,,,,,,274,,,PORSCHE_911 TURBO S_Minicompact_Conventional/Hybrid_AM7
+,PORSCHE,911 TURBO S CABRIOLET,Minicompact,Conventional/Hybrid,3.8,6,,AM7,Z,,13.7,9.6,11.9,24,,,,,,,274,,,PORSCHE_911 TURBO S CABRIOLET_Minicompact_Conventional/Hybrid_AM7
+,PORSCHE,BOXSTER,Two-Seater,Conventional/Hybrid,2.7,6,,AM7,Z,,10.7,7.4,9.2,31,,,,,,,212,,,PORSCHE_BOXSTER_Two-Seater_Conventional/Hybrid_AM7
+,PORSCHE,BOXSTER,Two-Seater,Conventional/Hybrid,2.7,6,,M6,Z,,11.5,7.9,9.9,29,,,,,,,228,,,PORSCHE_BOXSTER_Two-Seater_Conventional/Hybrid_M6
+,PORSCHE,BOXSTER S,Two-Seater,Conventional/Hybrid,3.4,6,,AM7,Z,,11.3,7.9,9.8,29,,,,,,,225,,,PORSCHE_BOXSTER S_Two-Seater_Conventional/Hybrid_AM7
+,PORSCHE,BOXSTER S,Two-Seater,Conventional/Hybrid,3.4,6,,M6,Z,,11.9,8.6,10.4,27,,,,,,,239,,,PORSCHE_BOXSTER S_Two-Seater_Conventional/Hybrid_M6
+,PORSCHE,CAYENNE DIESEL (modified),Suv - Standard,Conventional/Hybrid,3.0,6,,A8,D,,11.8,8.1,10.2,28,,,,,,,277,,,PORSCHE_CAYENNE DIESEL (modified)_Suv - Standard_Conventional/Hybrid_A8
+,PORSCHE,CAYMAN,Two-Seater,Conventional/Hybrid,2.7,6,,AM7,Z,,10.7,7.4,9.2,31,,,,,,,212,,,PORSCHE_CAYMAN_Two-Seater_Conventional/Hybrid_AM7
+,PORSCHE,CAYMAN,Two-Seater,Conventional/Hybrid,2.7,6,,M6,Z,,11.5,7.9,9.9,29,,,,,,,228,,,PORSCHE_CAYMAN_Two-Seater_Conventional/Hybrid_M6
+,PORSCHE,CAYMAN S,Two-Seater,Conventional/Hybrid,3.4,6,,AM7,Z,,11.3,7.9,9.8,29,,,,,,,225,,,PORSCHE_CAYMAN S_Two-Seater_Conventional/Hybrid_AM7
+,PORSCHE,CAYMAN S,Two-Seater,Conventional/Hybrid,3.4,6,,M6,Z,,11.9,8.6,10.4,27,,,,,,,239,,,PORSCHE_CAYMAN S_Two-Seater_Conventional/Hybrid_M6
+,PORSCHE,PANAMERA,Full-Size,Conventional/Hybrid,3.6,6,,AM7,Z,,12.9,8.4,10.9,26,,,,,,,251,,,PORSCHE_PANAMERA_Full-Size_Conventional/Hybrid_AM7
+,PORSCHE,PANAMERA 4,Full-Size,Conventional/Hybrid,3.6,6,,AM7,Z,,13.1,8.7,11.1,25,,,,,,,255,,,PORSCHE_PANAMERA 4_Full-Size_Conventional/Hybrid_AM7
+,PORSCHE,PANAMERA 4S EXECUTIVE,Full-Size,Conventional/Hybrid,3.0,6,,AM7,Z,,13.7,8.9,11.5,25,,,,,,,264,,,PORSCHE_PANAMERA 4S EXECUTIVE_Full-Size_Conventional/Hybrid_AM7
+,PORSCHE,PANAMERA GTS,Full-Size,Conventional/Hybrid,4.8,8,,AM7,Z,,15.1,9.7,12.7,22,,,,,,,292,,,PORSCHE_PANAMERA GTS_Full-Size_Conventional/Hybrid_AM7
+,PORSCHE,PANAMERA TURBO,Full-Size,Conventional/Hybrid,4.8,8,,AM7,Z,,15.3,9.7,12.8,22,,,,,,,294,,,PORSCHE_PANAMERA TURBO_Full-Size_Conventional/Hybrid_AM7
+,PORSCHE,PANAMERA TURBO EXECUTIVE,Full-Size,Conventional/Hybrid,4.8,8,,AM7,Z,,15.4,9.8,12.9,22,,,,,,,297,,,PORSCHE_PANAMERA TURBO EXECUTIVE_Full-Size_Conventional/Hybrid_AM7
+,RAM,1500 FFV,Pickup Truck - Standard,Conventional/Hybrid,3.6,6,,A8,X,,13.9,9.5,11.9,24,,,,,,,274,,,RAM_1500 FFV_Pickup Truck - Standard_Conventional/Hybrid_A8
+,RAM,1500 FFV,Pickup Truck - Standard,Conventional/Hybrid,3.6,6,,A8,E,,19.4,13.6,16.8,17,,,,,,,269,,,RAM_1500 FFV_Pickup Truck - Standard_Conventional/Hybrid_A8
+,RAM,1500 HFE,Pickup Truck - Standard,Conventional/Hybrid,3.6,6,,A8,X,,12.9,9.3,11.3,25,,,,,,,260,,,RAM_1500 HFE_Pickup Truck - Standard_Conventional/Hybrid_A8
+,RAM,1500 (MDS),Pickup Truck - Standard,Conventional/Hybrid,5.7,8,,A6,X,,17.1,12.0,14.8,19,,,,,,,340,,,RAM_1500 (MDS)_Pickup Truck - Standard_Conventional/Hybrid_A6
+,RAM,1500 4X4 FFV,Pickup Truck - Standard,Conventional/Hybrid,3.6,6,,A8,X,,14.6,10.1,12.6,22,,,,,,,290,,,RAM_1500 4X4 FFV_Pickup Truck - Standard_Conventional/Hybrid_A8
+,RAM,1500 4X4 FFV,Pickup Truck - Standard,Conventional/Hybrid,3.6,6,,A8,E,,20.5,14.5,17.8,16,,,,,,,285,,,RAM_1500 4X4 FFV_Pickup Truck - Standard_Conventional/Hybrid_A8
+,RAM,CARGO VAN FFV,Minivan,Conventional/Hybrid,3.6,6,,A6,X,,13.3,9.1,11.4,25,,,,,,,262,,,RAM_CARGO VAN FFV_Minivan_Conventional/Hybrid_A6
+,RAM,CARGO VAN FFV,Minivan,Conventional/Hybrid,3.6,6,,A6,E,,18.6,12.7,15.9,18,,,,,,,254,,,RAM_CARGO VAN FFV_Minivan_Conventional/Hybrid_A6
+,SCION,FR-S,Minicompact,Conventional/Hybrid,2.0,4,,AS6,Z,,9.6,7.0,8.4,34,,,,,,,193,,,SCION_FR-S_Minicompact_Conventional/Hybrid_AS6
+,TOYOTA,COROLLA LE ECO (1-mode),Mid-Size,Conventional/Hybrid,1.8,4,,AV,X,,7.7,5.6,6.8,42,,,,,,,156,,,TOYOTA_COROLLA LE ECO (1-mode)_Mid-Size_Conventional/Hybrid_AV
+,TOYOTA,RAV4,Suv - Small,Conventional/Hybrid,2.5,4,,AS6,X,,10.0,7.6,8.9,32,,,,,,,205,,,TOYOTA_RAV4_Suv - Small_Conventional/Hybrid_AS6
+,TOYOTA,TACOMA,Pickup Truck - Small,Conventional/Hybrid,4.0,6,,M6,X,,14.5,11.3,13.1,22,,,,,,,301,,,TOYOTA_TACOMA_Pickup Truck - Small_Conventional/Hybrid_M6
+,TOYOTA,TACOMA 4WD,Pickup Truck - Small,Conventional/Hybrid,4.0,6,,M6,X,,15.3,12.3,14.0,20,,,,,,,322,,,TOYOTA_TACOMA 4WD_Pickup Truck - Small_Conventional/Hybrid_M6
+,TOYOTA,TUNDRA,Pickup Truck - Standard,Conventional/Hybrid,4.6,8,,AS6,X,,15.9,12.3,14.3,20,,,,,,,329,,,TOYOTA_TUNDRA_Pickup Truck - Standard_Conventional/Hybrid_AS6
+,TOYOTA,TUNDRA 4WD,Pickup Truck - Standard,Conventional/Hybrid,4.6,8,,AS6,X,,16.9,12.8,15.1,19,,,,,,,347,,,TOYOTA_TUNDRA 4WD_Pickup Truck - Standard_Conventional/Hybrid_AS6
+,VOLKSWAGEN,BEETLE,Compact,Conventional/Hybrid,1.8,4,,M5,X,,9.9,7.2,8.7,32,,,,,,,200,,,VOLKSWAGEN_BEETLE_Compact_Conventional/Hybrid_M5
+,VOLKSWAGEN,TOUAREG TDI (modified),Suv - Standard,Conventional/Hybrid,3.0,6,,AS8,D,,11.8,8.1,10.2,28,,,,,,,277,,,VOLKSWAGEN_TOUAREG TDI (modified)_Suv - Standard_Conventional/Hybrid_AS8
+,BENTLEY,CONTINENTAL GT,Compact,Conventional/Hybrid,4.0,8,,AS8,Z,,16.1,9.4,13.1,22,,,,,,,307,,,BENTLEY_CONTINENTAL GT_Compact_Conventional/Hybrid_AS8
+,BENTLEY,CONTINENTAL GT CONVERTIBLE,Subcompact,Conventional/Hybrid,4.0,8,,AS8,Z,,17.7,10.3,14.4,20,,,,,,,337,,,BENTLEY_CONTINENTAL GT CONVERTIBLE_Subcompact_Conventional/Hybrid_AS8
+,BENTLEY,FLYING SPUR,Mid-Size,Conventional/Hybrid,4.0,8,,AS8,Z,,17.7,10.0,14.2,20,,,,,,,334,,,BENTLEY_FLYING SPUR_Mid-Size_Conventional/Hybrid_AS8
+,BENTLEY,FLYING SPUR,Mid-Size,Conventional/Hybrid,6.0,12,,AS8,Z,,20.3,11.9,16.5,17,,,,,,,388,,,BENTLEY_FLYING SPUR_Mid-Size_Conventional/Hybrid_AS8
+,JEEP,GRAND CHEROKEE 4X4 DIESEL,Suv - Standard,Conventional/Hybrid,3.0,6,,A8,D,,11.2,8.4,9.9,29,,,,,,,267,,,JEEP_GRAND CHEROKEE 4X4 DIESEL_Suv - Standard_Conventional/Hybrid_A8
+,KIA,RIO ECO,Compact,Conventional/Hybrid,1.6,4,,AS6,X,,8.5,6.3,7.6,37,,,,,,,175,,,KIA_RIO ECO_Compact_Conventional/Hybrid_AS6
+,PORSCHE,CAYENNE S,Suv - Standard,Conventional/Hybrid,3.6,6,,A8,Z,,14.3,9.6,12.2,23,,,,,,,286,,,PORSCHE_CAYENNE S_Suv - Standard_Conventional/Hybrid_A8
+,TOYOTA,SEQUOIA 4WD,Suv - Standard,Conventional/Hybrid,5.7,8,,AS6,X,,18.8,14.0,16.6,17,,,,,,,382,,,TOYOTA_SEQUOIA 4WD_Suv - Standard_Conventional/Hybrid_AS6
+,VOLKSWAGEN,GOLF SPORTWAGON,Station Wagon - Small,Conventional/Hybrid,1.8,4,,AS6,X,,9.4,6.8,8.2,34,,,,,,,193,,,VOLKSWAGEN_GOLF SPORTWAGON_Station Wagon - Small_Conventional/Hybrid_AS6
+,ACURA,TLX SH-AWD,Compact,Conventional/Hybrid,3.5,6,,AS9,Z,,11.2,7.5,9.6,29,,,,,,,226,,,ACURA_TLX SH-AWD_Compact_Conventional/Hybrid_AS9
+,ALFA ROMEO,4C,Two-Seater,Conventional/Hybrid,1.8,4,,AM6,Z,,9.7,6.9,8.4,34,,,,,,,197,,,ALFA ROMEO_4C_Two-Seater_Conventional/Hybrid_AM6
+,AUDI,TT COUPE QUATTRO,Subcompact,Conventional/Hybrid,2.0,4,,AM6,X,,10.1,7.8,9.1,31,,,,,,,209,,,AUDI_TT COUPE QUATTRO_Subcompact_Conventional/Hybrid_AM6
+,AUDI,TT ROADSTER QUATTRO,Two-Seater,Conventional/Hybrid,2.0,4,,AM6,X,,10.1,7.8,9.1,31,,,,,,,209,,,AUDI_TT ROADSTER QUATTRO_Two-Seater_Conventional/Hybrid_AM6
+,AUDI,TTS COUPE QUATTRO,Subcompact,Conventional/Hybrid,2.0,4,,AM6,Z,,10.3,8.6,9.5,30,,,,,,,222,,,AUDI_TTS COUPE QUATTRO_Subcompact_Conventional/Hybrid_AM6
+,BENTLEY,CONTINENTAL GT,Compact,Conventional/Hybrid,4.0,8,,AS8,Z,,16.1,9.4,13.1,22,,,,,,,307,,,BENTLEY_CONTINENTAL GT_Compact_Conventional/Hybrid_AS8
+,BENTLEY,CONTINENTAL GT,Compact,Conventional/Hybrid,6.0,12,,AS8,Z,,18.9,11.2,15.4,18,,,,,,,360,,,BENTLEY_CONTINENTAL GT_Compact_Conventional/Hybrid_AS8
+,BENTLEY,CONTINENTAL GT CONVERTIBLE,Subcompact,Conventional/Hybrid,4.0,8,,AS8,Z,,17.7,10.3,14.4,20,,,,,,,337,,,BENTLEY_CONTINENTAL GT CONVERTIBLE_Subcompact_Conventional/Hybrid_AS8
+,BENTLEY,CONTINENTAL GT CONVERTIBLE,Subcompact,Conventional/Hybrid,6.0,12,,AS8,Z,,19.6,11.7,16.0,18,,,,,,,375,,,BENTLEY_CONTINENTAL GT CONVERTIBLE_Subcompact_Conventional/Hybrid_AS8
+,BUICK,ENVISION AWD,Suv - Small,Conventional/Hybrid,2.0,4,,A6,Z,,11.8,9.1,10.6,27,,,,,,,248,,,BUICK_ENVISION AWD_Suv - Small_Conventional/Hybrid_A6
+,CHEVROLET,SILVERADO 4WD,Pickup Truck - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.0,10.7,13.1,22,,,,,,,307,,,CHEVROLET_SILVERADO 4WD_Pickup Truck - Standard_Conventional/Hybrid_A6
+,CHEVROLET,SUBURBAN 4WD,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.4,10.8,13.3,21,,,,,,,312,,,CHEVROLET_SUBURBAN 4WD_Suv - Standard_Conventional/Hybrid_A6
+,CHEVROLET,SUBURBAN 4WD FFV,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.4,10.8,13.3,21,,,,,,,312,,,CHEVROLET_SUBURBAN 4WD FFV_Suv - Standard_Conventional/Hybrid_A6
+,CHEVROLET,TAHOE 4WD,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.2,10.8,13.2,21,,,,,,,310,,,CHEVROLET_TAHOE 4WD_Suv - Standard_Conventional/Hybrid_A6
+,CHEVROLET,TAHOE 4WD FFV,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.2,10.8,13.2,21,,,,,,,310,,,CHEVROLET_TAHOE 4WD FFV_Suv - Standard_Conventional/Hybrid_A6
+,DODGE,CHALLENGER,Mid-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.4,7.8,10.3,27,,,,,,,242,,,DODGE_CHALLENGER_Mid-Size_Conventional/Hybrid_A8
+,DODGE,CHALLENGER SRT HELLCAT,Mid-Size,Conventional/Hybrid,6.2,8,,A8,Z,,17.6,10.7,14.5,19,,,,,,,339,,,DODGE_CHALLENGER SRT HELLCAT_Mid-Size_Conventional/Hybrid_A8
+,DODGE,CHARGER SRT HELLCAT,Full-Size,Conventional/Hybrid,6.2,8,,A8,Z,,17.6,10.7,14.5,19,,,,,,,339,,,DODGE_CHARGER SRT HELLCAT_Full-Size_Conventional/Hybrid_A8
+,DODGE,GRAND CARAVAN FFV,Minivan,Conventional/Hybrid,3.6,6,,A6,X,,13.7,9.4,11.8,24,,,,,,,276,,,DODGE_GRAND CARAVAN FFV_Minivan_Conventional/Hybrid_A6
+,FORD,EXPLORER FFV,Suv - Standard,Conventional/Hybrid,3.5,6,,AS6,E,,18.7,12.9,16.1,18,,,,,,,264,,,FORD_EXPLORER FFV_Suv - Standard_Conventional/Hybrid_AS6
+,FORD,F-150 4X4 (Payload Pkg),Pickup Truck - Standard,Conventional/Hybrid,2.7,6,,AS6,X,,13.3,10.7,12.3,23,,,,,,,288,,,FORD_F-150 4X4 (Payload Pkg)_Pickup Truck - Standard_Conventional/Hybrid_AS6
+,FORD,F-150 FFV 4X4 (Payload Pkg),Pickup Truck - Standard,Conventional/Hybrid,5.0,8,,AS6,X,,16.8,12.4,14.8,19,,,,,,,347,,,FORD_F-150 FFV 4X4 (Payload Pkg)_Pickup Truck - Standard_Conventional/Hybrid_AS6
+,FORD,FLEX,Suv - Standard,Conventional/Hybrid,3.5,6,,AS6,X,,14.7,10.2,12.7,22,,,,,,,298,,,FORD_FLEX_Suv - Standard_Conventional/Hybrid_AS6
+,FORD,FLEX AWD,Suv - Standard,Conventional/Hybrid,3.5,6,,AS6,X,,14.7,10.7,12.9,22,,,,,,,303,,,FORD_FLEX AWD_Suv - Standard_Conventional/Hybrid_AS6
+,FORD,TAURUS FFV,Full-Size,Conventional/Hybrid,3.5,6,,AS6,X,,13.1,8.7,11.1,25,,,,,,,260,,,FORD_TAURUS FFV_Full-Size_Conventional/Hybrid_AS6
+,FORD,TAURUS AWD,Full-Size,Conventional/Hybrid,3.5,6,,AS6,X,,14.7,9.8,12.5,23,,,,,,,293,,,FORD_TAURUS AWD_Full-Size_Conventional/Hybrid_AS6
+,GMC,SIERRA 4WD,Pickup Truck - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.0,10.7,13.1,22,,,,,,,307,,,GMC_SIERRA 4WD_Pickup Truck - Standard_Conventional/Hybrid_A6
+,GMC,YUKON 4WD,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.2,10.8,13.2,21,,,,,,,310,,,GMC_YUKON 4WD_Suv - Standard_Conventional/Hybrid_A6
+,GMC,YUKON 4WD FFV,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.2,10.8,13.2,21,,,,,,,310,,,GMC_YUKON 4WD FFV_Suv - Standard_Conventional/Hybrid_A6
+,GMC,YUKON XL 4WD,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.4,10.8,13.3,21,,,,,,,312,,,GMC_YUKON XL 4WD_Suv - Standard_Conventional/Hybrid_A6
+,GMC,YUKON XL 4WD FFV,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.4,10.8,13.3,21,,,,,,,312,,,GMC_YUKON XL 4WD FFV_Suv - Standard_Conventional/Hybrid_A6
+,HYUNDAI,SANTA FE,Suv - Small,Conventional/Hybrid,3.3,6,,AS6,X,,12.9,9.4,11.3,25,,,,,,,265,,,HYUNDAI_SANTA FE_Suv - Small_Conventional/Hybrid_AS6
+,HYUNDAI,SANTA FE AWD,Suv - Small,Conventional/Hybrid,3.3,6,,AS6,X,,13.0,9.7,11.5,25,,,,,,,269,,,HYUNDAI_SANTA FE AWD_Suv - Small_Conventional/Hybrid_AS6
+,HYUNDAI,SANTA FE ULTIMATE AWD,Suv - Small,Conventional/Hybrid,3.3,6,,AS6,X,,13.9,10.8,12.5,23,,,,,,,295,,,HYUNDAI_SANTA FE ULTIMATE AWD_Suv - Small_Conventional/Hybrid_AS6
+,INFINITI,Q70 AWD,Mid-Size,Conventional/Hybrid,5.6,8,,AS7,Z,,14.9,10.2,12.8,22,,,,,,,300,,,INFINITI_Q70 AWD_Mid-Size_Conventional/Hybrid_AS7
+,JAGUAR,F-TYPE CONVERTIBLE,Two-Seater,Conventional/Hybrid,3.0,6,,M6,Z,,14.9,9.8,12.6,22,,,,,,,296,,,JAGUAR_F-TYPE CONVERTIBLE_Two-Seater_Conventional/Hybrid_M6
+,JAGUAR,F-TYPE COUPE,Two-Seater,Conventional/Hybrid,3.0,6,,M6,Z,,14.9,9.8,12.6,22,,,,,,,296,,,JAGUAR_F-TYPE COUPE_Two-Seater_Conventional/Hybrid_M6
+,JEEP,WRANGLER 4X4,Suv - Small,Conventional/Hybrid,3.6,6,,A5,X,,14.1,11.1,12.8,22,,,,,,,299,,,JEEP_WRANGLER 4X4_Suv - Small_Conventional/Hybrid_A5
+,KIA,SEDONA,Minivan,Conventional/Hybrid,3.3,6,,AS6,X,,13.2,9.7,11.6,24,,,,,,,275,,,KIA_SEDONA_Minivan_Conventional/Hybrid_AS6
+,KIA,SEDONA SX,Minivan,Conventional/Hybrid,3.3,6,,AS6,X,,12.9,9.5,11.4,25,,,,,,,269,,,KIA_SEDONA SX_Minivan_Conventional/Hybrid_AS6
+,LAMBORGHINI,HURACAN,Two-Seater,Conventional/Hybrid,5.2,10,,AM7,Z,,16.4,11.4,14.2,20,,,,,,,331,,,LAMBORGHINI_HURACAN_Two-Seater_Conventional/Hybrid_AM7
+,LAMBORGHINI,HURACAN SPYDER,Two-Seater,Conventional/Hybrid,5.2,10,,AM7,Z,,16.9,11.8,14.6,19,,,,,,,340,,,LAMBORGHINI_HURACAN SPYDER_Two-Seater_Conventional/Hybrid_AM7
+,LEXUS,CT 200h,Compact,Conventional/Hybrid,1.8,4,,AV,X,,5.5,5.9,5.7,50,,,,,,,132,,,LEXUS_CT 200h_Compact_Conventional/Hybrid_AV
+,LEXUS,ES 300h,Mid-Size,Conventional/Hybrid,2.5,4,,AV6,X,,5.8,6.1,5.9,48,,,,,,,139,,,LEXUS_ES 300h_Mid-Size_Conventional/Hybrid_AV6
+,LEXUS,GS F,Compact,Conventional/Hybrid,5.0,8,,AS8,Z,,14.9,9.7,12.5,23,,,,,,,293,,,LEXUS_GS F_Compact_Conventional/Hybrid_AS8
+,LEXUS,RC F,Subcompact,Conventional/Hybrid,5.0,8,,AS8,Z,,15.2,9.5,12.6,22,,,,,,,289,,,LEXUS_RC F_Subcompact_Conventional/Hybrid_AS8
+,LINCOLN,MKT LIVERY AWD,Special Purpose Vehicle,Conventional/Hybrid,3.7,6,,A6,X,,14.7,10.2,12.7,22,,,,,,,298,,,LINCOLN_MKT LIVERY AWD_Special Purpose Vehicle_Conventional/Hybrid_A6
+,LINCOLN,MKX AWD,Suv - Small,Conventional/Hybrid,3.7,6,,AS6,X,,14.4,10.3,12.5,23,,,,,,,293,,,LINCOLN_MKX AWD_Suv - Small_Conventional/Hybrid_AS6
+,MERCEDES-BENZ,AMG CLS 63 S 4MATIC,Compact,Conventional/Hybrid,5.5,8,,AS7,Z,,15.1,10.8,13.1,22,,,,,,,308,,,MERCEDES-BENZ_AMG CLS 63 S 4MATIC_Compact_Conventional/Hybrid_AS7
+,MERCEDES-BENZ,AMG SL 63,Two-Seater,Conventional/Hybrid,5.5,8,,AS7,Z,,14.7,9.5,12.4,23,,,,,,,298,,,MERCEDES-BENZ_AMG SL 63_Two-Seater_Conventional/Hybrid_AS7
+,MERCEDES-BENZ,C 300 4MATIC,Compact,Conventional/Hybrid,2.0,4,,AS7,Z,,10.1,7.8,9.0,31,,,,,,,212,,,MERCEDES-BENZ_C 300 4MATIC_Compact_Conventional/Hybrid_AS7
+,MERCEDES-BENZ,E 400 CABRIOLET,Subcompact,Conventional/Hybrid,3.0,6,,AS7,Z,,11.5,8.1,10.0,28,,,,,,,233,,,MERCEDES-BENZ_E 400 CABRIOLET_Subcompact_Conventional/Hybrid_AS7
+,MERCEDES-BENZ,E 550 CABRIOLET,Subcompact,Conventional/Hybrid,4.7,8,,AS7,Z,,13.7,9.2,11.7,24,,,,,,,275,,,MERCEDES-BENZ_E 550 CABRIOLET_Subcompact_Conventional/Hybrid_AS7
+,MERCEDES-BENZ,E 550 COUPE,Subcompact,Conventional/Hybrid,4.7,8,,AS7,Z,,13.4,8.9,11.4,25,,,,,,,268,,,MERCEDES-BENZ_E 550 COUPE_Subcompact_Conventional/Hybrid_AS7
+,MERCEDES-BENZ,S 400 4MATIC SWB,Mid-Size,Conventional/Hybrid,3.0,6,,AS7,Z,,12.6,8.6,10.8,26,,,,,,,253,,,MERCEDES-BENZ_S 400 4MATIC SWB_Mid-Size_Conventional/Hybrid_AS7
+,NISSAN,370Z,Two-Seater,Conventional/Hybrid,3.7,6,,M6,Z,,13.3,9.3,11.5,25,,,,,,,269,,,NISSAN_370Z_Two-Seater_Conventional/Hybrid_M6
+,NISSAN,370Z ROADSTER,Two-Seater,Conventional/Hybrid,3.7,6,,M6,Z,,13.6,9.7,11.8,24,,,,,,,278,,,NISSAN_370Z ROADSTER_Two-Seater_Conventional/Hybrid_M6
+,PORSCHE,CAYENNE TURBO,Suv - Standard,Conventional/Hybrid,4.8,8,,A8,Z,,16.7,11.2,14.2,20,,,,,,,334,,,PORSCHE_CAYENNE TURBO_Suv - Standard_Conventional/Hybrid_A8
+,PORSCHE,MACAN S,Suv - Small,Conventional/Hybrid,3.0,6,,A7,Z,,13.7,10.3,12.2,23,,,,,,,285,,,PORSCHE_MACAN S_Suv - Small_Conventional/Hybrid_A7
+,PORSCHE,MACAN TURBO,Suv - Small,Conventional/Hybrid,3.6,6,,A7,Z,,14.2,10.1,12.3,23,,,,,,,287,,,PORSCHE_MACAN TURBO_Suv - Small_Conventional/Hybrid_A7
+,TOYOTA,TACOMA 4WD,Pickup Truck - Small,Conventional/Hybrid,2.7,4,,M5,X,,12.4,11.4,11.9,24,,,,,,,279,,,TOYOTA_TACOMA 4WD_Pickup Truck - Small_Conventional/Hybrid_M5
+,TOYOTA,TACOMA 4WD D-CAB OFF-ROAD,Pickup Truck - Small,Conventional/Hybrid,3.5,6,,M6,X,,13.8,11.7,12.9,22,,,,,,,300,,,TOYOTA_TACOMA 4WD D-CAB OFF-ROAD_Pickup Truck - Small_Conventional/Hybrid_M6
+,VOLKSWAGEN,GOLF R,Compact,Conventional/Hybrid,2.0,4,,AM6,Z,,10.4,7.9,9.3,30,,,,,,,216,,,VOLKSWAGEN_GOLF R_Compact_Conventional/Hybrid_AM6
+,VOLKSWAGEN,GOLF R,Compact,Conventional/Hybrid,2.0,4,,M6,Z,,10.9,7.7,9.4,30,,,,,,,220,,,VOLKSWAGEN_GOLF R_Compact_Conventional/Hybrid_M6
+,VOLKSWAGEN,JETTA,Compact,Conventional/Hybrid,1.4,4,,M5,X,,8.3,5.9,7.2,39,,,,,,,168,,,VOLKSWAGEN_JETTA_Compact_Conventional/Hybrid_M5
+,VOLVO,XC90 T5,Suv - Standard,Conventional/Hybrid,2.0,4,,AS8,Z,,10.6,9.1,10.0,28,,,,,,,232,,,VOLVO_XC90 T5_Suv - Standard_Conventional/Hybrid_AS8
+,VOLVO,XC90 T5 AWD,Suv - Standard,Conventional/Hybrid,2.0,4,,AS8,Z,,10.8,9.5,10.2,28,,,,,,,239,,,VOLVO_XC90 T5 AWD_Suv - Standard_Conventional/Hybrid_AS8
+,ACURA,ILX,Compact,Conventional/Hybrid,2.4,4,,AM8,Z,,9.4,6.8,8.2,34,,,,,,,192,,,ACURA_ILX_Compact_Conventional/Hybrid_AM8
+,ACURA,MDX SH-AWD,Suv - Small,Conventional/Hybrid,3.5,6,,AS9,Z,,12.6,9.0,11.0,26,,,,,,,259,,,ACURA_MDX SH-AWD_Suv - Small_Conventional/Hybrid_AS9
+,ACURA,MDX SH-AWD ELITE,Suv - Small,Conventional/Hybrid,3.5,6,,AS9,Z,,12.2,9.0,10.7,26,,,,,,,251,,,ACURA_MDX SH-AWD ELITE_Suv - Small_Conventional/Hybrid_AS9
+,ACURA,MDX HYBRID AWD,Suv - Small,Conventional/Hybrid,3.0,6,,AM7,Z,,9.1,9.0,9.0,31,,,,,,,210,,,ACURA_MDX HYBRID AWD_Suv - Small_Conventional/Hybrid_AM7
+,ACURA,NSX,Two-Seater,Conventional/Hybrid,3.5,6,,AM9,Z,,11.1,10.8,11.0,26,,,,,,,261,,,ACURA_NSX_Two-Seater_Conventional/Hybrid_AM9
+,ACURA,RDX AWD,Suv - Small,Conventional/Hybrid,3.5,6,,AS6,Z,,12.4,8.7,10.7,26,,,,,,,250,,,ACURA_RDX AWD_Suv - Small_Conventional/Hybrid_AS6
+,ALFA ROMEO,4C SPIDER,Two-Seater,Conventional/Hybrid,1.8,4,,AM6,Z,,9.7,6.9,8.4,34,,,,,,,197,,,ALFA ROMEO_4C SPIDER_Two-Seater_Conventional/Hybrid_AM6
+,ALFA ROMEO,GIULIA,Mid-Size,Conventional/Hybrid,2.0,4,,A8,Z,,10.0,7.2,8.7,32,,,,,,,205,,,ALFA ROMEO_GIULIA_Mid-Size_Conventional/Hybrid_A8
+,ALFA ROMEO,GIULIA AWD,Mid-Size,Conventional/Hybrid,2.0,4,,A8,Z,,10.5,7.7,9.2,31,,,,,,,217,,,ALFA ROMEO_GIULIA AWD_Mid-Size_Conventional/Hybrid_A8
+,ALFA ROMEO,GIULIA QUADRIFOGLIO,Mid-Size,Conventional/Hybrid,2.9,6,,A8,Z,,13.8,9.6,11.9,24,,,,,,,280,,,ALFA ROMEO_GIULIA QUADRIFOGLIO_Mid-Size_Conventional/Hybrid_A8
+,ASTON MARTIN,DB11 V12,Minicompact,Conventional/Hybrid,5.2,12,,A8,Z,,15.5,11.4,13.7,21,,,,,,,322,,,ASTON MARTIN_DB11 V12_Minicompact_Conventional/Hybrid_A8
+,AUDI,A3,Subcompact,Conventional/Hybrid,2.0,4,,AM7,X,,9.1,6.8,8.0,35,,,,,,,188,,,AUDI_A3_Subcompact_Conventional/Hybrid_AM7
+,AUDI,A3 QUATTRO,Subcompact,Conventional/Hybrid,2.0,4,,AM6,X,,9.7,7.5,8.7,32,,,,,,,205,,,AUDI_A3 QUATTRO_Subcompact_Conventional/Hybrid_AM6
+,AUDI,A3 CABRIOLET QUATTRO,Subcompact,Conventional/Hybrid,2.0,4,,AM6,X,,10.8,8.0,9.5,30,,,,,,,223,,,AUDI_A3 CABRIOLET QUATTRO_Subcompact_Conventional/Hybrid_AM6
+,AUDI,Q3 QUATTRO,Compact,Conventional/Hybrid,2.0,4,,AS6,Z,,11.9,8.4,10.3,27,,,,,,,240,,,AUDI_Q3 QUATTRO_Compact_Conventional/Hybrid_AS6
+,AUDI,Q7,Suv - Standard,Conventional/Hybrid,3.0,6,,AS8,Z,,12.6,9.4,11.1,25,,,,,,,260,,,AUDI_Q7_Suv - Standard_Conventional/Hybrid_AS8
+,AUDI,TT COUPE QUATTRO,Subcompact,Conventional/Hybrid,2.0,4,,AM6,X,,10.1,7.8,9.1,31,,,,,,,209,,,AUDI_TT COUPE QUATTRO_Subcompact_Conventional/Hybrid_AM6
+,AUDI,TT ROADSTER QUATTRO,Two-Seater,Conventional/Hybrid,2.0,4,,AM6,X,,10.1,7.8,9.1,31,,,,,,,209,,,AUDI_TT ROADSTER QUATTRO_Two-Seater_Conventional/Hybrid_AM6
+,BENTLEY,BENTAYGA,Suv - Standard,Conventional/Hybrid,6.0,12,,AS8,Z,,18.8,12.2,15.9,18,,,,,,,370,,,BENTLEY_BENTAYGA_Suv - Standard_Conventional/Hybrid_AS8
+,BMW,230i COUPE,Subcompact,Conventional/Hybrid,2.0,4,,AS8,Z,,9.8,6.8,8.4,34,,,,,,,197,,,BMW_230i COUPE_Subcompact_Conventional/Hybrid_AS8
+,BMW,230i COUPE,Subcompact,Conventional/Hybrid,2.0,4,,M6,Z,,11.1,7.3,9.4,30,,,,,,,219,,,BMW_230i COUPE_Subcompact_Conventional/Hybrid_M6
+,BMW,M2,Subcompact,Conventional/Hybrid,3.0,6,,AM7,Z,,11.8,8.9,10.5,27,,,,,,,245,,,BMW_M2_Subcompact_Conventional/Hybrid_AM7
+,BMW,M2,Subcompact,Conventional/Hybrid,3.0,6,,M6,Z,,13.1,9.2,11.4,25,,,,,,,267,,,BMW_M2_Subcompact_Conventional/Hybrid_M6
+,BMW,M6 CABRIOLET,Subcompact,Conventional/Hybrid,4.4,8,,M6,Z,,16.2,10.9,13.8,20,,,,,,,324,,,BMW_M6 CABRIOLET_Subcompact_Conventional/Hybrid_M6
+,BMW,M6 GRAN COUPE,Compact,Conventional/Hybrid,4.4,8,,M6,Z,,16.2,10.9,13.8,20,,,,,,,324,,,BMW_M6 GRAN COUPE_Compact_Conventional/Hybrid_M6
+,BMW,M760i xDRIVE,Full-Size,Conventional/Hybrid,6.6,12,,AS8,Z,,17.7,11.9,15.1,19,,,,,,,355,,,BMW_M760i xDRIVE_Full-Size_Conventional/Hybrid_AS8
+,BMW,X4 xDRIVE28i,Suv - Small,Conventional/Hybrid,2.0,4,,AS8,Z,,11.8,8.6,10.3,27,,,,,,,240,,,BMW_X4 xDRIVE28i_Suv - Small_Conventional/Hybrid_AS8
+,BMW,X5 xDRIVE35i,Suv - Standard,Conventional/Hybrid,3.0,6,,AS8,Z,,13.0,9.8,11.5,25,,,,,,,270,,,BMW_X5 xDRIVE35i_Suv - Standard_Conventional/Hybrid_AS8
+,BMW,X5 M,Suv - Standard,Conventional/Hybrid,4.4,8,,AS8,Z,,16.6,12.1,14.6,19,,,,,,,341,,,BMW_X5 M_Suv - Standard_Conventional/Hybrid_AS8
+,BMW,X6 xDRIVE35i,Suv - Standard,Conventional/Hybrid,3.0,6,,AS8,Z,,13.0,9.8,11.5,25,,,,,,,270,,,BMW_X6 xDRIVE35i_Suv - Standard_Conventional/Hybrid_AS8
+,BMW,X6 M,Suv - Standard,Conventional/Hybrid,4.4,8,,AS8,Z,,16.6,12.1,14.6,19,,,,,,,341,,,BMW_X6 M_Suv - Standard_Conventional/Hybrid_AS8
+,BUICK,ENVISION AWD,Suv - Small,Conventional/Hybrid,2.0,4,,A6,Z,,11.8,9.1,10.6,27,,,,,,,248,,,BUICK_ENVISION AWD_Suv - Small_Conventional/Hybrid_A6
+,CADILLAC,ATS,Compact,Conventional/Hybrid,3.6,6,,AS8,X,,11.6,8.0,10.0,28,,,,,,,234,,,CADILLAC_ATS_Compact_Conventional/Hybrid_AS8
+,CADILLAC,ATS AWD,Compact,Conventional/Hybrid,2.0,4,,AS8,Z,,10.8,7.9,9.5,30,,,,,,,222,,,CADILLAC_ATS AWD_Compact_Conventional/Hybrid_AS8
+,CADILLAC,ATS-V,Compact,Conventional/Hybrid,3.6,6,,M6,Z,,14.4,10.4,12.6,22,,,,,,,295,,,CADILLAC_ATS-V_Compact_Conventional/Hybrid_M6
+,CADILLAC,CT6 AWD,Full-Size,Conventional/Hybrid,3.0,6,,AS8,Z,,13.0,9.1,11.2,25,,,,,,,263,,,CADILLAC_CT6 AWD_Full-Size_Conventional/Hybrid_AS8
+,CADILLAC,CTS,Mid-Size,Conventional/Hybrid,3.6,6,,AS8,X,,11.6,8.0,10.0,28,,,,,,,234,,,CADILLAC_CTS_Mid-Size_Conventional/Hybrid_AS8
+,CADILLAC,CTS AWD,Mid-Size,Conventional/Hybrid,2.0,4,,AS8,Z,,11.2,8.2,9.8,29,,,,,,,229,,,CADILLAC_CTS AWD_Mid-Size_Conventional/Hybrid_AS8
+,CADILLAC,CTS-V,Mid-Size,Conventional/Hybrid,6.2,8,,AS8,Z,,16.5,11.1,14.0,20,,,,,,,329,,,CADILLAC_CTS-V_Mid-Size_Conventional/Hybrid_AS8
+,CADILLAC,XTS,Full-Size,Conventional/Hybrid,3.6,6,,AS6,X,,13.2,8.5,11.1,25,,,,,,,260,,,CADILLAC_XTS_Full-Size_Conventional/Hybrid_AS6
+,CADILLAC,XTS AWD,Full-Size,Conventional/Hybrid,3.6,6,,AS6,X,,13.7,9.0,11.6,24,,,,,,,272,,,CADILLAC_XTS AWD_Full-Size_Conventional/Hybrid_AS6
+,CADILLAC,XTS Vsport AWD,Full-Size,Conventional/Hybrid,3.6,6,,AS6,Z,,15.0,10.2,12.8,22,,,,,,,302,,,CADILLAC_XTS Vsport AWD_Full-Size_Conventional/Hybrid_AS6
+,CHEVROLET,CAMARO,Subcompact,Conventional/Hybrid,3.6,6,,M6,X,,14.4,8.4,11.7,24,,,,,,,274,,,CHEVROLET_CAMARO_Subcompact_Conventional/Hybrid_M6
+,CHEVROLET,CAMARO SS,Subcompact,Conventional/Hybrid,6.2,8,,AS8,Z,,14.2,8.7,11.7,24,,,,,,,273,,,CHEVROLET_CAMARO SS_Subcompact_Conventional/Hybrid_AS8
+,CHEVROLET,CAMARO SS,Subcompact,Conventional/Hybrid,6.2,8,,M6,Z,,14.3,9.4,12.1,23,,,,,,,284,,,CHEVROLET_CAMARO SS_Subcompact_Conventional/Hybrid_M6
+,CHEVROLET,COLORADO,Pickup Truck - Small,Conventional/Hybrid,3.6,6,,A8,X,,13.4,9.6,11.7,24,,,,,,,274,,,CHEVROLET_COLORADO_Pickup Truck - Small_Conventional/Hybrid_A8
+,CHEVROLET,COLORADO ZR2 4WD,Pickup Truck - Small,Conventional/Hybrid,2.8,4,,A6,D,,12.5,10.7,11.7,24,,,,,,,315,,,CHEVROLET_COLORADO ZR2 4WD_Pickup Truck - Small_Conventional/Hybrid_A6
+,CHEVROLET,COLORADO ZR2 4WD,Pickup Truck - Small,Conventional/Hybrid,3.6,6,,A8,X,,15.0,13.0,14.1,20,,,,,,,331,,,CHEVROLET_COLORADO ZR2 4WD_Pickup Truck - Small_Conventional/Hybrid_A8
+,CHEVROLET,CORVETTE,Two-Seater,Conventional/Hybrid,6.2,8,,M7,Z,,14.2,9.0,11.9,24,,,,,,,278,,,CHEVROLET_CORVETTE_Two-Seater_Conventional/Hybrid_M7
+,CHEVROLET,CORVETTE Z06,Two-Seater,Conventional/Hybrid,6.2,8,,AS8,Z,,17.6,10.3,14.3,20,,,,,,,336,,,CHEVROLET_CORVETTE Z06_Two-Seater_Conventional/Hybrid_AS8
+,CHEVROLET,CORVETTE Z06,Two-Seater,Conventional/Hybrid,6.2,8,,M7,Z,,15.6,10.6,13.4,21,,,,,,,312,,,CHEVROLET_CORVETTE Z06_Two-Seater_Conventional/Hybrid_M7
+,CHEVROLET,CRUZE PREMIER,Compact,Conventional/Hybrid,1.4,4,,AS6,X,,8.1,6.0,7.2,39,,,,,,,169,,,CHEVROLET_CRUZE PREMIER_Compact_Conventional/Hybrid_AS6
+,CHEVROLET,IMPALA,Full-Size,Conventional/Hybrid,2.5,4,,AS6,X,,10.9,7.9,9.5,30,,,,,,,224,,,CHEVROLET_IMPALA_Full-Size_Conventional/Hybrid_AS6
+,CHEVROLET,MALIBU HYBRID,Mid-Size,Conventional/Hybrid,1.8,4,,AV,X,,4.8,5.5,5.1,55,,,,,,,121,,,CHEVROLET_MALIBU HYBRID_Mid-Size_Conventional/Hybrid_AV
+,CHEVROLET,SILVERADO FFV,Pickup Truck - Standard,Conventional/Hybrid,4.3,6,,A6,E,,19.3,14.4,17.1,17,,,,,,,284,,,CHEVROLET_SILVERADO FFV_Pickup Truck - Standard_Conventional/Hybrid_A6
+,CHEVROLET,SILVERADO FFV,Pickup Truck - Standard,Conventional/Hybrid,5.3,8,,A6,X,,14.6,10.3,12.7,22,,,,,,,298,,,CHEVROLET_SILVERADO FFV_Pickup Truck - Standard_Conventional/Hybrid_A6
+,CHEVROLET,SILVERADO,Pickup Truck - Standard,Conventional/Hybrid,6.2,8,,A8,Z,,15.9,11.2,13.8,20,,,,,,,324,,,CHEVROLET_SILVERADO_Pickup Truck - Standard_Conventional/Hybrid_A8
+,CHEVROLET,SILVERADO 4WD FFV,Pickup Truck - Standard,Conventional/Hybrid,4.3,6,,A6,X,,14.1,10.6,12.5,23,,,,,,,294,,,CHEVROLET_SILVERADO 4WD FFV_Pickup Truck - Standard_Conventional/Hybrid_A6
+,CHEVROLET,SILVERADO 4WD,Pickup Truck - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.0,10.7,13.1,22,,,,,,,307,,,CHEVROLET_SILVERADO 4WD_Pickup Truck - Standard_Conventional/Hybrid_A6
+,CHEVROLET,SILVERADO 4WD FFV,Pickup Truck - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.0,10.7,13.1,22,,,,,,,307,,,CHEVROLET_SILVERADO 4WD FFV_Pickup Truck - Standard_Conventional/Hybrid_A6
+,CHEVROLET,SILVERADO eASSIST 4WD,Pickup Truck - Standard,Conventional/Hybrid,5.3,8,,A8,X,,14.4,11.2,13.0,22,,,,,,,304,,,CHEVROLET_SILVERADO eASSIST 4WD_Pickup Truck - Standard_Conventional/Hybrid_A8
+,CHEVROLET,SONIC,Compact,Conventional/Hybrid,1.4,4,,AS6,X,,8.8,6.6,7.8,36,,,,,,,184,,,CHEVROLET_SONIC_Compact_Conventional/Hybrid_AS6
+,CHEVROLET,SONIC,Compact,Conventional/Hybrid,1.4,4,,M6,X,,8.4,6.3,7.4,38,,,,,,,174,,,CHEVROLET_SONIC_Compact_Conventional/Hybrid_M6
+,CHEVROLET,SONIC 5,Station Wagon - Small,Conventional/Hybrid,1.4,4,,AS6,X,,8.8,6.6,7.8,36,,,,,,,184,,,CHEVROLET_SONIC 5_Station Wagon - Small_Conventional/Hybrid_AS6
+,CHEVROLET,SONIC 5,Station Wagon - Small,Conventional/Hybrid,1.4,4,,M6,X,,8.4,6.3,7.4,38,,,,,,,174,,,CHEVROLET_SONIC 5_Station Wagon - Small_Conventional/Hybrid_M6
+,CHEVROLET,SPARK,Subcompact,Conventional/Hybrid,1.4,4,,AV,X,,7.8,6.2,7.1,40,,,,,,,167,,,CHEVROLET_SPARK_Subcompact_Conventional/Hybrid_AV
+,CHEVROLET,SUBURBAN,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.1,10.4,13.0,22,,,,,,,305,,,CHEVROLET_SUBURBAN_Suv - Standard_Conventional/Hybrid_A6
+,CHEVROLET,SUBURBAN FFV,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.1,10.4,13.0,22,,,,,,,305,,,CHEVROLET_SUBURBAN FFV_Suv - Standard_Conventional/Hybrid_A6
+,CHEVROLET,TAHOE,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.1,10.4,13.0,22,,,,,,,305,,,CHEVROLET_TAHOE_Suv - Standard_Conventional/Hybrid_A6
+,CHEVROLET,TAHOE FFV,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.1,10.4,13.0,22,,,,,,,305,,,CHEVROLET_TAHOE FFV_Suv - Standard_Conventional/Hybrid_A6
+,CHEVROLET,TAHOE 4WD,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.2,10.8,13.2,21,,,,,,,310,,,CHEVROLET_TAHOE 4WD_Suv - Standard_Conventional/Hybrid_A6
+,CHEVROLET,TAHOE 4WD FFV,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.2,10.8,13.2,21,,,,,,,310,,,CHEVROLET_TAHOE 4WD FFV_Suv - Standard_Conventional/Hybrid_A6
+,CHEVROLET,TAHOE 4WD FFV,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,E,,20.8,14.5,18.0,16,,,,,,,299,,,CHEVROLET_TAHOE 4WD FFV_Suv - Standard_Conventional/Hybrid_A6
+,CHEVROLET,TRAX,Suv - Small,Conventional/Hybrid,1.4,4,,AS6,X,,9.3,7.2,8.3,34,,,,,,,194,,,CHEVROLET_TRAX_Suv - Small_Conventional/Hybrid_AS6
+,CHEVROLET,TRAX,Suv - Small,Conventional/Hybrid,1.4,4,,M6,X,,9.2,7.1,8.2,34,,,,,,,194,,,CHEVROLET_TRAX_Suv - Small_Conventional/Hybrid_M6
+,CHRYSLER,300,Full-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.4,7.8,10.3,27,,,,,,,242,,,CHRYSLER_300_Full-Size_Conventional/Hybrid_A8
+,CHRYSLER,300 AWD,Full-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.8,8.7,11.0,26,,,,,,,258,,,CHRYSLER_300 AWD_Full-Size_Conventional/Hybrid_A8
+,CHRYSLER,300 AWD FFV,Full-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.8,8.7,11.0,26,,,,,,,258,,,CHRYSLER_300 AWD FFV_Full-Size_Conventional/Hybrid_A8
+,CHRYSLER,300 AWD FFV,Full-Size,Conventional/Hybrid,3.6,6,,A8,E,,17.6,12.0,15.0,19,,,,,,,248,,,CHRYSLER_300 AWD FFV_Full-Size_Conventional/Hybrid_A8
+,CHRYSLER,PACIFICA (Stop-Start),Minivan,Conventional/Hybrid,3.6,6,,A9,X,,12.4,8.4,10.6,27,,,,,,,249,,,CHRYSLER_PACIFICA (Stop-Start)_Minivan_Conventional/Hybrid_A9
+,DODGE,CHALLENGER,Mid-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.4,7.8,10.3,27,,,,,,,242,,,DODGE_CHALLENGER_Mid-Size_Conventional/Hybrid_A8
+,DODGE,CHALLENGER,Mid-Size,Conventional/Hybrid,5.7,8,,M6,Z,,15.6,10.1,13.1,22,,,,,,,307,,,DODGE_CHALLENGER_Mid-Size_Conventional/Hybrid_M6
+,DODGE,CHALLENGER,Mid-Size,Conventional/Hybrid,6.4,8,,M6,Z,,16.7,10.4,13.9,20,,,,,,,325,,,DODGE_CHALLENGER_Mid-Size_Conventional/Hybrid_M6
+,DODGE,CHALLENGER (MDS),Mid-Size,Conventional/Hybrid,5.7,8,,A8,X,,14.7,9.4,12.3,23,,,,,,,289,,,DODGE_CHALLENGER (MDS)_Mid-Size_Conventional/Hybrid_A8
+,DODGE,CHALLENGER (MDS),Mid-Size,Conventional/Hybrid,6.4,8,,A8,Z,,15.6,9.6,12.9,22,,,,,,,302,,,DODGE_CHALLENGER (MDS)_Mid-Size_Conventional/Hybrid_A8
+,DODGE,CHALLENGER SRT,Mid-Size,Conventional/Hybrid,6.4,8,,M6,Z,,16.7,10.4,13.9,20,,,,,,,325,,,DODGE_CHALLENGER SRT_Mid-Size_Conventional/Hybrid_M6
+,DODGE,CHALLENGER SRT (MDS),Mid-Size,Conventional/Hybrid,6.4,8,,A8,Z,,15.6,9.6,12.9,22,,,,,,,302,,,DODGE_CHALLENGER SRT (MDS)_Mid-Size_Conventional/Hybrid_A8
+,DODGE,CHALLENGER SRT HELLCAT,Mid-Size,Conventional/Hybrid,6.2,8,,A8,Z,,17.6,10.7,14.5,19,,,,,,,339,,,DODGE_CHALLENGER SRT HELLCAT_Mid-Size_Conventional/Hybrid_A8
+,DODGE,CHALLENGER SRT HELLCAT,Mid-Size,Conventional/Hybrid,6.2,8,,M6,Z,,18.1,11.4,15.1,19,,,,,,,352,,,DODGE_CHALLENGER SRT HELLCAT_Mid-Size_Conventional/Hybrid_M6
+,DODGE,CHARGER,Full-Size,Conventional/Hybrid,3.6,6,,A5,X,,13.7,9.0,11.6,24,,,,,,,271,,,DODGE_CHARGER_Full-Size_Conventional/Hybrid_A5
+,DODGE,CHARGER,Full-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.4,7.8,10.3,27,,,,,,,242,,,DODGE_CHARGER_Full-Size_Conventional/Hybrid_A8
+,DODGE,CHARGER (MDS),Full-Size,Conventional/Hybrid,5.7,8,,A5,X,,15.6,9.7,12.9,22,,,,,,,302,,,DODGE_CHARGER (MDS)_Full-Size_Conventional/Hybrid_A5
+,DODGE,CHARGER (MDS),Full-Size,Conventional/Hybrid,5.7,8,,A8,X,,14.7,9.4,12.3,23,,,,,,,289,,,DODGE_CHARGER (MDS)_Full-Size_Conventional/Hybrid_A8
+,DODGE,CHARGER (MDS),Full-Size,Conventional/Hybrid,6.4,8,,A8,Z,,15.6,9.6,12.9,22,,,,,,,302,,,DODGE_CHARGER (MDS)_Full-Size_Conventional/Hybrid_A8
+,DODGE,CHARGER AWD,Full-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.8,8.7,11.0,26,,,,,,,258,,,DODGE_CHARGER AWD_Full-Size_Conventional/Hybrid_A8
+,DODGE,CHARGER AWD FFV,Full-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.8,8.7,11.0,26,,,,,,,258,,,DODGE_CHARGER AWD FFV_Full-Size_Conventional/Hybrid_A8
+,DODGE,CHARGER AWD FFV,Full-Size,Conventional/Hybrid,3.6,6,,A8,E,,17.6,12.0,15.0,19,,,,,,,248,,,DODGE_CHARGER AWD FFV_Full-Size_Conventional/Hybrid_A8
+,DODGE,CHARGER SRT (MDS),Full-Size,Conventional/Hybrid,6.4,8,,A8,Z,,15.6,9.6,12.9,22,,,,,,,302,,,DODGE_CHARGER SRT (MDS)_Full-Size_Conventional/Hybrid_A8
+,DODGE,CHARGER SRT HELLCAT,Full-Size,Conventional/Hybrid,6.2,8,,A8,Z,,17.6,10.7,14.5,19,,,,,,,339,,,DODGE_CHARGER SRT HELLCAT_Full-Size_Conventional/Hybrid_A8
+,DODGE,DURANGO AWD,Suv - Standard,Conventional/Hybrid,3.6,6,,A8,X,,12.7,9.6,11.3,25,,,,,,,265,,,DODGE_DURANGO AWD_Suv - Standard_Conventional/Hybrid_A8
+,DODGE,GRAND CARAVAN FFV,Minivan,Conventional/Hybrid,3.6,6,,A6,X,,13.7,9.4,11.8,24,,,,,,,276,,,DODGE_GRAND CARAVAN FFV_Minivan_Conventional/Hybrid_A6
+,DODGE,GRAND CARAVAN FFV,Minivan,Conventional/Hybrid,3.6,6,,A6,E,,19.4,13.3,16.7,17,,,,,,,274,,,DODGE_GRAND CARAVAN FFV_Minivan_Conventional/Hybrid_A6
+,DODGE,JOURNEY,Suv - Small,Conventional/Hybrid,2.4,4,,A4,X,,12.7,9.2,11.1,25,,,,,,,261,,,DODGE_JOURNEY_Suv - Small_Conventional/Hybrid_A4
+,DODGE,JOURNEY FFV,Suv - Small,Conventional/Hybrid,3.6,6,,A6,X,,14.2,9.5,12.1,23,,,,,,,284,,,DODGE_JOURNEY FFV_Suv - Small_Conventional/Hybrid_A6
+,DODGE,JOURNEY FFV,Suv - Small,Conventional/Hybrid,3.6,6,,A6,E,,19.1,13.2,16.4,17,,,,,,,274,,,DODGE_JOURNEY FFV_Suv - Small_Conventional/Hybrid_A6
+,DODGE,JOURNEY AWD,Suv - Small,Conventional/Hybrid,3.6,6,,A6,X,,14.5,10.0,12.4,23,,,,,,,292,,,DODGE_JOURNEY AWD_Suv - Small_Conventional/Hybrid_A6
+,FIAT,124 SPIDER,Two-Seater,Conventional/Hybrid,1.4,4,,A6,X,,9.3,6.5,8.0,35,,,,,,,187,,,FIAT_124 SPIDER_Two-Seater_Conventional/Hybrid_A6
+,FIAT,124 SPIDER,Two-Seater,Conventional/Hybrid,1.4,4,,M6,X,,9.0,6.7,7.9,36,,,,,,,185,,,FIAT_124 SPIDER_Two-Seater_Conventional/Hybrid_M6
+,FIAT,500L,Station Wagon - Small,Conventional/Hybrid,1.4,4,,A6,X,,10.7,7.9,9.4,30,,,,,,,221,,,FIAT_500L_Station Wagon - Small_Conventional/Hybrid_A6
+,FIAT,500X,Suv - Small,Conventional/Hybrid,1.4,4,,M6,X,,9.5,7.1,8.4,34,,,,,,,197,,,FIAT_500X_Suv - Small_Conventional/Hybrid_M6
+,FIAT,500X AWD,Suv - Small,Conventional/Hybrid,2.4,4,,A9,X,,11.0,8.0,9.7,29,,,,,,,226,,,FIAT_500X AWD_Suv - Small_Conventional/Hybrid_A9
+,FORD,C-MAX HYBRID,Full-Size,Conventional/Hybrid,2.0,4,,AV,X,,5.7,6.2,5.9,48,,,,,,,138,,,FORD_C-MAX HYBRID_Full-Size_Conventional/Hybrid_AV
+,FORD,EDGE,Suv - Small,Conventional/Hybrid,2.0,4,,AS6,X,,11.5,8.0,9.9,29,,,,,,,233,,,FORD_EDGE_Suv - Small_Conventional/Hybrid_AS6
+,FORD,EDGE,Suv - Small,Conventional/Hybrid,3.5,6,,AS6,X,,13.5,9.1,11.5,25,,,,,,,270,,,FORD_EDGE_Suv - Small_Conventional/Hybrid_AS6
+,FORD,ESCAPE,Suv - Small,Conventional/Hybrid,1.5,4,,AS6,X,,10.2,7.8,9.1,31,,,,,,,214,,,FORD_ESCAPE_Suv - Small_Conventional/Hybrid_AS6
+,FORD,ESCAPE FFV,Suv - Small,Conventional/Hybrid,2.5,4,,AS6,X,,11.1,8.1,9.7,29,,,,,,,229,,,FORD_ESCAPE FFV_Suv - Small_Conventional/Hybrid_AS6
+,FORD,ESCAPE AWD,Suv - Small,Conventional/Hybrid,1.5,4,,AS6,X,,10.7,8.3,9.6,29,,,,,,,226,,,FORD_ESCAPE AWD_Suv - Small_Conventional/Hybrid_AS6
+,FORD,EXPLORER,Suv - Standard,Conventional/Hybrid,2.3,4,,AS6,X,,12.6,8.6,10.8,26,,,,,,,254,,,FORD_EXPLORER_Suv - Standard_Conventional/Hybrid_AS6
+,FORD,EXPLORER AWD,Suv - Standard,Conventional/Hybrid,3.5,6,,AS6,X,,14.8,10.7,13.0,22,,,,,,,305,,,FORD_EXPLORER AWD_Suv - Standard_Conventional/Hybrid_AS6
+,FORD,FIESTA,Subcompact,Conventional/Hybrid,1.6,4,,M5,X,,8.6,6.7,7.8,36,,,,,,,182,,,FORD_FIESTA_Subcompact_Conventional/Hybrid_M5
+,FORD,FLEX,Suv - Standard,Conventional/Hybrid,3.5,6,,AS6,X,,14.7,10.2,12.7,22,,,,,,,298,,,FORD_FLEX_Suv - Standard_Conventional/Hybrid_AS6
+,FORD,FLEX AWD,Suv - Standard,Conventional/Hybrid,3.5,6,,AS6,X,,14.7,10.7,12.9,22,,,,,,,303,,,FORD_FLEX AWD_Suv - Standard_Conventional/Hybrid_AS6
+,FORD,FLEX AWD GTDI,Suv - Standard,Conventional/Hybrid,3.5,6,,AS6,X,,15.7,11.2,13.7,21,,,,,,,322,,,FORD_FLEX AWD GTDI_Suv - Standard_Conventional/Hybrid_AS6
+,FORD,FOCUS ST,Mid-Size,Conventional/Hybrid,2.0,4,,M6,X,,10.5,7.8,9.3,30,,,,,,,219,,,FORD_FOCUS ST_Mid-Size_Conventional/Hybrid_M6
+,FORD,FUSION,Mid-Size,Conventional/Hybrid,2.0,4,,AS6,X,,11.2,7.6,9.6,29,,,,,,,225,,,FORD_FUSION_Mid-Size_Conventional/Hybrid_AS6
+,FORD,SHELBY GT350 MUSTANG,Subcompact,Conventional/Hybrid,5.2,8,,M6,Z,,17.2,11.3,14.6,19,,,,,,,341,,,FORD_SHELBY GT350 MUSTANG_Subcompact_Conventional/Hybrid_M6
+,FORD,TAURUS FFV,Full-Size,Conventional/Hybrid,3.5,6,,AS6,X,,13.1,8.7,11.1,25,,,,,,,260,,,FORD_TAURUS FFV_Full-Size_Conventional/Hybrid_AS6
+,FORD,TAURUS FFV,Full-Size,Conventional/Hybrid,3.5,6,,AS6,E,,17.6,11.7,15.0,19,,,,,,,249,,,FORD_TAURUS FFV_Full-Size_Conventional/Hybrid_AS6
+,FORD,TAURUS FFV AWD,Full-Size,Conventional/Hybrid,3.5,6,,AS6,X,,13.6,9.9,12.4,23,,,,,,,291,,,FORD_TAURUS FFV AWD_Full-Size_Conventional/Hybrid_AS6
+,FORD,TAURUS FFV AWD,Full-Size,Conventional/Hybrid,3.5,6,,AS6,E,,18.7,13.4,16.3,17,,,,,,,271,,,FORD_TAURUS FFV AWD_Full-Size_Conventional/Hybrid_AS6
+,FORD,TRANSIT CONNECT VAN FFV,Special Purpose Vehicle,Conventional/Hybrid,2.5,4,,AS6,X,,11.9,8.7,10.4,27,,,,,,,244,,,FORD_TRANSIT CONNECT VAN FFV_Special Purpose Vehicle_Conventional/Hybrid_AS6
+,GENESIS,G90 AWD,Full-Size,Conventional/Hybrid,3.3,6,,AS8,Z,,13.7,9.7,11.9,24,,,,,,,279,,,GENESIS_G90 AWD_Full-Size_Conventional/Hybrid_AS8
+,GENESIS,G90 AWD,Full-Size,Conventional/Hybrid,5.0,8,,AS8,Z,,15.2,10.2,13.0,22,,,,,,,306,,,GENESIS_G90 AWD_Full-Size_Conventional/Hybrid_AS8
+,GMC,ACADIA,Suv - Standard,Conventional/Hybrid,2.5,4,,A6,X,,11.0,9.2,10.2,28,,,,,,,239,,,GMC_ACADIA_Suv - Standard_Conventional/Hybrid_A6
+,GMC,ACADIA AWD,Suv - Standard,Conventional/Hybrid,2.5,4,,A6,X,,11.2,9.4,10.4,27,,,,,,,243,,,GMC_ACADIA AWD_Suv - Standard_Conventional/Hybrid_A6
+,GMC,CANYON,Pickup Truck - Small,Conventional/Hybrid,3.6,6,,A8,X,,13.4,9.6,11.7,24,,,,,,,274,,,GMC_CANYON_Pickup Truck - Small_Conventional/Hybrid_A8
+,GMC,SIERRA FFV,Pickup Truck - Standard,Conventional/Hybrid,4.3,6,,A6,E,,19.3,14.4,17.1,17,,,,,,,284,,,GMC_SIERRA FFV_Pickup Truck - Standard_Conventional/Hybrid_A6
+,GMC,SIERRA FFV,Pickup Truck - Standard,Conventional/Hybrid,5.3,8,,A6,X,,14.6,10.3,12.7,22,,,,,,,298,,,GMC_SIERRA FFV_Pickup Truck - Standard_Conventional/Hybrid_A6
+,GMC,SIERRA,Pickup Truck - Standard,Conventional/Hybrid,6.2,8,,A8,Z,,15.9,11.2,13.8,20,,,,,,,323,,,GMC_SIERRA_Pickup Truck - Standard_Conventional/Hybrid_A8
+,GMC,SIERRA 4WD FFV,Pickup Truck - Standard,Conventional/Hybrid,4.3,6,,A6,X,,14.1,10.6,12.5,23,,,,,,,294,,,GMC_SIERRA 4WD FFV_Pickup Truck - Standard_Conventional/Hybrid_A6
+,GMC,SIERRA 4WD,Pickup Truck - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.0,10.7,13.1,22,,,,,,,307,,,GMC_SIERRA 4WD_Pickup Truck - Standard_Conventional/Hybrid_A6
+,GMC,SIERRA 4WD FFV,Pickup Truck - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.0,10.7,13.1,22,,,,,,,307,,,GMC_SIERRA 4WD FFV_Pickup Truck - Standard_Conventional/Hybrid_A6
+,GMC,SIERRA eASSIST 4WD,Pickup Truck - Standard,Conventional/Hybrid,5.3,8,,A8,X,,14.4,11.2,13.0,22,,,,,,,304,,,GMC_SIERRA eASSIST 4WD_Pickup Truck - Standard_Conventional/Hybrid_A8
+,GMC,YUKON,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.1,10.4,13.0,22,,,,,,,305,,,GMC_YUKON_Suv - Standard_Conventional/Hybrid_A6
+,GMC,YUKON FFV,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.1,10.4,13.0,22,,,,,,,305,,,GMC_YUKON FFV_Suv - Standard_Conventional/Hybrid_A6
+,GMC,YUKON 4WD,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.2,10.8,13.2,21,,,,,,,310,,,GMC_YUKON 4WD_Suv - Standard_Conventional/Hybrid_A6
+,GMC,YUKON 4WD FFV,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.2,10.8,13.2,21,,,,,,,310,,,GMC_YUKON 4WD FFV_Suv - Standard_Conventional/Hybrid_A6
+,GMC,YUKON 4WD FFV,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,E,,20.8,14.5,18.0,16,,,,,,,299,,,GMC_YUKON 4WD FFV_Suv - Standard_Conventional/Hybrid_A6
+,GMC,YUKON XL,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.1,10.4,13.0,22,,,,,,,305,,,GMC_YUKON XL_Suv - Standard_Conventional/Hybrid_A6
+,GMC,YUKON XL FFV,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.1,10.4,13.0,22,,,,,,,305,,,GMC_YUKON XL FFV_Suv - Standard_Conventional/Hybrid_A6
+,HONDA,CIVIC COUPE,Compact,Conventional/Hybrid,2.0,4,,AV,X,,7.8,6.0,7.0,40,,,,,,,163,,,HONDA_CIVIC COUPE_Compact_Conventional/Hybrid_AV
+,HONDA,CIVIC COUPE,Compact,Conventional/Hybrid,2.0,4,,M6,X,,8.5,6.1,7.4,38,,,,,,,173,,,HONDA_CIVIC COUPE_Compact_Conventional/Hybrid_M6
+,HONDA,CIVIC HATCHBACK,Full-Size,Conventional/Hybrid,1.5,4,,AV,X,,7.7,6.0,6.9,41,,,,,,,162,,,HONDA_CIVIC HATCHBACK_Full-Size_Conventional/Hybrid_AV
+,HONDA,CIVIC HATCHBACK,Full-Size,Conventional/Hybrid,1.5,4,,AV7,X,,7.9,6.6,7.3,39,,,,,,,170,,,HONDA_CIVIC HATCHBACK_Full-Size_Conventional/Hybrid_AV7
+,HONDA,CIVIC HATCHBACK,Full-Size,Conventional/Hybrid,1.5,4,,M6,X,,8.0,6.2,7.2,39,,,,,,,167,,,HONDA_CIVIC HATCHBACK_Full-Size_Conventional/Hybrid_M6
+,HONDA,CIVIC SEDAN,Mid-Size,Conventional/Hybrid,1.5,4,,AV,X,,7.4,5.6,6.6,43,,,,,,,153,,,HONDA_CIVIC SEDAN_Mid-Size_Conventional/Hybrid_AV
+,HONDA,CIVIC SEDAN,Mid-Size,Conventional/Hybrid,2.0,4,,AV,X,,7.8,6.0,7.0,40,,,,,,,163,,,HONDA_CIVIC SEDAN_Mid-Size_Conventional/Hybrid_AV
+,HONDA,CIVIC SEDAN,Mid-Size,Conventional/Hybrid,2.0,4,,M6,X,,8.5,6.0,7.4,38,,,,,,,172,,,HONDA_CIVIC SEDAN_Mid-Size_Conventional/Hybrid_M6
+,HONDA,CR-V,Suv - Small,Conventional/Hybrid,1.5,4,,AV,X,,8.4,7.0,7.8,36,,,,,,,181,,,HONDA_CR-V_Suv - Small_Conventional/Hybrid_AV
+,HONDA,CR-V AWD,Suv - Small,Conventional/Hybrid,1.5,4,,AV,X,,8.7,7.2,8.0,35,,,,,,,188,,,HONDA_CR-V AWD_Suv - Small_Conventional/Hybrid_AV
+,HONDA,FIT,Station Wagon - Small,Conventional/Hybrid,1.5,4,,M6,X,,8.1,6.6,7.4,38,,,,,,,174,,,HONDA_FIT_Station Wagon - Small_Conventional/Hybrid_M6
+,HONDA,HR-V,Station Wagon - Small,Conventional/Hybrid,1.8,4,,AV,X,,8.3,6.9,7.7,37,,,,,,,180,,,HONDA_HR-V_Station Wagon - Small_Conventional/Hybrid_AV
+,HONDA,HR-V,Station Wagon - Small,Conventional/Hybrid,1.8,4,,AV7,X,,8.3,6.9,7.7,37,,,,,,,180,,,HONDA_HR-V_Station Wagon - Small_Conventional/Hybrid_AV7
+,HONDA,HR-V,Station Wagon - Small,Conventional/Hybrid,1.8,4,,M6,X,,9.4,7.1,8.4,34,,,,,,,195,,,HONDA_HR-V_Station Wagon - Small_Conventional/Hybrid_M6
+,HONDA,HR-V AWD,Station Wagon - Small,Conventional/Hybrid,1.8,4,,AV,X,,8.9,7.5,8.2,34,,,,,,,194,,,HONDA_HR-V AWD_Station Wagon - Small_Conventional/Hybrid_AV
+,HONDA,HR-V AWD,Station Wagon - Small,Conventional/Hybrid,1.8,4,,AV7,X,,8.9,7.5,8.2,34,,,,,,,194,,,HONDA_HR-V AWD_Station Wagon - Small_Conventional/Hybrid_AV7
+,HONDA,PILOT AWD,Suv - Small,Conventional/Hybrid,3.5,6,,A6,X,,13.0,9.3,11.3,25,,,,,,,266,,,HONDA_PILOT AWD_Suv - Small_Conventional/Hybrid_A6
+,HONDA,PILOT AWD,Suv - Small,Conventional/Hybrid,3.5,6,,AS9,X,,12.4,9.3,11.0,26,,,,,,,256,,,HONDA_PILOT AWD_Suv - Small_Conventional/Hybrid_AS9
+,HONDA,RIDGELINE AWD,Pickup Truck - Standard,Conventional/Hybrid,3.5,6,,A6,X,,12.8,9.5,11.3,25,,,,,,,264,,,HONDA_RIDGELINE AWD_Pickup Truck - Standard_Conventional/Hybrid_A6
+,HYUNDAI,ELANTRA,Mid-Size,Conventional/Hybrid,2.0,4,,AS6,X,,8.3,6.4,7.4,38,,,,,,,174,,,HYUNDAI_ELANTRA_Mid-Size_Conventional/Hybrid_AS6
+,HYUNDAI,IONIQ BLUE,Full-Size,Conventional/Hybrid,1.6,4,,AM6,X,,4.2,4.0,4.1,69,,,,,,,96,,,HYUNDAI_IONIQ BLUE_Full-Size_Conventional/Hybrid_AM6
+,HYUNDAI,SANTA FE,Suv - Small,Conventional/Hybrid,3.3,6,,AS6,X,,12.9,9.4,11.3,25,,,,,,,265,,,HYUNDAI_SANTA FE_Suv - Small_Conventional/Hybrid_AS6
+,HYUNDAI,SANTA FE AWD,Suv - Small,Conventional/Hybrid,3.3,6,,AS6,X,,13.0,9.7,11.5,25,,,,,,,269,,,HYUNDAI_SANTA FE AWD_Suv - Small_Conventional/Hybrid_AS6
+,HYUNDAI,SANTA FE ULTIMATE AWD,Suv - Small,Conventional/Hybrid,3.3,6,,AS6,X,,13.9,10.8,12.5,23,,,,,,,295,,,HYUNDAI_SANTA FE ULTIMATE AWD_Suv - Small_Conventional/Hybrid_AS6
+,HYUNDAI,SANTA FE SPORT,Suv - Small,Conventional/Hybrid,2.4,4,,AS6,X,,11.1,8.6,10.0,28,,,,,,,235,,,HYUNDAI_SANTA FE SPORT_Suv - Small_Conventional/Hybrid_AS6
+,HYUNDAI,SANTA FE SPORT AWD,Suv - Small,Conventional/Hybrid,2.4,4,,AS6,X,,12.0,9.1,10.7,26,,,,,,,253,,,HYUNDAI_SANTA FE SPORT AWD_Suv - Small_Conventional/Hybrid_AS6
+,HYUNDAI,TUCSON,Suv - Small,Conventional/Hybrid,2.0,4,,AS6,X,,10.1,7.8,9.0,31,,,,,,,213,,,HYUNDAI_TUCSON_Suv - Small_Conventional/Hybrid_AS6
+,HYUNDAI,TUCSON AWD,Suv - Small,Conventional/Hybrid,2.0,4,,AS6,X,,11.0,9.1,10.2,28,,,,,,,241,,,HYUNDAI_TUCSON AWD_Suv - Small_Conventional/Hybrid_AS6
+,INFINITI,Q50 HYBRID AWD,Compact,Conventional/Hybrid,3.5,6,,AS7,Z,,9.1,7.7,8.5,33,,,,,,,200,,,INFINITI_Q50 HYBRID AWD_Compact_Conventional/Hybrid_AS7
+,INFINITI,Q60 AWD,Subcompact,Conventional/Hybrid,2.0,4,,AS7,Z,,11.2,8.5,10.0,28,,,,,,,233,,,INFINITI_Q60 AWD_Subcompact_Conventional/Hybrid_AS7
+,INFINITI,Q70 AWD,Mid-Size,Conventional/Hybrid,3.7,6,,AS7,Z,,13.2,9.8,11.7,24,,,,,,,274,,,INFINITI_Q70 AWD_Mid-Size_Conventional/Hybrid_AS7
+,INFINITI,QX30,Compact,Conventional/Hybrid,2.0,4,,AM7,Z,,9.7,7.1,8.5,33,,,,,,,200,,,INFINITI_QX30_Compact_Conventional/Hybrid_AM7
+,INFINITI,QX30 AWD,Compact,Conventional/Hybrid,2.0,4,,AM7,Z,,10.6,8.0,9.4,30,,,,,,,221,,,INFINITI_QX30 AWD_Compact_Conventional/Hybrid_AM7
+,INFINITI,QX80 4WD,Suv - Standard,Conventional/Hybrid,5.6,8,,AS7,Z,,17.4,12.2,15.1,19,,,,,,,354,,,INFINITI_QX80 4WD_Suv - Standard_Conventional/Hybrid_AS7
+,JAGUAR,F-PACE 35t,Suv - Small,Conventional/Hybrid,3.0,6,,AS8,Z,,13.3,10.0,11.8,24,,,,,,,277,,,JAGUAR_F-PACE 35t_Suv - Small_Conventional/Hybrid_AS8
+,JAGUAR,F-TYPE CONVERTIBLE,Two-Seater,Conventional/Hybrid,3.0,6,,AS8,Z,,11.9,8.5,10.4,27,,,,,,,242,,,JAGUAR_F-TYPE CONVERTIBLE_Two-Seater_Conventional/Hybrid_AS8
+,JAGUAR,F-TYPE CONVERTIBLE,Two-Seater,Conventional/Hybrid,3.0,6,,M6,Z,,14.9,9.8,12.6,22,,,,,,,296,,,JAGUAR_F-TYPE CONVERTIBLE_Two-Seater_Conventional/Hybrid_M6
+,JAGUAR,F-TYPE COUPE,Two-Seater,Conventional/Hybrid,3.0,6,,AS8,Z,,11.9,8.5,10.4,27,,,,,,,242,,,JAGUAR_F-TYPE COUPE_Two-Seater_Conventional/Hybrid_AS8
+,JAGUAR,F-TYPE COUPE,Two-Seater,Conventional/Hybrid,3.0,6,,M6,Z,,14.9,9.8,12.6,22,,,,,,,296,,,JAGUAR_F-TYPE COUPE_Two-Seater_Conventional/Hybrid_M6
+,JAGUAR,XE 20d AWD,Compact,Conventional/Hybrid,2.0,4,,AS8,D,,7.8,5.8,6.9,41,,,,,,,186,,,JAGUAR_XE 20d AWD_Compact_Conventional/Hybrid_AS8
+,JAGUAR,XE 35t AWD,Compact,Conventional/Hybrid,3.0,6,,AS8,Z,,11.8,8.2,10.2,28,,,,,,,238,,,JAGUAR_XE 35t AWD_Compact_Conventional/Hybrid_AS8
+,JAGUAR,XF 20d AWD,Mid-Size,Conventional/Hybrid,2.0,4,,AS8,D,,7.8,5.8,6.9,41,,,,,,,186,,,JAGUAR_XF 20d AWD_Mid-Size_Conventional/Hybrid_AS8
+,JAGUAR,XF 35t AWD,Mid-Size,Conventional/Hybrid,3.0,6,,AS8,Z,,12.0,8.4,10.4,27,,,,,,,243,,,JAGUAR_XF 35t AWD_Mid-Size_Conventional/Hybrid_AS8
+,JEEP,CHEROKEE,Suv - Small,Conventional/Hybrid,3.2,6,,A9,X,,11.4,8.3,10.0,28,,,,,,,234,,,JEEP_CHEROKEE_Suv - Small_Conventional/Hybrid_A9
+,JEEP,CHEROKEE 4X4 ACTIVE DRIVE I,Suv - Small,Conventional/Hybrid,2.4,4,,A9,X,,11.3,8.4,10.0,28,,,,,,,235,,,JEEP_CHEROKEE 4X4 ACTIVE DRIVE I_Suv - Small_Conventional/Hybrid_A9
+,JEEP,CHEROKEE 4X4 ACTIVE DRIVE I,Suv - Small,Conventional/Hybrid,3.2,6,,A9,X,,11.6,8.6,10.3,27,,,,,,,241,,,JEEP_CHEROKEE 4X4 ACTIVE DRIVE I_Suv - Small_Conventional/Hybrid_A9
+,JEEP,CHEROKEE 4X4 ACTIVE DRIVE II,Suv - Small,Conventional/Hybrid,3.2,6,,A9,X,,12.8,9.0,11.1,25,,,,,,,259,,,JEEP_CHEROKEE 4X4 ACTIVE DRIVE II_Suv - Small_Conventional/Hybrid_A9
+,JEEP,CHEROKEE 4X4 ACTIVE DRIVE LOCK,Suv - Small,Conventional/Hybrid,2.4,4,,A9,X,,12.1,9.4,10.9,26,,,,,,,256,,,JEEP_CHEROKEE 4X4 ACTIVE DRIVE LOCK_Suv - Small_Conventional/Hybrid_A9
+,JEEP,CHEROKEE 4X4 ACTIVE DRIVE LOCK,Suv - Small,Conventional/Hybrid,3.2,6,,A9,X,,12.9,9.9,11.6,24,,,,,,,269,,,JEEP_CHEROKEE 4X4 ACTIVE DRIVE LOCK_Suv - Small_Conventional/Hybrid_A9
+,JEEP,GRAND CHEROKEE 4X4,Suv - Standard,Conventional/Hybrid,3.6,6,,A8,X,,12.7,9.6,11.3,25,,,,,,,265,,,JEEP_GRAND CHEROKEE 4X4_Suv - Standard_Conventional/Hybrid_A8
+,JEEP,RENEGADE,Suv - Small,Conventional/Hybrid,1.4,4,,M6,X,,9.9,7.7,8.9,32,,,,,,,209,,,JEEP_RENEGADE_Suv - Small_Conventional/Hybrid_M6
+,JEEP,RENEGADE FFV,Suv - Small,Conventional/Hybrid,2.4,4,,A9,X,,10.8,7.8,9.5,30,,,,,,,222,,,JEEP_RENEGADE FFV_Suv - Small_Conventional/Hybrid_A9
+,JEEP,RENEGADE FFV,Suv - Small,Conventional/Hybrid,2.4,4,,A9,E,,14.4,10.2,12.5,23,,,,,,,206,,,JEEP_RENEGADE FFV_Suv - Small_Conventional/Hybrid_A9
+,JEEP,RENEGADE 4X4,Suv - Small,Conventional/Hybrid,1.4,4,,M6,X,,9.9,7.7,8.9,32,,,,,,,211,,,JEEP_RENEGADE 4X4_Suv - Small_Conventional/Hybrid_M6
+,JEEP,RENEGADE 4X4,Suv - Small,Conventional/Hybrid,2.4,4,,A9,X,,11.2,8.2,9.8,29,,,,,,,230,,,JEEP_RENEGADE 4X4_Suv - Small_Conventional/Hybrid_A9
+,KIA,CADENZA,Full-Size,Conventional/Hybrid,3.3,6,,AS8,X,,11.5,8.5,10.2,28,,,,,,,237,,,KIA_CADENZA_Full-Size_Conventional/Hybrid_AS8
+,KIA,FORTE (GDI),Mid-Size,Conventional/Hybrid,2.0,4,,AS6,X,,9.4,7.0,8.3,34,,,,,,,198,,,KIA_FORTE (GDI)_Mid-Size_Conventional/Hybrid_AS6
+,KIA,FORTE,Mid-Size,Conventional/Hybrid,2.0,4,,M6,X,,9.4,6.8,8.3,34,,,,,,,195,,,KIA_FORTE_Mid-Size_Conventional/Hybrid_M6
+,KIA,FORTE 5,Full-Size,Conventional/Hybrid,1.6,4,,AM7,X,,9.4,7.9,8.7,32,,,,,,,207,,,KIA_FORTE 5_Full-Size_Conventional/Hybrid_AM7
+,KIA,FORTE 5,Full-Size,Conventional/Hybrid,2.0,4,,M6,X,,9.8,7.3,8.7,32,,,,,,,204,,,KIA_FORTE 5_Full-Size_Conventional/Hybrid_M6
+,KIA,K900,Full-Size,Conventional/Hybrid,3.8,6,,AS8,X,,13.8,9.3,11.8,24,,,,,,,279,,,KIA_K900_Full-Size_Conventional/Hybrid_AS8
+,KIA,K900,Full-Size,Conventional/Hybrid,5.0,8,,AS8,Z,,15.6,10.6,13.3,21,,,,,,,317,,,KIA_K900_Full-Size_Conventional/Hybrid_AS8
+,KIA,NIRO,Station Wagon - Small,Conventional/Hybrid,1.6,4,,AM6,X,,4.6,5.1,4.8,59,,,,,,,114,,,KIA_NIRO_Station Wagon - Small_Conventional/Hybrid_AM6
+,KIA,NIRO FE,Station Wagon - Small,Conventional/Hybrid,1.6,4,,AM6,X,,4.5,4.8,4.7,60,,,,,,,110,,,KIA_NIRO FE_Station Wagon - Small_Conventional/Hybrid_AM6
+,KIA,NIRO TOURING,Station Wagon - Small,Conventional/Hybrid,1.6,4,,AM6,X,,5.1,5.8,5.4,52,,,,,,,129,,,KIA_NIRO TOURING_Station Wagon - Small_Conventional/Hybrid_AM6
+,KIA,OPTIMA,Full-Size,Conventional/Hybrid,2.4,4,,AS6,X,,9.6,6.8,8.4,34,,,,,,,198,,,KIA_OPTIMA_Full-Size_Conventional/Hybrid_AS6
+,KIA,OPTIMA FE,Full-Size,Conventional/Hybrid,2.4,4,,AS6,X,,9.3,6.6,8.0,35,,,,,,,190,,,KIA_OPTIMA FE_Full-Size_Conventional/Hybrid_AS6
+,KIA,SEDONA,Minivan,Conventional/Hybrid,3.3,6,,AS6,X,,13.2,9.7,11.6,24,,,,,,,275,,,KIA_SEDONA_Minivan_Conventional/Hybrid_AS6
+,KIA,SEDONA SX,Minivan,Conventional/Hybrid,3.3,6,,AS6,X,,12.9,9.5,11.4,25,,,,,,,269,,,KIA_SEDONA SX_Minivan_Conventional/Hybrid_AS6
+,KIA,SEDONA SXL,Minivan,Conventional/Hybrid,3.3,6,,AS6,X,,14.1,10.5,12.5,23,,,,,,,296,,,KIA_SEDONA SXL_Minivan_Conventional/Hybrid_AS6
+,KIA,SORENTO,Suv - Small,Conventional/Hybrid,2.4,4,,AS6,X,,11.2,8.3,9.9,29,,,,,,,234,,,KIA_SORENTO_Suv - Small_Conventional/Hybrid_AS6
+,KIA,SORENTO AWD,Suv - Small,Conventional/Hybrid,2.0,4,,AS6,X,,12.3,9.4,11.0,26,,,,,,,259,,,KIA_SORENTO AWD_Suv - Small_Conventional/Hybrid_AS6
+,KIA,SORENTO AWD,Suv - Small,Conventional/Hybrid,2.4,4,,AS6,X,,11.5,9.3,10.5,27,,,,,,,246,,,KIA_SORENTO AWD_Suv - Small_Conventional/Hybrid_AS6
+,KIA,SORENTO AWD,Suv - Small,Conventional/Hybrid,3.3,6,,AS6,X,,14.0,10.1,12.2,23,,,,,,,289,,,KIA_SORENTO AWD_Suv - Small_Conventional/Hybrid_AS6
+,KIA,SORENTO AWD FE,Suv - Small,Conventional/Hybrid,3.3,6,,AS6,X,,13.2,9.3,11.4,25,,,,,,,270,,,KIA_SORENTO AWD FE_Suv - Small_Conventional/Hybrid_AS6
+,KIA,SOUL,Station Wagon - Small,Conventional/Hybrid,1.6,4,,AS6,X,,9.4,7.8,8.7,32,,,,,,,205,,,KIA_SOUL_Station Wagon - Small_Conventional/Hybrid_AS6
+,KIA,SOUL,Station Wagon - Small,Conventional/Hybrid,2.0,4,,AS6,X,,9.5,7.8,8.7,32,,,,,,,206,,,KIA_SOUL_Station Wagon - Small_Conventional/Hybrid_AS6
+,KIA,SPORTAGE AWD,Suv - Small,Conventional/Hybrid,2.0,4,,AS6,X,,11.9,10.2,11.1,25,,,,,,,263,,,KIA_SPORTAGE AWD_Suv - Small_Conventional/Hybrid_AS6
+,KIA,SPORTAGE AWD,Suv - Small,Conventional/Hybrid,2.4,4,,AS6,X,,11.3,9.5,10.5,27,,,,,,,247,,,KIA_SPORTAGE AWD_Suv - Small_Conventional/Hybrid_AS6
+,LEXUS,ES 300h,Mid-Size,Conventional/Hybrid,2.5,4,,AV6,X,,5.8,6.1,5.9,48,,,,,,,139,,,LEXUS_ES 300h_Mid-Size_Conventional/Hybrid_AV6
+,LEXUS,ES 350,Mid-Size,Conventional/Hybrid,3.5,6,,AS6,X,,11.4,7.7,9.7,29,,,,,,,226,,,LEXUS_ES 350_Mid-Size_Conventional/Hybrid_AS6
+,LEXUS,GS 450h,Mid-Size,Conventional/Hybrid,3.5,6,,AV8,Z,,8.0,6.9,7.5,38,,,,,,,176,,,LEXUS_GS 450h_Mid-Size_Conventional/Hybrid_AV8
+,LEXUS,GS F,Compact,Conventional/Hybrid,5.0,8,,AS8,Z,,14.9,9.7,12.5,23,,,,,,,293,,,LEXUS_GS F_Compact_Conventional/Hybrid_AS8
+,LEXUS,GX 460,Suv - Standard,Conventional/Hybrid,4.6,8,,AS6,Z,,16.0,12.9,14.6,19,,,,,,,341,,,LEXUS_GX 460_Suv - Standard_Conventional/Hybrid_AS6
+,LEXUS,NX 300h AWD,Suv - Small,Conventional/Hybrid,2.5,4,,AV6,X,,7.2,7.9,7.5,38,,,,,,,176,,,LEXUS_NX 300h AWD_Suv - Small_Conventional/Hybrid_AV6
+,LEXUS,RC F,Subcompact,Conventional/Hybrid,5.0,8,,AS8,Z,,15.2,9.5,12.6,22,,,,,,,289,,,LEXUS_RC F_Subcompact_Conventional/Hybrid_AS8
+,LEXUS,RX 350 AWD,Suv - Small,Conventional/Hybrid,3.5,6,,AS8,X,,12.2,9.0,10.8,26,,,,,,,252,,,LEXUS_RX 350 AWD_Suv - Small_Conventional/Hybrid_AS8
+,LEXUS,RX 450h AWD,Suv - Standard,Conventional/Hybrid,3.5,6,,AV6,Z,,7.5,8.4,7.9,36,,,,,,,185,,,LEXUS_RX 450h AWD_Suv - Standard_Conventional/Hybrid_AV6
+,LINCOLN,CONTINENTAL AWD,Full-Size,Conventional/Hybrid,3.7,6,,AS6,X,,14.3,9.7,12.2,23,,,,,,,287,,,LINCOLN_CONTINENTAL AWD_Full-Size_Conventional/Hybrid_AS6
+,LINCOLN,MKC AWD,Suv - Small,Conventional/Hybrid,2.0,4,,AS6,X,,12.3,9.3,10.9,26,,,,,,,256,,,LINCOLN_MKC AWD_Suv - Small_Conventional/Hybrid_AS6
+,LINCOLN,MKC AWD (Start/Stop),Suv - Small,Conventional/Hybrid,2.0,4,,AS6,X,,12.1,9.3,10.8,26,,,,,,,254,,,LINCOLN_MKC AWD (Start/Stop)_Suv - Small_Conventional/Hybrid_AS6
+,LINCOLN,MKT AWD,Suv - Standard,Conventional/Hybrid,3.5,6,,AS6,X,,15.7,11.2,13.7,21,,,,,,,322,,,LINCOLN_MKT AWD_Suv - Standard_Conventional/Hybrid_AS6
+,LINCOLN,MKT LIVERY AWD,Special Purpose Vehicle,Conventional/Hybrid,3.7,6,,A6,X,,14.7,10.2,12.7,22,,,,,,,298,,,LINCOLN_MKT LIVERY AWD_Special Purpose Vehicle_Conventional/Hybrid_A6
+,LINCOLN,MKX AWD,Suv - Small,Conventional/Hybrid,2.7,6,,AS6,X,,14.1,9.8,12.1,23,,,,,,,284,,,LINCOLN_MKX AWD_Suv - Small_Conventional/Hybrid_AS6
+,LINCOLN,MKZ AWD,Mid-Size,Conventional/Hybrid,3.0,6,,AS6,X,,14.0,9.2,11.8,24,,,,,,,278,,,LINCOLN_MKZ AWD_Mid-Size_Conventional/Hybrid_AS6
+,LINCOLN,MKZ HYBRID,Mid-Size,Conventional/Hybrid,2.0,4,,AV,X,,5.7,6.2,5.9,48,,,,,,,139,,,LINCOLN_MKZ HYBRID_Mid-Size_Conventional/Hybrid_AV
+,MASERATI,GHIBLI,Mid-Size,Conventional/Hybrid,3.0,6,,AS8,Z,,14.1,9.8,12.2,23,,,,,,,286,,,MASERATI_GHIBLI_Mid-Size_Conventional/Hybrid_AS8
+,MASERATI,GHIBLI SQ4,Mid-Size,Conventional/Hybrid,3.0,6,,AS8,Z,,14.7,9.9,12.6,22,,,,,,,295,,,MASERATI_GHIBLI SQ4_Mid-Size_Conventional/Hybrid_AS8
+,MASERATI,GRANTURISMO,Subcompact,Conventional/Hybrid,4.7,8,,AS6,Z,,18.2,11.4,15.1,19,,,,,,,355,,,MASERATI_GRANTURISMO_Subcompact_Conventional/Hybrid_AS6
+,MASERATI,GRANTURISMO CONVERTIBLE,Subcompact,Conventional/Hybrid,4.7,8,,AS6,Z,,18.2,11.6,15.2,19,,,,,,,358,,,MASERATI_GRANTURISMO CONVERTIBLE_Subcompact_Conventional/Hybrid_AS6
+,MAZDA,CX-3 4WD,Compact,Conventional/Hybrid,2.0,4,,AS6,X,,8.8,7.5,8.2,34,,,,,,,192,,,MAZDA_CX-3 4WD_Compact_Conventional/Hybrid_AS6
+,MAZDA,CX-9,Suv - Small,Conventional/Hybrid,2.5,4,,AS6,X,,10.6,8.4,9.6,29,,,,,,,225,,,MAZDA_CX-9_Suv - Small_Conventional/Hybrid_AS6
+,MAZDA,CX-9 4WD,Suv - Small,Conventional/Hybrid,2.5,4,,AS6,X,,11.5,8.9,10.4,27,,,,,,,242,,,MAZDA_CX-9 4WD_Suv - Small_Conventional/Hybrid_AS6
+,MAZDA,MAZDA3 4-DOOR,Compact,Conventional/Hybrid,2.0,4,,AS6,X,,8.4,6.4,7.5,38,,,,,,,176,,,MAZDA_MAZDA3 4-DOOR_Compact_Conventional/Hybrid_AS6
+,MAZDA,MAZDA3 4-DOOR,Compact,Conventional/Hybrid,2.0,4,,M6,X,,8.5,6.2,7.5,38,,,,,,,175,,,MAZDA_MAZDA3 4-DOOR_Compact_Conventional/Hybrid_M6
+,MAZDA,MAZDA3 4-DOOR (SIL),Compact,Conventional/Hybrid,2.0,4,,M6,X,,8.5,6.2,7.5,38,,,,,,,175,,,MAZDA_MAZDA3 4-DOOR (SIL)_Compact_Conventional/Hybrid_M6
+,MAZDA,MAZDA3 4-DOOR,Compact,Conventional/Hybrid,2.5,4,,AS6,X,,8.8,6.6,7.8,36,,,,,,,182,,,MAZDA_MAZDA3 4-DOOR_Compact_Conventional/Hybrid_AS6
+,MAZDA,MAZDA3 4-DOOR (i-ELOOP),Compact,Conventional/Hybrid,2.5,4,,AS6,X,,8.5,6.4,7.6,37,,,,,,,176,,,MAZDA_MAZDA3 4-DOOR (i-ELOOP)_Compact_Conventional/Hybrid_AS6
+,MAZDA,MAZDA3 4-DOOR (SIL),Compact,Conventional/Hybrid,2.5,4,,M6,X,,9.3,6.9,8.2,34,,,,,,,194,,,MAZDA_MAZDA3 4-DOOR (SIL)_Compact_Conventional/Hybrid_M6
+,MAZDA,MAZDA3 5-DOOR,Mid-Size,Conventional/Hybrid,2.0,4,,AS6,X,,8.4,6.4,7.5,38,,,,,,,174,,,MAZDA_MAZDA3 5-DOOR_Mid-Size_Conventional/Hybrid_AS6
+,MAZDA,MAZDA3 5-DOOR (SIL),Mid-Size,Conventional/Hybrid,2.0,4,,M6,X,,8.6,6.4,7.6,37,,,,,,,178,,,MAZDA_MAZDA3 5-DOOR (SIL)_Mid-Size_Conventional/Hybrid_M6
+,MAZDA,MAZDA3 5-DOOR (i-ELOOP),Mid-Size,Conventional/Hybrid,2.5,4,,AS6,X,,8.7,6.6,7.8,36,,,,,,,181,,,MAZDA_MAZDA3 5-DOOR (i-ELOOP)_Mid-Size_Conventional/Hybrid_AS6
+,MAZDA,MAZDA3 5-DOOR (SIL),Mid-Size,Conventional/Hybrid,2.5,4,,M6,X,,9.6,7.0,8.4,34,,,,,,,198,,,MAZDA_MAZDA3 5-DOOR (SIL)_Mid-Size_Conventional/Hybrid_M6
+,MAZDA,MAZDA6,Mid-Size,Conventional/Hybrid,2.5,4,,AS6,X,,9.1,6.7,8.0,35,,,,,,,187,,,MAZDA_MAZDA6_Mid-Size_Conventional/Hybrid_AS6
+,MINI,COOPER 3 DOOR,Subcompact,Conventional/Hybrid,1.5,3,,M6,Z,,8.5,6.2,7.5,38,,,,,,,175,,,MINI_COOPER 3 DOOR_Subcompact_Conventional/Hybrid_M6
+,MINI,COOPER S CLUBMAN ALL4,Mid-Size,Conventional/Hybrid,2.0,4,,M6,Z,,11.4,7.8,9.7,29,,,,,,,227,,,MINI_COOPER S CLUBMAN ALL4_Mid-Size_Conventional/Hybrid_M6
+,MINI,JOHN COOPER WORKS CONVERTIBLE,Minicompact,Conventional/Hybrid,2.0,4,,M6,Z,,10.8,7.7,9.4,30,,,,,,,220,,,MINI_JOHN COOPER WORKS CONVERTIBLE_Minicompact_Conventional/Hybrid_M6
+,MITSUBISHI,MIRAGE,Compact,Conventional/Hybrid,1.2,3,,AV,X,,6.4,5.5,6.0,47,,,,,,,141,,,MITSUBISHI_MIRAGE_Compact_Conventional/Hybrid_AV
+,MITSUBISHI,MIRAGE,Compact,Conventional/Hybrid,1.2,3,,M5,X,,7.1,5.8,6.5,43,,,,,,,150,,,MITSUBISHI_MIRAGE_Compact_Conventional/Hybrid_M5
+,MITSUBISHI,MIRAGE G4,Compact,Conventional/Hybrid,1.2,3,,AV,X,,6.9,5.7,6.4,44,,,,,,,149,,,MITSUBISHI_MIRAGE G4_Compact_Conventional/Hybrid_AV
+,MITSUBISHI,MIRAGE G4,Compact,Conventional/Hybrid,1.2,3,,M5,X,,7.2,5.9,6.6,43,,,,,,,155,,,MITSUBISHI_MIRAGE G4_Compact_Conventional/Hybrid_M5
+,MITSUBISHI,RVR,Suv - Small,Conventional/Hybrid,2.0,4,,AV6,X,,9.7,7.8,8.8,32,,,,,,,204,,,MITSUBISHI_RVR_Suv - Small_Conventional/Hybrid_AV6
+,MITSUBISHI,RVR,Suv - Small,Conventional/Hybrid,2.0,4,,M5,X,,10.3,8.2,9.3,30,,,,,,,216,,,MITSUBISHI_RVR_Suv - Small_Conventional/Hybrid_M5
+,MITSUBISHI,RVR 4WD,Suv - Small,Conventional/Hybrid,2.0,4,,AV6,X,,10.1,8.2,9.2,31,,,,,,,213,,,MITSUBISHI_RVR 4WD_Suv - Small_Conventional/Hybrid_AV6
+,NISSAN,370Z,Two-Seater,Conventional/Hybrid,3.7,6,,AS7,Z,,12.6,9.3,11.1,25,,,,,,,261,,,NISSAN_370Z_Two-Seater_Conventional/Hybrid_AS7
+,NISSAN,370Z,Two-Seater,Conventional/Hybrid,3.7,6,,M6,Z,,13.3,9.3,11.5,25,,,,,,,269,,,NISSAN_370Z_Two-Seater_Conventional/Hybrid_M6
+,NISSAN,370Z ROADSTER,Two-Seater,Conventional/Hybrid,3.7,6,,AS7,Z,,13.0,9.7,11.5,25,,,,,,,270,,,NISSAN_370Z ROADSTER_Two-Seater_Conventional/Hybrid_AS7
+,NISSAN,370Z ROADSTER,Two-Seater,Conventional/Hybrid,3.7,6,,M6,Z,,13.6,9.7,11.8,24,,,,,,,278,,,NISSAN_370Z ROADSTER_Two-Seater_Conventional/Hybrid_M6
+,NISSAN,ALTIMA,Mid-Size,Conventional/Hybrid,3.5,6,,AV7,X,,10.6,7.3,9.1,31,,,,,,,214,,,NISSAN_ALTIMA_Mid-Size_Conventional/Hybrid_AV7
+,NISSAN,FRONTIER,Pickup Truck - Small,Conventional/Hybrid,2.5,4,,M5,X,,12.2,10.4,11.4,25,,,,,,,268,,,NISSAN_FRONTIER_Pickup Truck - Small_Conventional/Hybrid_M5
+,NISSAN,FRONTIER 4WD,Pickup Truck - Small,Conventional/Hybrid,4.0,6,,M6,X,,15.1,11.5,13.5,21,,,,,,,317,,,NISSAN_FRONTIER 4WD_Pickup Truck - Small_Conventional/Hybrid_M6
+,NISSAN,GT-R,Subcompact,Conventional/Hybrid,3.8,6,,AM6,Z,,14.5,10.7,12.8,22,,,,,,,300,,,NISSAN_GT-R_Subcompact_Conventional/Hybrid_AM6
+,NISSAN,MURANO,Station Wagon - Mid-Size,Conventional/Hybrid,3.5,6,,AV7,X,,11.0,8.3,9.8,29,,,,,,,230,,,NISSAN_MURANO_Station Wagon - Mid-Size_Conventional/Hybrid_AV7
+,NISSAN,MURANO AWD,Station Wagon - Mid-Size,Conventional/Hybrid,3.5,6,,AV7,X,,11.2,8.4,9.9,29,,,,,,,232,,,NISSAN_MURANO AWD_Station Wagon - Mid-Size_Conventional/Hybrid_AV7
+,NISSAN,PATHFINDER,Suv - Small,Conventional/Hybrid,3.5,6,,AV,X,,11.6,8.5,10.2,28,,,,,,,240,,,NISSAN_PATHFINDER_Suv - Small_Conventional/Hybrid_AV
+,NISSAN,PATHFINDER 4WD,Suv - Small,Conventional/Hybrid,3.5,6,,AV,X,,12.1,8.9,10.7,26,,,,,,,250,,,NISSAN_PATHFINDER 4WD_Suv - Small_Conventional/Hybrid_AV
+,NISSAN,QASHQAI,Station Wagon - Small,Conventional/Hybrid,2.0,4,,AV,X,,8.8,7.3,8.1,35,,,,,,,191,,,NISSAN_QASHQAI_Station Wagon - Small_Conventional/Hybrid_AV
+,NISSAN,QASHQAI,Station Wagon - Small,Conventional/Hybrid,2.0,4,,M6,X,,10.0,8.1,9.2,31,,,,,,,216,,,NISSAN_QASHQAI_Station Wagon - Small_Conventional/Hybrid_M6
+,NISSAN,ROGUE,Suv - Small,Conventional/Hybrid,2.5,4,,AV,X,,9.2,7.0,8.2,34,,,,,,,192,,,NISSAN_ROGUE_Suv - Small_Conventional/Hybrid_AV
+,NISSAN,SENTRA (Turbo),Mid-Size,Conventional/Hybrid,1.6,4,,AV7,Z,,8.9,7.3,8.2,34,,,,,,,193,,,NISSAN_SENTRA (Turbo)_Mid-Size_Conventional/Hybrid_AV7
+,NISSAN,SENTRA (Turbo),Mid-Size,Conventional/Hybrid,1.6,4,,M6,Z,,9.1,7.3,8.3,34,,,,,,,195,,,NISSAN_SENTRA (Turbo)_Mid-Size_Conventional/Hybrid_M6
+,NISSAN,SENTRA NISMO,Mid-Size,Conventional/Hybrid,1.6,4,,AV7,Z,,9.4,7.8,8.7,32,,,,,,,205,,,NISSAN_SENTRA NISMO_Mid-Size_Conventional/Hybrid_AV7
+,NISSAN,SENTRA NISMO,Mid-Size,Conventional/Hybrid,1.6,4,,M6,Z,,9.5,7.6,8.7,32,,,,,,,204,,,NISSAN_SENTRA NISMO_Mid-Size_Conventional/Hybrid_M6
+,NISSAN,TITAN,Pickup Truck - Standard,Conventional/Hybrid,5.6,8,,AS7,X,,15.0,11.2,13.3,21,,,,,,,312,,,NISSAN_TITAN_Pickup Truck - Standard_Conventional/Hybrid_AS7
+,NISSAN,TITAN 4WD,Pickup Truck - Standard,Conventional/Hybrid,5.6,8,,AS7,X,,15.2,11.1,13.4,21,,,,,,,315,,,NISSAN_TITAN 4WD_Pickup Truck - Standard_Conventional/Hybrid_AS7
+,NISSAN,VERSA,Mid-Size,Conventional/Hybrid,1.6,4,,AV,X,,7.6,6.2,7.0,40,,,,,,,164,,,NISSAN_VERSA_Mid-Size_Conventional/Hybrid_AV
+,NISSAN,VERSA,Mid-Size,Conventional/Hybrid,1.6,4,,M5,X,,8.6,6.6,7.7,37,,,,,,,180,,,NISSAN_VERSA_Mid-Size_Conventional/Hybrid_M5
+,PORSCHE,911 CARRERA,Minicompact,Conventional/Hybrid,3.0,6,,AM7,Z,,10.6,8.0,9.4,30,,,,,,,221,,,PORSCHE_911 CARRERA_Minicompact_Conventional/Hybrid_AM7
+,PORSCHE,911 CARRERA,Minicompact,Conventional/Hybrid,3.0,6,,M7,Z,,11.8,8.1,10.1,28,,,,,,,237,,,PORSCHE_911 CARRERA_Minicompact_Conventional/Hybrid_M7
+,PORSCHE,911 CARRERA CABRIOLET,Minicompact,Conventional/Hybrid,3.0,6,,AM7,Z,,10.8,8.3,9.7,29,,,,,,,227,,,PORSCHE_911 CARRERA CABRIOLET_Minicompact_Conventional/Hybrid_AM7
+,PORSCHE,911 CARRERA CABRIOLET,Minicompact,Conventional/Hybrid,3.0,6,,M7,Z,,12.0,8.2,10.3,27,,,,,,,241,,,PORSCHE_911 CARRERA CABRIOLET_Minicompact_Conventional/Hybrid_M7
+,PORSCHE,911 CARRERA S,Minicompact,Conventional/Hybrid,3.0,6,,AM7,Z,,10.8,8.3,9.7,29,,,,,,,226,,,PORSCHE_911 CARRERA S_Minicompact_Conventional/Hybrid_AM7
+,PORSCHE,911 CARRERA S,Minicompact,Conventional/Hybrid,3.0,6,,M7,Z,,12.1,8.3,10.4,27,,,,,,,242,,,PORSCHE_911 CARRERA S_Minicompact_Conventional/Hybrid_M7
+,PORSCHE,911 CARRERA S CABRIOLET,Minicompact,Conventional/Hybrid,3.0,6,,AM7,Z,,10.8,8.4,9.7,29,,,,,,,228,,,PORSCHE_911 CARRERA S CABRIOLET_Minicompact_Conventional/Hybrid_AM7
+,PORSCHE,911 CARRERA S CABRIOLET,Minicompact,Conventional/Hybrid,3.0,6,,M7,Z,,12.1,8.3,10.4,27,,,,,,,243,,,PORSCHE_911 CARRERA S CABRIOLET_Minicompact_Conventional/Hybrid_M7
+,PORSCHE,911 CARRERA 4,Minicompact,Conventional/Hybrid,3.0,6,,AM7,Z,,10.7,8.3,9.6,29,,,,,,,225,,,PORSCHE_911 CARRERA 4_Minicompact_Conventional/Hybrid_AM7
+,PORSCHE,911 CARRERA 4,Minicompact,Conventional/Hybrid,3.0,6,,M7,Z,,12.1,8.3,10.4,27,,,,,,,242,,,PORSCHE_911 CARRERA 4_Minicompact_Conventional/Hybrid_M7
+,PORSCHE,911 CARRERA 4 CABRIOLET,Minicompact,Conventional/Hybrid,3.0,6,,AM7,Z,,11.0,8.4,9.8,29,,,,,,,230,,,PORSCHE_911 CARRERA 4 CABRIOLET_Minicompact_Conventional/Hybrid_AM7
+,PORSCHE,911 CARRERA 4 CABRIOLET,Minicompact,Conventional/Hybrid,3.0,6,,M7,Z,,12.2,8.5,10.5,27,,,,,,,246,,,PORSCHE_911 CARRERA 4 CABRIOLET_Minicompact_Conventional/Hybrid_M7
+,PORSCHE,911 CARRERA 4S,Minicompact,Conventional/Hybrid,3.0,6,,AM7,Z,,11.0,8.5,9.9,29,,,,,,,232,,,PORSCHE_911 CARRERA 4S_Minicompact_Conventional/Hybrid_AM7
+,PORSCHE,911 CARRERA 4S,Minicompact,Conventional/Hybrid,3.0,6,,M7,Z,,12.1,8.4,10.4,27,,,,,,,243,,,PORSCHE_911 CARRERA 4S_Minicompact_Conventional/Hybrid_M7
+,PORSCHE,911 CARRERA 4S CABRIOLET,Minicompact,Conventional/Hybrid,3.0,6,,AM7,Z,,10.9,8.5,9.9,29,,,,,,,231,,,PORSCHE_911 CARRERA 4S CABRIOLET_Minicompact_Conventional/Hybrid_AM7
+,PORSCHE,911 CARRERA 4S CABRIOLET,Minicompact,Conventional/Hybrid,3.0,6,,M7,Z,,12.2,8.5,10.5,27,,,,,,,246,,,PORSCHE_911 CARRERA 4S CABRIOLET_Minicompact_Conventional/Hybrid_M7
+,PORSCHE,911 TARGA 4,Minicompact,Conventional/Hybrid,3.0,6,,AM7,Z,,10.9,8.4,9.8,29,,,,,,,228,,,PORSCHE_911 TARGA 4_Minicompact_Conventional/Hybrid_AM7
+,PORSCHE,911 TARGA 4,Minicompact,Conventional/Hybrid,3.0,6,,M7,Z,,12.2,8.5,10.5,27,,,,,,,246,,,PORSCHE_911 TARGA 4_Minicompact_Conventional/Hybrid_M7
+,PORSCHE,911 TARGA 4S,Minicompact,Conventional/Hybrid,3.0,6,,AM7,Z,,11.1,8.6,10.0,28,,,,,,,233,,,PORSCHE_911 TARGA 4S_Minicompact_Conventional/Hybrid_AM7
+,PORSCHE,911 TARGA 4S,Minicompact,Conventional/Hybrid,3.0,6,,M7,Z,,12.2,8.5,10.5,27,,,,,,,246,,,PORSCHE_911 TARGA 4S_Minicompact_Conventional/Hybrid_M7
+,PORSCHE,911 TURBO,Minicompact,Conventional/Hybrid,3.8,6,,AM7,Z,,12.6,9.9,11.4,25,,,,,,,266,,,PORSCHE_911 TURBO_Minicompact_Conventional/Hybrid_AM7
+,PORSCHE,911 TURBO CABRIOLET,Minicompact,Conventional/Hybrid,3.8,6,,AM7,Z,,12.6,9.9,11.4,25,,,,,,,267,,,PORSCHE_911 TURBO CABRIOLET_Minicompact_Conventional/Hybrid_AM7
+,PORSCHE,911 TURBO S,Minicompact,Conventional/Hybrid,3.8,6,,AM7,Z,,12.6,9.9,11.4,25,,,,,,,266,,,PORSCHE_911 TURBO S_Minicompact_Conventional/Hybrid_AM7
+,PORSCHE,911 TURBO S CABRIOLET,Minicompact,Conventional/Hybrid,3.8,6,,AM7,Z,,12.6,9.9,11.4,25,,,,,,,267,,,PORSCHE_911 TURBO S CABRIOLET_Minicompact_Conventional/Hybrid_AM7
+,PORSCHE,BOXSTER,Two-Seater,Conventional/Hybrid,2.0,4,,AM7,Z,,10.5,8.0,9.4,30,,,,,,,219,,,PORSCHE_BOXSTER_Two-Seater_Conventional/Hybrid_AM7
+,PORSCHE,BOXSTER,Two-Seater,Conventional/Hybrid,2.0,4,,M6,Z,,11.0,8.3,9.8,29,,,,,,,229,,,PORSCHE_BOXSTER_Two-Seater_Conventional/Hybrid_M6
+,PORSCHE,BOXSTER S,Two-Seater,Conventional/Hybrid,2.5,4,,AM7,Z,,11.0,8.4,9.9,29,,,,,,,230,,,PORSCHE_BOXSTER S_Two-Seater_Conventional/Hybrid_AM7
+,PORSCHE,BOXSTER S,Two-Seater,Conventional/Hybrid,2.5,4,,M6,Z,,12.1,9.0,10.7,26,,,,,,,249,,,PORSCHE_BOXSTER S_Two-Seater_Conventional/Hybrid_M6
+,PORSCHE,CAYENNE,Suv - Standard,Conventional/Hybrid,3.6,6,,A8,Z,,12.9,9.7,11.5,25,,,,,,,268,,,PORSCHE_CAYENNE_Suv - Standard_Conventional/Hybrid_A8
+,PORSCHE,CAYENNE GTS,Suv - Standard,Conventional/Hybrid,3.6,6,,A8,Z,,14.5,10.4,12.6,22,,,,,,,296,,,PORSCHE_CAYENNE GTS_Suv - Standard_Conventional/Hybrid_A8
+,PORSCHE,CAYENNE PLATINUM,Suv - Standard,Conventional/Hybrid,3.6,6,,A8,Z,,13.6,10.2,12.1,23,,,,,,,281,,,PORSCHE_CAYENNE PLATINUM_Suv - Standard_Conventional/Hybrid_A8
+,PORSCHE,CAYENNE S,Suv - Standard,Conventional/Hybrid,3.6,6,,A8,Z,,13.9,9.6,12.0,24,,,,,,,281,,,PORSCHE_CAYENNE S_Suv - Standard_Conventional/Hybrid_A8
+,PORSCHE,CAYMAN,Two-Seater,Conventional/Hybrid,2.0,4,,AM7,Z,,10.5,8.0,9.4,30,,,,,,,219,,,PORSCHE_CAYMAN_Two-Seater_Conventional/Hybrid_AM7
+,PORSCHE,CAYMAN,Two-Seater,Conventional/Hybrid,2.0,4,,M6,Z,,11.0,8.3,9.8,29,,,,,,,229,,,PORSCHE_CAYMAN_Two-Seater_Conventional/Hybrid_M6
+,PORSCHE,CAYMAN S,Two-Seater,Conventional/Hybrid,2.5,4,,AM7,Z,,11.0,8.4,9.9,29,,,,,,,230,,,PORSCHE_CAYMAN S_Two-Seater_Conventional/Hybrid_AM7
+,PORSCHE,CAYMAN S,Two-Seater,Conventional/Hybrid,2.5,4,,M6,Z,,12.1,9.0,10.7,26,,,,,,,249,,,PORSCHE_CAYMAN S_Two-Seater_Conventional/Hybrid_M6
+,PORSCHE,MACAN,Suv - Small,Conventional/Hybrid,2.0,4,,A7,Z,,11.6,9.3,10.6,27,,,,,,,248,,,PORSCHE_MACAN_Suv - Small_Conventional/Hybrid_A7
+,PORSCHE,MACAN GTS,Suv - Small,Conventional/Hybrid,3.0,6,,A7,Z,,13.8,10.3,12.3,23,,,,,,,287,,,PORSCHE_MACAN GTS_Suv - Small_Conventional/Hybrid_A7
+,PORSCHE,MACAN S,Suv - Small,Conventional/Hybrid,3.0,6,,A7,Z,,13.7,10.3,12.2,23,,,,,,,285,,,PORSCHE_MACAN S_Suv - Small_Conventional/Hybrid_A7
+,PORSCHE,MACAN TURBO,Suv - Small,Conventional/Hybrid,3.6,6,,A7,Z,,14.2,10.1,12.3,23,,,,,,,287,,,PORSCHE_MACAN TURBO_Suv - Small_Conventional/Hybrid_A7
+,RAM,1500 FFV,Pickup Truck - Standard,Conventional/Hybrid,3.6,6,,A8,X,,13.9,9.6,11.9,24,,,,,,,280,,,RAM_1500 FFV_Pickup Truck - Standard_Conventional/Hybrid_A8
+,RAM,1500 FFV,Pickup Truck - Standard,Conventional/Hybrid,3.6,6,,A8,E,,19.7,13.8,17.0,17,,,,,,,283,,,RAM_1500 FFV_Pickup Truck - Standard_Conventional/Hybrid_A8
+,RAM,1500,Pickup Truck - Standard,Conventional/Hybrid,5.7,8,,A6,X,,17.0,12.0,14.8,19,,,,,,,346,,,RAM_1500_Pickup Truck - Standard_Conventional/Hybrid_A6
+,RAM,1500,Pickup Truck - Standard,Conventional/Hybrid,5.7,8,,A8,X,,15.7,11.0,13.6,21,,,,,,,319,,,RAM_1500_Pickup Truck - Standard_Conventional/Hybrid_A8
+,RAM,1500 ECODIESEL,Pickup Truck - Standard,Conventional/Hybrid,3.0,6,,A8,D,,11.8,8.6,10.4,27,,,,,,,278,,,RAM_1500 ECODIESEL_Pickup Truck - Standard_Conventional/Hybrid_A8
+,RAM,1500 4X4 FFV,Pickup Truck - Standard,Conventional/Hybrid,3.6,6,,A8,X,,14.5,10.2,12.6,22,,,,,,,294,,,RAM_1500 4X4 FFV_Pickup Truck - Standard_Conventional/Hybrid_A8
+,RAM,1500 4X4 FFV,Pickup Truck - Standard,Conventional/Hybrid,3.6,6,,A8,E,,20.7,14.7,18.0,16,,,,,,,300,,,RAM_1500 4X4 FFV_Pickup Truck - Standard_Conventional/Hybrid_A8
+,RAM,1500 4X4,Pickup Truck - Standard,Conventional/Hybrid,5.7,8,,A8,X,,16.1,11.5,14.0,20,,,,,,,328,,,RAM_1500 4X4_Pickup Truck - Standard_Conventional/Hybrid_A8
+,RAM,1500 4X4 ECODIESEL,Pickup Truck - Standard,Conventional/Hybrid,3.0,6,,A8,D,,12.3,8.8,10.8,26,,,,,,,289,,,RAM_1500 4X4 ECODIESEL_Pickup Truck - Standard_Conventional/Hybrid_A8
+,RAM,PROMASTER CITY,Special Purpose Vehicle,Conventional/Hybrid,2.4,4,,A9,X,,11.2,8.3,9.9,29,,,,,,,232,,,RAM_PROMASTER CITY_Special Purpose Vehicle_Conventional/Hybrid_A9
+,SUBARU,BRZ,Minicompact,Conventional/Hybrid,2.0,4,,AS6,Z,,9.7,7.2,8.6,33,,,,,,,200,,,SUBARU_BRZ_Minicompact_Conventional/Hybrid_AS6
+,SUBARU,FORESTER AWD,Suv - Small,Conventional/Hybrid,2.0,4,,AV8,Z,,10.2,8.6,9.5,30,,,,,,,223,,,SUBARU_FORESTER AWD_Suv - Small_Conventional/Hybrid_AV8
+,SUBARU,FORESTER AWD,Suv - Small,Conventional/Hybrid,2.5,4,,AV6,X,,9.2,7.4,8.4,34,,,,,,,196,,,SUBARU_FORESTER AWD_Suv - Small_Conventional/Hybrid_AV6
+,SUBARU,FORESTER AWD,Suv - Small,Conventional/Hybrid,2.5,4,,M6,X,,10.9,8.3,9.7,29,,,,,,,228,,,SUBARU_FORESTER AWD_Suv - Small_Conventional/Hybrid_M6
+,SUBARU,IMPREZA 4-DOOR AWD,Mid-Size,Conventional/Hybrid,2.0,4,,AV7,X,,8.3,6.4,7.5,38,,,,,,,174,,,SUBARU_IMPREZA 4-DOOR AWD_Mid-Size_Conventional/Hybrid_AV7
+,SUBARU,IMPREZA 4-DOOR AWD,Mid-Size,Conventional/Hybrid,2.0,4,,M5,X,,10.0,7.5,8.9,32,,,,,,,208,,,SUBARU_IMPREZA 4-DOOR AWD_Mid-Size_Conventional/Hybrid_M5
+,SUBARU,IMPREZA 5-DOOR AWD,Station Wagon - Small,Conventional/Hybrid,2.0,4,,AV7,X,,8.4,6.5,7.5,38,,,,,,,176,,,SUBARU_IMPREZA 5-DOOR AWD_Station Wagon - Small_Conventional/Hybrid_AV7
+,SUBARU,IMPREZA 5-DOOR AWD,Station Wagon - Small,Conventional/Hybrid,2.0,4,,M5,X,,10.1,7.7,9.0,31,,,,,,,211,,,SUBARU_IMPREZA 5-DOOR AWD_Station Wagon - Small_Conventional/Hybrid_M5
+,SUBARU,LEGACY AWD,Mid-Size,Conventional/Hybrid,3.6,6,,AV6,X,,11.9,8.3,10.3,27,,,,,,,241,,,SUBARU_LEGACY AWD_Mid-Size_Conventional/Hybrid_AV6
+,SUBARU,OUTBACK AWD,Suv - Small,Conventional/Hybrid,3.6,6,,AV6,X,,12.0,8.7,10.5,27,,,,,,,247,,,SUBARU_OUTBACK AWD_Suv - Small_Conventional/Hybrid_AV6
+,SUBARU,WRX AWD,Compact,Conventional/Hybrid,2.0,4,,M6,Z,,11.3,8.5,10.0,28,,,,,,,235,,,SUBARU_WRX AWD_Compact_Conventional/Hybrid_M6
+,TOYOTA,86,Minicompact,Conventional/Hybrid,2.0,4,,AS6,Z,,9.9,7.3,8.7,32,,,,,,,204,,,TOYOTA_86_Minicompact_Conventional/Hybrid_AS6
+,TOYOTA,86,Minicompact,Conventional/Hybrid,2.0,4,,M6,Z,,11.3,8.3,9.9,29,,,,,,,232,,,TOYOTA_86_Minicompact_Conventional/Hybrid_M6
+,TOYOTA,AVALON,Mid-Size,Conventional/Hybrid,3.5,6,,AS6,X,,11.4,7.7,9.7,29,,,,,,,226,,,TOYOTA_AVALON_Mid-Size_Conventional/Hybrid_AS6
+,TOYOTA,COROLLA,Mid-Size,Conventional/Hybrid,1.8,4,,AV,X,,8.3,6.5,7.5,38,,,,,,,174,,,TOYOTA_COROLLA_Mid-Size_Conventional/Hybrid_AV
+,TOYOTA,COROLLA,Mid-Size,Conventional/Hybrid,1.8,4,,AV7,X,,8.3,6.7,7.5,38,,,,,,,178,,,TOYOTA_COROLLA_Mid-Size_Conventional/Hybrid_AV7
+,TOYOTA,COROLLA LE ECO (1-mode),Mid-Size,Conventional/Hybrid,1.8,4,,AV,X,,7.8,5.9,6.9,41,,,,,,,163,,,TOYOTA_COROLLA LE ECO (1-mode)_Mid-Size_Conventional/Hybrid_AV
+,TOYOTA,COROLLA LE ECO (2-mode),Mid-Size,Conventional/Hybrid,1.8,4,,AV,X,,8.0,6.3,7.2,39,,,,,,,168,,,TOYOTA_COROLLA LE ECO (2-mode)_Mid-Size_Conventional/Hybrid_AV
+,TOYOTA,COROLLA iM,Mid-Size,Conventional/Hybrid,1.8,4,,AV7,X,,8.3,6.5,7.5,38,,,,,,,176,,,TOYOTA_COROLLA iM_Mid-Size_Conventional/Hybrid_AV7
+,TOYOTA,COROLLA iM,Mid-Size,Conventional/Hybrid,1.8,4,,M6,X,,8.8,6.8,7.9,36,,,,,,,185,,,TOYOTA_COROLLA iM_Mid-Size_Conventional/Hybrid_M6
+,TOYOTA,HIGHLANDER,Suv - Small,Conventional/Hybrid,3.5,6,,AS8,X,,11.8,8.7,10.3,27,,,,,,,243,,,TOYOTA_HIGHLANDER_Suv - Small_Conventional/Hybrid_AS8
+,TOYOTA,HIGHLANDER AWD,Suv - Standard,Conventional/Hybrid,3.5,6,,AS8,X,,12.1,9.0,10.6,27,,,,,,,251,,,TOYOTA_HIGHLANDER AWD_Suv - Standard_Conventional/Hybrid_AS8
+,TOYOTA,HIGHLANDER AWD (Start/Stop System),Suv - Standard,Conventional/Hybrid,3.5,6,,AS8,X,,12.0,8.9,10.6,27,,,,,,,247,,,TOYOTA_HIGHLANDER AWD (Start/Stop System)_Suv - Standard_Conventional/Hybrid_AS8
+,TOYOTA,HIGHLANDER AWD LE,Suv - Standard,Conventional/Hybrid,3.5,6,,AS8,X,,11.7,8.8,10.4,27,,,,,,,242,,,TOYOTA_HIGHLANDER AWD LE_Suv - Standard_Conventional/Hybrid_AS8
+,TOYOTA,HIGHLANDER HYBRID AWD,Suv - Standard,Conventional/Hybrid,3.5,6,,AV6,X,,8.1,8.5,8.3,34,,,,,,,193,,,TOYOTA_HIGHLANDER HYBRID AWD_Suv - Standard_Conventional/Hybrid_AV6
+,TOYOTA,PRIUS c,Compact,Conventional/Hybrid,1.5,4,,AV,X,,4.9,5.5,5.1,55,,,,,,,120,,,TOYOTA_PRIUS c_Compact_Conventional/Hybrid_AV
+,TOYOTA,PRIUS v,Station Wagon - Mid-Size,Conventional/Hybrid,1.8,4,,AV,X,,5.5,6.0,5.8,49,,,,,,,135,,,TOYOTA_PRIUS v_Station Wagon - Mid-Size_Conventional/Hybrid_AV
+,TOYOTA,RAV4 LE/XLE,Suv - Small,Conventional/Hybrid,2.5,4,,AS6,X,,10.0,7.8,9.0,31,,,,,,,210,,,TOYOTA_RAV4 LE/XLE_Suv - Small_Conventional/Hybrid_AS6
+,TOYOTA,RAV4 AWD,Suv - Small,Conventional/Hybrid,2.5,4,,AS6,X,,10.5,8.3,9.5,30,,,,,,,222,,,TOYOTA_RAV4 AWD_Suv - Small_Conventional/Hybrid_AS6
+,TOYOTA,RAV4 LIMITED/SE AWD,Suv - Small,Conventional/Hybrid,2.5,4,,AS6,X,,10.7,8.4,9.7,29,,,,,,,226,,,TOYOTA_RAV4 LIMITED/SE AWD_Suv - Small_Conventional/Hybrid_AS6
+,TOYOTA,SIENNA AWD,Minivan,Conventional/Hybrid,3.5,6,,AS8,X,,13.4,9.6,11.7,24,,,,,,,274,,,TOYOTA_SIENNA AWD_Minivan_Conventional/Hybrid_AS8
+,TOYOTA,TACOMA,Pickup Truck - Small,Conventional/Hybrid,2.7,4,,AS6,X,,12.1,10.1,11.2,25,,,,,,,263,,,TOYOTA_TACOMA_Pickup Truck - Small_Conventional/Hybrid_AS6
+,TOYOTA,TACOMA,Pickup Truck - Small,Conventional/Hybrid,3.5,6,,AS6,X,,12.6,10.0,11.4,25,,,,,,,268,,,TOYOTA_TACOMA_Pickup Truck - Small_Conventional/Hybrid_AS6
+,TOYOTA,TACOMA 4WD,Pickup Truck - Small,Conventional/Hybrid,2.7,4,,AS6,X,,12.7,10.6,11.7,24,,,,,,,274,,,TOYOTA_TACOMA 4WD_Pickup Truck - Small_Conventional/Hybrid_AS6
+,TOYOTA,TACOMA 4WD D-CAB OFF-ROAD,Pickup Truck - Small,Conventional/Hybrid,3.5,6,,M6,X,,13.8,11.7,12.9,22,,,,,,,300,,,TOYOTA_TACOMA 4WD D-CAB OFF-ROAD_Pickup Truck - Small_Conventional/Hybrid_M6
+,TOYOTA,YARIS,Compact,Conventional/Hybrid,1.5,4,,AS6,X,,7.3,5.8,6.6,43,,,,,,,155,,,TOYOTA_YARIS_Compact_Conventional/Hybrid_AS6
+,TOYOTA,YARIS (SIL),Compact,Conventional/Hybrid,1.5,4,,M6,X,,7.8,6.0,6.8,42,,,,,,,164,,,TOYOTA_YARIS (SIL)_Compact_Conventional/Hybrid_M6
+,TOYOTA,YARIS HATCHBACK,Compact,Conventional/Hybrid,1.5,4,,A4,X,,7.9,6.8,7.4,38,,,,,,,173,,,TOYOTA_YARIS HATCHBACK_Compact_Conventional/Hybrid_A4
+,TOYOTA,YARIS HATCHBACK,Compact,Conventional/Hybrid,1.5,4,,M5,X,,7.8,6.5,7.2,39,,,,,,,168,,,TOYOTA_YARIS HATCHBACK_Compact_Conventional/Hybrid_M5
+,VOLVO,S60 POLESTAR,Compact,Conventional/Hybrid,2.0,4,,AS8,Z,,11.8,8.5,10.3,27,,,,,,,241,,,VOLVO_S60 POLESTAR_Compact_Conventional/Hybrid_AS8
+,VOLVO,S60 CC T5 AWD,Compact,Conventional/Hybrid,2.0,4,,AS8,X,,10.8,7.8,9.4,30,,,,,,,220,,,VOLVO_S60 CC T5 AWD_Compact_Conventional/Hybrid_AS8
+,VOLVO,V60 POLESTAR,Station Wagon - Small,Conventional/Hybrid,2.0,4,,AS8,Z,,11.8,8.5,10.3,27,,,,,,,241,,,VOLVO_V60 POLESTAR_Station Wagon - Small_Conventional/Hybrid_AS8
+,VOLVO,V60 CC T5 AWD,Station Wagon - Small,Conventional/Hybrid,2.0,4,,AS8,X,,10.8,7.8,9.4,30,,,,,,,220,,,VOLVO_V60 CC T5 AWD_Station Wagon - Small_Conventional/Hybrid_AS8
+,ACURA,NSX,Two-Seater,Conventional/Hybrid,3.5,6,,AM9,Z,,11.1,10.8,11.0,26,,,,,,,261,,,ACURA_NSX_Two-Seater_Conventional/Hybrid_AM9
+,ACURA,TLX,Compact,Conventional/Hybrid,2.4,4,,AM8,Z,,10.0,7.1,8.7,32,,,,,,,205,,,ACURA_TLX_Compact_Conventional/Hybrid_AM8
+,ACURA,TLX A-SPEC,Compact,Conventional/Hybrid,2.4,4,,AM8,Z,,10.2,7.4,8.9,32,,,,,,,209,,,ACURA_TLX A-SPEC_Compact_Conventional/Hybrid_AM8
+,ACURA,TLX SH-AWD,Compact,Conventional/Hybrid,3.5,6,,AS9,Z,,11.4,7.7,9.8,29,,,,,,,228,,,ACURA_TLX SH-AWD_Compact_Conventional/Hybrid_AS9
+,ACURA,TLX SH-AWD A-SPEC,Compact,Conventional/Hybrid,3.5,6,,AS9,Z,,12.0,8.2,10.3,27,,,,,,,240,,,ACURA_TLX SH-AWD A-SPEC_Compact_Conventional/Hybrid_AS9
+,ASTON MARTIN,DB11 V8,Minicompact,Conventional/Hybrid,4.0,8,,A8,Z,,13.0,9.8,11.5,25,,,,,,,271,,,ASTON MARTIN_DB11 V8_Minicompact_Conventional/Hybrid_A8
+,AUDI,Q7,Suv - Standard,Conventional/Hybrid,2.0,4,,AS8,Z,,12.2,9.5,11.0,26,,,,,,,258,,,AUDI_Q7_Suv - Standard_Conventional/Hybrid_AS8
+,AUDI,Q7,Suv - Standard,Conventional/Hybrid,3.0,6,,AS8,Z,,12.6,9.4,11.1,25,,,,,,,260,,,AUDI_Q7_Suv - Standard_Conventional/Hybrid_AS8
+,BMW,X6 M,Suv - Standard,Conventional/Hybrid,4.4,8,,AS8,Z,,16.6,12.1,14.6,19,,,,,,,341,,,BMW_X6 M_Suv - Standard_Conventional/Hybrid_AS8
+,CADILLAC,XT5,Suv - Small,Conventional/Hybrid,3.6,6,,AS8,X,,12.1,8.9,10.6,27,,,,,,,250,,,CADILLAC_XT5_Suv - Small_Conventional/Hybrid_AS8
+,CADILLAC,XT5 AWD,Suv - Small,Conventional/Hybrid,3.6,6,,AS8,X,,12.8,9.3,11.2,25,,,,,,,263,,,CADILLAC_XT5 AWD_Suv - Small_Conventional/Hybrid_AS8
+,CADILLAC,XTS AWD,Full-Size,Conventional/Hybrid,3.6,6,,AS6,X,,13.7,9.0,11.6,24,,,,,,,272,,,CADILLAC_XTS AWD_Full-Size_Conventional/Hybrid_AS6
+,CHRYSLER,300,Full-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.4,7.8,10.3,27,,,,,,,242,,,CHRYSLER_300_Full-Size_Conventional/Hybrid_A8
+,CHRYSLER,300 FFV,Full-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.4,7.8,10.3,27,,,,,,,242,,,CHRYSLER_300 FFV_Full-Size_Conventional/Hybrid_A8
+,CHRYSLER,300 FFV,Full-Size,Conventional/Hybrid,3.6,6,,A8,E,,17.1,10.6,14.2,20,,,,,,,234,,,CHRYSLER_300 FFV_Full-Size_Conventional/Hybrid_A8
+,CHRYSLER,300,Full-Size,Conventional/Hybrid,5.7,8,,A8,X,,14.7,9.4,12.3,23,,,,,,,289,,,CHRYSLER_300_Full-Size_Conventional/Hybrid_A8
+,CHRYSLER,300 AWD,Full-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.8,8.7,11.0,26,,,,,,,258,,,CHRYSLER_300 AWD_Full-Size_Conventional/Hybrid_A8
+,CHRYSLER,300 AWD FFV,Full-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.8,8.7,11.0,26,,,,,,,258,,,CHRYSLER_300 AWD FFV_Full-Size_Conventional/Hybrid_A8
+,CHRYSLER,300 AWD FFV,Full-Size,Conventional/Hybrid,3.6,6,,A8,E,,17.6,12.0,15.0,19,,,,,,,248,,,CHRYSLER_300 AWD FFV_Full-Size_Conventional/Hybrid_A8
+,FIAT,500L,Station Wagon - Small,Conventional/Hybrid,1.4,4,,A6,X,,10.7,7.9,9.4,30,,,,,,,221,,,FIAT_500L_Station Wagon - Small_Conventional/Hybrid_A6
+,FORD,F-150,Pickup Truck - Standard,Conventional/Hybrid,3.0,6,,AS10,D,,10.8,8.0,9.5,30,,,,,,,256,,,FORD_F-150_Pickup Truck - Standard_Conventional/Hybrid_AS10
+,FORD,F-150 (LT Tire Pkg),Pickup Truck - Standard,Conventional/Hybrid,3.0,6,,AS10,D,,10.8,8.4,9.7,29,,,,,,,260,,,FORD_F-150 (LT Tire Pkg)_Pickup Truck - Standard_Conventional/Hybrid_AS10
+,FORD,F-150 FFV (LT Tire Pkg),Pickup Truck - Standard,Conventional/Hybrid,3.3,6,,AS6,X,,12.4,9.8,11.2,25,,,,,,,263,,,FORD_F-150 FFV (LT Tire Pkg)_Pickup Truck - Standard_Conventional/Hybrid_AS6
+,FORD,F-150 4X4 (LT Tire Pkg),Pickup Truck - Standard,Conventional/Hybrid,2.7,6,,AS10,X,,13.1,10.2,11.8,24,,,,,,,277,,,FORD_F-150 4X4 (LT Tire Pkg)_Pickup Truck - Standard_Conventional/Hybrid_AS10
+,FORD,F-150 FFV 4X4 (LT Tire Pkg),Pickup Truck - Standard,Conventional/Hybrid,3.3,6,,AS6,X,,13.8,10.7,12.4,23,,,,,,,291,,,FORD_F-150 FFV 4X4 (LT Tire Pkg)_Pickup Truck - Standard_Conventional/Hybrid_AS6
+,FORD,F-150 FFV 4X4,Pickup Truck - Standard,Conventional/Hybrid,5.0,8,,AS10,E,,20.0,15.6,18.0,16,,,,,,,300,,,FORD_F-150 FFV 4X4_Pickup Truck - Standard_Conventional/Hybrid_AS10
+,FORD,F-150 FFV 4X4 (LT Tire Pkg),Pickup Truck - Standard,Conventional/Hybrid,5.0,8,,AS10,E,,20.0,15.6,18.0,16,,,,,,,300,,,FORD_F-150 FFV 4X4 (LT Tire Pkg)_Pickup Truck - Standard_Conventional/Hybrid_AS10
+,GENESIS,G80 AWD,Full-Size,Conventional/Hybrid,3.3,6,,AS8,Z,,13.8,9.7,11.9,24,,,,,,,282,,,GENESIS_G80 AWD_Full-Size_Conventional/Hybrid_AS8
+,GENESIS,G80 AWD,Full-Size,Conventional/Hybrid,3.8,6,,AS8,X,,13.4,9.6,11.7,24,,,,,,,276,,,GENESIS_G80 AWD_Full-Size_Conventional/Hybrid_AS8
+,GENESIS,G80 AWD,Full-Size,Conventional/Hybrid,5.0,8,,AS8,Z,,15.6,10.4,13.2,21,,,,,,,312,,,GENESIS_G80 AWD_Full-Size_Conventional/Hybrid_AS8
+,GENESIS,G90 AWD,Full-Size,Conventional/Hybrid,3.3,6,,AS8,Z,,13.7,9.7,11.9,24,,,,,,,279,,,GENESIS_G90 AWD_Full-Size_Conventional/Hybrid_AS8
+,GENESIS,G90 AWD,Full-Size,Conventional/Hybrid,5.0,8,,AS8,Z,,15.2,10.2,13.0,22,,,,,,,306,,,GENESIS_G90 AWD_Full-Size_Conventional/Hybrid_AS8
+,HONDA,CR-V,Suv - Small,Conventional/Hybrid,1.5,4,,AV,X,,8.4,7.0,7.8,36,,,,,,,181,,,HONDA_CR-V_Suv - Small_Conventional/Hybrid_AV
+,HONDA,CR-V AWD,Suv - Small,Conventional/Hybrid,1.5,4,,AV,X,,8.7,7.2,8.0,35,,,,,,,188,,,HONDA_CR-V AWD_Suv - Small_Conventional/Hybrid_AV
+,INFINITI,Q50 AWD,Mid-Size,Conventional/Hybrid,3.0,6,,AS7,Z,,12.4,8.7,10.8,26,,,,,,,253,,,INFINITI_Q50 AWD_Mid-Size_Conventional/Hybrid_AS7
+,INFINITI,Q60 AWD,Subcompact,Conventional/Hybrid,2.0,4,,AS7,Z,,11.2,8.5,10.0,28,,,,,,,233,,,INFINITI_Q60 AWD_Subcompact_Conventional/Hybrid_AS7
+,INFINITI,QX60 AWD,Suv - Small,Conventional/Hybrid,3.5,6,,AV7,Z,,12.5,9.0,10.9,26,,,,,,,257,,,INFINITI_QX60 AWD_Suv - Small_Conventional/Hybrid_AV7
+,INFINITI,QX80 4WD,Suv - Standard,Conventional/Hybrid,5.6,8,,AS7,Z,,17.4,12.2,15.1,19,,,,,,,354,,,INFINITI_QX80 4WD_Suv - Standard_Conventional/Hybrid_AS7
+,JAGUAR,F-PACE 20d,Suv - Small,Conventional/Hybrid,2.0,4,,AS8,D,,8.9,7.2,8.1,35,,,,,,,218,,,JAGUAR_F-PACE 20d_Suv - Small_Conventional/Hybrid_AS8
+,JAGUAR,F-PACE 25t,Suv - Small,Conventional/Hybrid,2.0,4,,AS8,Z,,10.7,8.8,9.9,29,,,,,,,227,,,JAGUAR_F-PACE 25t_Suv - Small_Conventional/Hybrid_AS8
+,JAGUAR,F-PACE 35t,Suv - Small,Conventional/Hybrid,3.0,6,,AS8,Z,,13.3,10.0,11.8,24,,,,,,,277,,,JAGUAR_F-PACE 35t_Suv - Small_Conventional/Hybrid_AS8
+,JAGUAR,XE 20d AWD,Compact,Conventional/Hybrid,2.0,4,,AS8,D,,7.8,5.8,6.9,41,,,,,,,186,,,JAGUAR_XE 20d AWD_Compact_Conventional/Hybrid_AS8
+,JAGUAR,XE 25t AWD,Compact,Conventional/Hybrid,2.0,4,,AS8,Z,,9.8,6.9,8.5,33,,,,,,,200,,,JAGUAR_XE 25t AWD_Compact_Conventional/Hybrid_AS8
+,JAGUAR,XE 35t AWD,Compact,Conventional/Hybrid,3.0,6,,AS8,Z,,11.8,8.2,10.2,28,,,,,,,238,,,JAGUAR_XE 35t AWD_Compact_Conventional/Hybrid_AS8
+,JAGUAR,XF 20d AWD,Mid-Size,Conventional/Hybrid,2.0,4,,AS8,D,,7.8,5.8,6.9,41,,,,,,,186,,,JAGUAR_XF 20d AWD_Mid-Size_Conventional/Hybrid_AS8
+,JAGUAR,XF 25t AWD,Mid-Size,Conventional/Hybrid,2.0,4,,AS8,Z,,10.1,7.2,8.8,32,,,,,,,207,,,JAGUAR_XF 25t AWD_Mid-Size_Conventional/Hybrid_AS8
+,JAGUAR,XF 35t AWD,Mid-Size,Conventional/Hybrid,3.0,6,,AS8,Z,,12.0,8.4,10.4,27,,,,,,,243,,,JAGUAR_XF 35t AWD_Mid-Size_Conventional/Hybrid_AS8
+,JAGUAR,XJR LWB,Full-Size,Conventional/Hybrid,5.0,8,,AS8,Z,,15.8,10.3,13.3,21,,,,,,,313,,,JAGUAR_XJR LWB_Full-Size_Conventional/Hybrid_AS8
+,LEXUS,GS F,Compact,Conventional/Hybrid,5.0,8,,AS8,Z,,14.9,9.7,12.5,23,,,,,,,293,,,LEXUS_GS F_Compact_Conventional/Hybrid_AS8
+,LEXUS,GX 460,Suv - Standard,Conventional/Hybrid,4.6,8,,AS6,Z,,16.0,12.9,14.6,19,,,,,,,341,,,LEXUS_GX 460_Suv - Standard_Conventional/Hybrid_AS6
+,LEXUS,IS 300 AWD,Compact,Conventional/Hybrid,3.5,6,,AS6,Z,,12.3,9.1,10.9,26,,,,,,,254,,,LEXUS_IS 300 AWD_Compact_Conventional/Hybrid_AS6
+,LEXUS,IS 350 AWD,Compact,Conventional/Hybrid,3.5,6,,AS6,Z,,12.3,9.1,10.9,26,,,,,,,254,,,LEXUS_IS 350 AWD_Compact_Conventional/Hybrid_AS6
+,LEXUS,LX 570,Suv - Standard,Conventional/Hybrid,5.7,8,,AS8,Z,,18.2,12.8,15.8,18,,,,,,,371,,,LEXUS_LX 570_Suv - Standard_Conventional/Hybrid_AS8
+,LEXUS,NX 300 AWD F SPORT,Suv - Small,Conventional/Hybrid,2.0,4,,AS6,Z,,10.8,8.9,9.9,29,,,,,,,232,,,LEXUS_NX 300 AWD F SPORT_Suv - Small_Conventional/Hybrid_AS6
+,LEXUS,NX 300h AWD,Suv - Small,Conventional/Hybrid,2.5,4,,AV6,X,,7.2,7.9,7.5,38,,,,,,,176,,,LEXUS_NX 300h AWD_Suv - Small_Conventional/Hybrid_AV6
+,LEXUS,RC 300 AWD,Subcompact,Conventional/Hybrid,3.5,6,,AS6,Z,,13.1,9.8,11.2,25,,,,,,,262,,,LEXUS_RC 300 AWD_Subcompact_Conventional/Hybrid_AS6
+,LEXUS,RC 350 AWD,Subcompact,Conventional/Hybrid,3.5,6,,AS6,Z,,13.1,9.8,11.2,25,,,,,,,262,,,LEXUS_RC 350 AWD_Subcompact_Conventional/Hybrid_AS6
+,LEXUS,RC F,Subcompact,Conventional/Hybrid,5.0,8,,AS8,Z,,15.2,9.5,12.6,22,,,,,,,289,,,LEXUS_RC F_Subcompact_Conventional/Hybrid_AS8
+,LEXUS,RX 350 AWD,Suv - Small,Conventional/Hybrid,3.5,6,,AS8,X,,12.2,9.0,10.8,26,,,,,,,252,,,LEXUS_RX 350 AWD_Suv - Small_Conventional/Hybrid_AS8
+,LEXUS,RX 350 L AWD,Suv - Small,Conventional/Hybrid,3.5,6,,AS8,X,,13.1,9.4,11.1,25,,,,,,,268,,,LEXUS_RX 350 L AWD_Suv - Small_Conventional/Hybrid_AS8
+,LEXUS,RX 450h AWD,Suv - Standard,Conventional/Hybrid,3.5,6,,AV6,Z,,7.5,8.4,7.9,36,,,,,,,185,,,LEXUS_RX 450h AWD_Suv - Standard_Conventional/Hybrid_AV6
+,LINCOLN,MKT AWD,Suv - Standard,Conventional/Hybrid,3.5,6,,AS6,X,,15.7,11.2,13.7,21,,,,,,,322,,,LINCOLN_MKT AWD_Suv - Standard_Conventional/Hybrid_AS6
+,LINCOLN,MKZ AWD,Mid-Size,Conventional/Hybrid,3.0,6,,AS6,X,,14.0,9.2,11.8,24,,,,,,,278,,,LINCOLN_MKZ AWD_Mid-Size_Conventional/Hybrid_AS6
+,MAZDA,CX-5,Suv - Small,Conventional/Hybrid,2.0,4,,M6,X,,9.7,7.7,8.8,32,,,,,,,206,,,MAZDA_CX-5_Suv - Small_Conventional/Hybrid_M6
+,MAZDA,CX-5,Suv - Small,Conventional/Hybrid,2.5,4,,AS6,X,,9.7,7.8,8.8,32,,,,,,,206,,,MAZDA_CX-5_Suv - Small_Conventional/Hybrid_AS6
+,MAZDA,CX-5 (Cylinder Deactivation),Suv - Small,Conventional/Hybrid,2.5,4,,AS6,X,,9.3,7.6,8.5,33,,,,,,,201,,,MAZDA_CX-5 (Cylinder Deactivation)_Suv - Small_Conventional/Hybrid_AS6
+,MAZDA,CX-5 4WD,Suv - Small,Conventional/Hybrid,2.5,4,,AS6,X,,10.2,8.2,9.3,30,,,,,,,217,,,MAZDA_CX-5 4WD_Suv - Small_Conventional/Hybrid_AS6
+,MAZDA,CX-5 4WD (Cylinder Deactivation),Suv - Small,Conventional/Hybrid,2.5,4,,AS6,X,,9.8,7.9,9.0,31,,,,,,,208,,,MAZDA_CX-5 4WD (Cylinder Deactivation)_Suv - Small_Conventional/Hybrid_AS6
+,MAZDA,CX-9,Suv - Small,Conventional/Hybrid,2.5,4,,AS6,X,,10.6,8.4,9.6,29,,,,,,,225,,,MAZDA_CX-9_Suv - Small_Conventional/Hybrid_AS6
+,MERCEDES-BENZ,AMG GLA 45 4MATIC,Station Wagon - Mid-Size,Conventional/Hybrid,2.0,4,,AM7,Z,,10.7,8.3,9.6,29,,,,,,,225,,,MERCEDES-BENZ_AMG GLA 45 4MATIC_Station Wagon - Mid-Size_Conventional/Hybrid_AM7
+,MERCEDES-BENZ,AMG S 65,Full-Size,Conventional/Hybrid,6.0,12,,A7,Z,,18.6,10.9,15.1,19,,,,,,,356,,,MERCEDES-BENZ_AMG S 65_Full-Size_Conventional/Hybrid_A7
+,MERCEDES-BENZ,GLA 250 4MATIC,Suv - Small,Conventional/Hybrid,2.0,4,,AM7,Z,,10.1,7.6,9.0,31,,,,,,,209,,,MERCEDES-BENZ_GLA 250 4MATIC_Suv - Small_Conventional/Hybrid_AM7
+,MERCEDES-BENZ,GLE 400 4MATIC,Suv - Standard,Conventional/Hybrid,3.0,6,,A9,Z,,13.5,10.3,12.1,23,,,,,,,282,,,MERCEDES-BENZ_GLE 400 4MATIC_Suv - Standard_Conventional/Hybrid_A9
+,MERCEDES-BENZ,S 560 4MATIC,Full-Size,Conventional/Hybrid,4.0,8,,A9,Z,,13.5,8.6,11.3,25,,,,,,,265,,,MERCEDES-BENZ_S 560 4MATIC_Full-Size_Conventional/Hybrid_A9
+,MITSUBISHI,RVR 4WD,Suv - Small,Conventional/Hybrid,2.0,4,,AV6,X,,10.1,8.2,9.2,31,,,,,,,213,,,MITSUBISHI_RVR 4WD_Suv - Small_Conventional/Hybrid_AV6
+,NISSAN,370Z,Two-Seater,Conventional/Hybrid,3.7,6,,AS7,Z,,12.6,9.3,11.1,25,,,,,,,261,,,NISSAN_370Z_Two-Seater_Conventional/Hybrid_AS7
+,PORSCHE,911 GT3,Two-Seater,Conventional/Hybrid,4.0,6,,M6,Z,,18.0,11.5,15.1,19,,,,,,,352,,,PORSCHE_911 GT3_Two-Seater_Conventional/Hybrid_M6
+,SUBARU,BRZ,Minicompact,Conventional/Hybrid,2.0,4,,AS6,Z,,9.7,7.2,8.6,33,,,,,,,200,,,SUBARU_BRZ_Minicompact_Conventional/Hybrid_AS6
+,SUBARU,WRX AWD,Compact,Conventional/Hybrid,2.0,4,,AV8,Z,,12.6,9.6,11.2,25,,,,,,,256,,,SUBARU_WRX AWD_Compact_Conventional/Hybrid_AV8
+,SUBARU,WRX AWD,Compact,Conventional/Hybrid,2.0,4,,M6,Z,,11.3,8.5,10.0,28,,,,,,,235,,,SUBARU_WRX AWD_Compact_Conventional/Hybrid_M6
+,TOYOTA,86,Minicompact,Conventional/Hybrid,2.0,4,,AS6,Z,,9.9,7.3,8.7,32,,,,,,,204,,,TOYOTA_86_Minicompact_Conventional/Hybrid_AS6
+,TOYOTA,86,Minicompact,Conventional/Hybrid,2.0,4,,M6,Z,,11.3,8.3,9.9,29,,,,,,,232,,,TOYOTA_86_Minicompact_Conventional/Hybrid_M6
+,ACURA,ILX,Compact,Conventional/Hybrid,2.4,4,,AM8,Z,,9.9,7.0,8.6,33,,,,,,,199,,,ACURA_ILX_Compact_Conventional/Hybrid_AM8
+,ACURA,MDX SH-AWD A-SPEC,Suv - Small,Conventional/Hybrid,3.5,6,,AS9,Z,,12.2,9.5,11.0,26,,,,,,,258,,,ACURA_MDX SH-AWD A-SPEC_Suv - Small_Conventional/Hybrid_AS9
+,ACURA,MDX Hybrid AWD,Suv - Small,Conventional/Hybrid,3.0,6,,AM7,Z,,9.1,9.0,9.0,31,,,,,,,210,,,ACURA_MDX Hybrid AWD_Suv - Small_Conventional/Hybrid_AM7
+,ACURA,RDX AWD,Suv - Small,Conventional/Hybrid,2.0,4,,AS10,Z,,11.0,8.6,9.9,29,,,,,,,232,,,ACURA_RDX AWD_Suv - Small_Conventional/Hybrid_AS10
+,ACURA,RLX Hybrid,Mid-Size,Conventional/Hybrid,3.5,6,,AM7,Z,,8.4,8.2,8.4,34,,,,,,,196,,,ACURA_RLX Hybrid_Mid-Size_Conventional/Hybrid_AM7
+,ACURA,TLX A-SPEC,Compact,Conventional/Hybrid,2.4,4,,AM8,Z,,10.2,7.4,8.9,32,,,,,,,209,,,ACURA_TLX A-SPEC_Compact_Conventional/Hybrid_AM8
+,ACURA,TLX SH-AWD,Compact,Conventional/Hybrid,3.5,6,,AS9,Z,,11.4,7.7,9.8,29,,,,,,,228,,,ACURA_TLX SH-AWD_Compact_Conventional/Hybrid_AS9
+,ALFA ROMEO,4C Spider,Two-Seater,Conventional/Hybrid,1.8,4,,AM6,Z,,9.7,6.9,8.4,34,,,,,,,197,,,ALFA ROMEO_4C Spider_Two-Seater_Conventional/Hybrid_AM6
+,ALFA ROMEO,Giulia,Mid-Size,Conventional/Hybrid,2.0,4,,A8,Z,,10.0,7.2,8.7,32,,,,,,,205,,,ALFA ROMEO_Giulia_Mid-Size_Conventional/Hybrid_A8
+,ALFA ROMEO,Giulia AWD,Mid-Size,Conventional/Hybrid,2.0,4,,A8,Z,,10.5,7.7,9.2,31,,,,,,,217,,,ALFA ROMEO_Giulia AWD_Mid-Size_Conventional/Hybrid_A8
+,ALFA ROMEO,Stelvio,Suv - Small,Conventional/Hybrid,2.0,4,,A8,Z,,10.3,8.1,9.3,30,,,,,,,218,,,ALFA ROMEO_Stelvio_Suv - Small_Conventional/Hybrid_A8
+,ALFA ROMEO,Stelvio AWD,Suv - Small,Conventional/Hybrid,2.0,4,,A8,Z,,10.8,8.3,9.6,29,,,,,,,226,,,ALFA ROMEO_Stelvio AWD_Suv - Small_Conventional/Hybrid_A8
+,ASTON MARTIN,DB11 V8,Minicompact,Conventional/Hybrid,4.0,8,,A8,Z,,13.0,9.8,11.5,25,,,,,,,271,,,ASTON MARTIN_DB11 V8_Minicompact_Conventional/Hybrid_A8
+,ASTON MARTIN,DB11 AMR,Minicompact,Conventional/Hybrid,5.2,12,,A8,Z,,15.5,10.6,13.3,21,,,,,,,312,,,ASTON MARTIN_DB11 AMR_Minicompact_Conventional/Hybrid_A8
+,ASTON MARTIN,DBS Superleggera,Minicompact,Conventional/Hybrid,5.2,12,,A8,Z,,16.4,10.7,13.8,20,,,,,,,324,,,ASTON MARTIN_DBS Superleggera_Minicompact_Conventional/Hybrid_A8
+,AUDI,Q3 quattro,Suv - Small,Conventional/Hybrid,2.0,4,,AS8,X,,12.3,8.6,10.6,27,,,,,,,248,,,AUDI_Q3 quattro_Suv - Small_Conventional/Hybrid_AS8
+,AUDI,S3,Subcompact,Conventional/Hybrid,2.0,4,,AM7,Z,,10.7,8.0,9.5,30,,,,,,,222,,,AUDI_S3_Subcompact_Conventional/Hybrid_AM7
+,AUDI,TTS Coupe,Subcompact,Conventional/Hybrid,2.0,4,,AM7,Z,,10.4,8.2,9.4,30,,,,,,,220,,,AUDI_TTS Coupe_Subcompact_Conventional/Hybrid_AM7
+,BENTLEY,Bentayga,Suv - Standard,Conventional/Hybrid,4.0,8,,AS8,Z,,16.4,10.1,13.6,21,,,,,,,315,,,BENTLEY_Bentayga_Suv - Standard_Conventional/Hybrid_AS8
+,BMW,430i xDrive Cabriolet,Subcompact,Conventional/Hybrid,2.0,4,,AS8,Z,,10.6,7.3,9.1,31,,,,,,,213,,,BMW_430i xDrive Cabriolet_Subcompact_Conventional/Hybrid_AS8
+,BMW,M2 Competition,Subcompact,Conventional/Hybrid,3.0,6,,M6,Z,,13.4,9.6,11.7,24,,,,,,,273,,,BMW_M2 Competition_Subcompact_Conventional/Hybrid_M6
+,BMW,M4 Cabriolet,Subcompact,Conventional/Hybrid,3.0,6,,AM7,Z,,14.5,10.5,12.7,22,,,,,,,299,,,BMW_M4 Cabriolet_Subcompact_Conventional/Hybrid_AM7
+,BMW,M4 Cabriolet Competition,Subcompact,Conventional/Hybrid,3.0,6,,AM7,Z,,14.5,10.5,12.7,22,,,,,,,299,,,BMW_M4 Cabriolet Competition_Subcompact_Conventional/Hybrid_AM7
+,BMW,M4 Cabriolet,Subcompact,Conventional/Hybrid,3.0,6,,M6,Z,,13.8,9.4,11.9,24,,,,,,,280,,,BMW_M4 Cabriolet_Subcompact_Conventional/Hybrid_M6
+,BMW,M4 Cabriolet Competition,Subcompact,Conventional/Hybrid,3.0,6,,M6,Z,,13.8,9.4,11.9,24,,,,,,,280,,,BMW_M4 Cabriolet Competition_Subcompact_Conventional/Hybrid_M6
+,BMW,M4 Coupe,Compact,Conventional/Hybrid,3.0,6,,M6,Z,,13.4,9.6,11.7,24,,,,,,,273,,,BMW_M4 Coupe_Compact_Conventional/Hybrid_M6
+,BMW,M4 Coupe Competition,Compact,Conventional/Hybrid,3.0,6,,M6,Z,,13.4,9.6,11.7,24,,,,,,,273,,,BMW_M4 Coupe Competition_Compact_Conventional/Hybrid_M6
+,BMW,X5 xDrive40i,Suv - Standard,Conventional/Hybrid,3.0,6,,AS8,Z,,11.7,9.1,10.5,27,,,,,,,245,,,BMW_X5 xDrive40i_Suv - Standard_Conventional/Hybrid_AS8
+,BMW,X7 xDrive40i,Suv - Standard,Conventional/Hybrid,3.0,6,,AS8,Z,,12.0,9.4,10.8,26,,,,,,,254,,,BMW_X7 xDrive40i_Suv - Standard_Conventional/Hybrid_AS8
+,BUGATTI,Chiron,Two-Seater,Conventional/Hybrid,8.0,16,,AM7,Z,,26.8,16.6,22.2,13,,,,,,,522,,,BUGATTI_Chiron_Two-Seater_Conventional/Hybrid_AM7
+,BUICK,Enclave,Suv - Standard,Conventional/Hybrid,3.6,6,,A9,X,,13.0,9.1,11.2,25,,,,,,,263,,,BUICK_Enclave_Suv - Standard_Conventional/Hybrid_A9
+,BUICK,Encore,Suv - Small,Conventional/Hybrid,1.4,4,,AS6,X,,9.4,7.8,8.7,32,,,,,,,204,,,BUICK_Encore_Suv - Small_Conventional/Hybrid_AS6
+,BUICK,Envision AWD,Suv - Small,Conventional/Hybrid,2.5,4,,A6,X,,11.1,8.6,10.0,28,,,,,,,234,,,BUICK_Envision AWD_Suv - Small_Conventional/Hybrid_A6
+,BUICK,Regal AWD,Mid-Size,Conventional/Hybrid,2.0,4,,AS8,Z,,11.0,8.0,9.6,29,,,,,,,227,,,BUICK_Regal AWD_Mid-Size_Conventional/Hybrid_AS8
+,CADILLAC,CT6 AWD,Full-Size,Conventional/Hybrid,4.2,8,,AS10,Z,,17.3,9.5,13.8,20,,,,,,,324,,,CADILLAC_CT6 AWD_Full-Size_Conventional/Hybrid_AS10
+,CADILLAC,XT4,Suv - Small,Conventional/Hybrid,2.0,4,,AS9,Z,,9.8,7.8,8.9,32,,,,,,,209,,,CADILLAC_XT4_Suv - Small_Conventional/Hybrid_AS9
+,CADILLAC,XT4 AWD,Suv - Small,Conventional/Hybrid,2.0,4,,AS9,Z,,10.9,8.2,9.7,29,,,,,,,227,,,CADILLAC_XT4 AWD_Suv - Small_Conventional/Hybrid_AS9
+,CHEVROLET,Camaro,Subcompact,Conventional/Hybrid,2.0,4,,M6,Z,,11.9,7.9,10.1,28,,,,,,,235,,,CHEVROLET_Camaro_Subcompact_Conventional/Hybrid_M6
+,CHEVROLET,Camaro ZL1,Subcompact,Conventional/Hybrid,6.2,8,,AS10,Z,,18.3,11.2,15.1,19,,,,,,,355,,,CHEVROLET_Camaro ZL1_Subcompact_Conventional/Hybrid_AS10
+,CHEVROLET,Colorado,Pickup Truck - Small,Conventional/Hybrid,2.8,4,,A6,D,,11.8,7.9,10.1,28,,,,,,,270,,,CHEVROLET_Colorado_Pickup Truck - Small_Conventional/Hybrid_A6
+,CHEVROLET,Colorado 4WD,Pickup Truck - Small,Conventional/Hybrid,3.6,6,,A8,X,,14.0,9.9,12.2,23,,,,,,,286,,,CHEVROLET_Colorado 4WD_Pickup Truck - Small_Conventional/Hybrid_A8
+,CHEVROLET,Colorado ZR2 4WD,Pickup Truck - Small,Conventional/Hybrid,2.8,4,,A6,D,,13.3,10.6,12.1,23,,,,,,,326,,,CHEVROLET_Colorado ZR2 4WD_Pickup Truck - Small_Conventional/Hybrid_A6
+,CHEVROLET,Colorado ZR2 4WD,Pickup Truck - Small,Conventional/Hybrid,3.6,6,,A8,X,,15.0,13.0,14.1,20,,,,,,,331,,,CHEVROLET_Colorado ZR2 4WD_Pickup Truck - Small_Conventional/Hybrid_A8
+,CHEVROLET,Equinox AWD,Suv - Small,Conventional/Hybrid,2.0,4,,A9,Z,,10.9,8.3,9.7,29,,,,,,,228,,,CHEVROLET_Equinox AWD_Suv - Small_Conventional/Hybrid_A9
+,CHEVROLET,Malibu,Mid-Size,Conventional/Hybrid,2.0,4,,A9,Z,,10.5,7.4,9.1,31,,,,,,,214,,,CHEVROLET_Malibu_Mid-Size_Conventional/Hybrid_A9
+,CHEVROLET,Silverado,Pickup Truck - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.9,11.4,13.9,20,,,,,,,326,,,CHEVROLET_Silverado_Pickup Truck - Standard_Conventional/Hybrid_A6
+,CHEVROLET,Silverado 4WD,Pickup Truck - Standard,Conventional/Hybrid,2.7,4,,A8,X,,12.5,10.8,11.7,24,,,,,,,275,,,CHEVROLET_Silverado 4WD_Pickup Truck - Standard_Conventional/Hybrid_A8
+,CHEVROLET,Silverado 4WD,Pickup Truck - Standard,Conventional/Hybrid,6.2,8,,A10,Z,,15.0,12.0,13.7,21,,,,,,,321,,,CHEVROLET_Silverado 4WD_Pickup Truck - Standard_Conventional/Hybrid_A10
+,CHEVROLET,Spark,Subcompact,Conventional/Hybrid,1.4,4,,AV,X,,7.9,6.2,7.1,40,,,,,,,167,,,CHEVROLET_Spark_Subcompact_Conventional/Hybrid_AV
+,CHEVROLET,Spark,Subcompact,Conventional/Hybrid,1.4,4,,M5,X,,8.0,6.2,7.2,39,,,,,,,170,,,CHEVROLET_Spark_Subcompact_Conventional/Hybrid_M5
+,CHEVROLET,Suburban,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.7,10.5,13.4,21,,,,,,,314,,,CHEVROLET_Suburban_Suv - Standard_Conventional/Hybrid_A6
+,CHEVROLET,Suburban FFV,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.7,10.5,13.4,21,,,,,,,314,,,CHEVROLET_Suburban FFV_Suv - Standard_Conventional/Hybrid_A6
+,CHEVROLET,Suburban FFV,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,E,,21.2,13.9,17.9,16,,,,,,,298,,,CHEVROLET_Suburban FFV_Suv - Standard_Conventional/Hybrid_A6
+,CHEVROLET,Tahoe,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.7,10.5,13.4,21,,,,,,,314,,,CHEVROLET_Tahoe_Suv - Standard_Conventional/Hybrid_A6
+,CHEVROLET,Tahoe FFV,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.7,10.5,13.4,21,,,,,,,314,,,CHEVROLET_Tahoe FFV_Suv - Standard_Conventional/Hybrid_A6
+,CHEVROLET,Tahoe FFV,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,E,,21.2,13.9,17.9,16,,,,,,,298,,,CHEVROLET_Tahoe FFV_Suv - Standard_Conventional/Hybrid_A6
+,CHEVROLET,Tahoe 4WD FFV,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,E,,21.7,14.3,18.4,15,,,,,,,305,,,CHEVROLET_Tahoe 4WD FFV_Suv - Standard_Conventional/Hybrid_A6
+,CHEVROLET,Traverse,Suv - Standard,Conventional/Hybrid,3.6,6,,A9,X,,13.0,8.8,11.1,25,,,,,,,261,,,CHEVROLET_Traverse_Suv - Standard_Conventional/Hybrid_A9
+,CHEVROLET,Trax,Suv - Small,Conventional/Hybrid,1.4,4,,AS6,X,,9.1,7.6,8.4,34,,,,,,,196,,,CHEVROLET_Trax_Suv - Small_Conventional/Hybrid_AS6
+,CHRYSLER,300,Full-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.4,7.8,10.3,27,,,,,,,242,,,CHRYSLER_300_Full-Size_Conventional/Hybrid_A8
+,CHRYSLER,300,Full-Size,Conventional/Hybrid,5.7,8,,A8,X,,14.7,9.4,12.3,23,,,,,,,289,,,CHRYSLER_300_Full-Size_Conventional/Hybrid_A8
+,CHRYSLER,300 AWD,Full-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.8,8.7,11.0,26,,,,,,,258,,,CHRYSLER_300 AWD_Full-Size_Conventional/Hybrid_A8
+,CHRYSLER,Pacifica (Stop-Start),Minivan,Conventional/Hybrid,3.6,6,,A9,X,,12.4,8.4,10.6,27,,,,,,,249,,,CHRYSLER_Pacifica (Stop-Start)_Minivan_Conventional/Hybrid_A9
+,DODGE,Challenger,Mid-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.4,7.8,10.3,27,,,,,,,242,,,DODGE_Challenger_Mid-Size_Conventional/Hybrid_A8
+,DODGE,Challenger (MDS),Mid-Size,Conventional/Hybrid,5.7,8,,A8,X,,14.7,9.4,12.3,23,,,,,,,289,,,DODGE_Challenger (MDS)_Mid-Size_Conventional/Hybrid_A8
+,DODGE,Challenger,Mid-Size,Conventional/Hybrid,5.7,8,,M6,Z,,15.6,10.1,13.1,22,,,,,,,307,,,DODGE_Challenger_Mid-Size_Conventional/Hybrid_M6
+,DODGE,Challenger,Mid-Size,Conventional/Hybrid,6.4,8,,M6,Z,,16.7,10.4,13.9,20,,,,,,,325,,,DODGE_Challenger_Mid-Size_Conventional/Hybrid_M6
+,DODGE,Challenger SRT Hellcat,Mid-Size,Conventional/Hybrid,6.2,8,,A8,Z,,17.6,10.7,14.5,19,,,,,,,339,,,DODGE_Challenger SRT Hellcat_Mid-Size_Conventional/Hybrid_A8
+,DODGE,Challenger SRT Hellcat,Mid-Size,Conventional/Hybrid,6.2,8,,M6,Z,,18.1,11.4,15.1,19,,,,,,,352,,,DODGE_Challenger SRT Hellcat_Mid-Size_Conventional/Hybrid_M6
+,DODGE,Charger,Full-Size,Conventional/Hybrid,3.6,6,,A5,X,,13.7,9.0,11.6,24,,,,,,,271,,,DODGE_Charger_Full-Size_Conventional/Hybrid_A5
+,DODGE,Charger,Full-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.4,7.8,10.3,27,,,,,,,242,,,DODGE_Charger_Full-Size_Conventional/Hybrid_A8
+,DODGE,Charger (MDS),Full-Size,Conventional/Hybrid,5.7,8,,A8,X,,14.7,9.4,12.3,23,,,,,,,289,,,DODGE_Charger (MDS)_Full-Size_Conventional/Hybrid_A8
+,DODGE,Charger AWD,Full-Size,Conventional/Hybrid,3.6,6,,A8,X,,12.8,8.7,11.0,26,,,,,,,258,,,DODGE_Charger AWD_Full-Size_Conventional/Hybrid_A8
+,DODGE,Durango AWD,Suv - Standard,Conventional/Hybrid,3.6,6,,A8,X,,12.7,9.6,11.3,25,,,,,,,265,,,DODGE_Durango AWD_Suv - Standard_Conventional/Hybrid_A8
+,DODGE,Durango AWD,Suv - Standard,Conventional/Hybrid,5.7,8,,A8,X,,16.7,10.9,14.1,20,,,,,,,331,,,DODGE_Durango AWD_Suv - Standard_Conventional/Hybrid_A8
+,DODGE,Durango AWD SRT,Suv - Standard,Conventional/Hybrid,6.4,8,,A8,Z,,18.3,12.2,15.6,18,,,,,,,363,,,DODGE_Durango AWD SRT_Suv - Standard_Conventional/Hybrid_A8
+,DODGE,Journey,Suv - Small,Conventional/Hybrid,2.4,4,,A4,X,,12.7,9.2,11.1,25,,,,,,,261,,,DODGE_Journey_Suv - Small_Conventional/Hybrid_A4
+,FIAT,124 Spider,Two-Seater,Conventional/Hybrid,1.4,4,,A6,X,,9.3,6.5,8.0,35,,,,,,,187,,,FIAT_124 Spider_Two-Seater_Conventional/Hybrid_A6
+,FIAT,124 Spider,Two-Seater,Conventional/Hybrid,1.4,4,,M6,X,,9.0,6.7,7.9,36,,,,,,,185,,,FIAT_124 Spider_Two-Seater_Conventional/Hybrid_M6
+,FIAT,500L,Station Wagon - Small,Conventional/Hybrid,1.4,4,,A6,X,,10.7,7.9,9.4,30,,,,,,,221,,,FIAT_500L_Station Wagon - Small_Conventional/Hybrid_A6
+,FIAT,500X AWD,Suv - Small,Conventional/Hybrid,1.3,4,,A9,X,,10.0,7.9,9.1,31,,,,,,,213,,,FIAT_500X AWD_Suv - Small_Conventional/Hybrid_A9
+,FORD,Edge AWD,Suv - Small,Conventional/Hybrid,2.0,4,,AS8,X,,11.4,8.3,10.0,28,,,,,,,233,,,FORD_Edge AWD_Suv - Small_Conventional/Hybrid_AS8
+,FORD,F-150 4X4 Limited,Pickup Truck - Standard,Conventional/Hybrid,3.5,6,,AS10,X,,13.8,11.2,12.6,22,,,,,,,296,,,FORD_F-150 4X4 Limited_Pickup Truck - Standard_Conventional/Hybrid_AS10
+,FORD,F-150 Raptor 4X4,Pickup Truck - Standard,Conventional/Hybrid,3.5,6,,AS10,X,,15.3,13.1,14.3,20,,,,,,,336,,,FORD_F-150 Raptor 4X4_Pickup Truck - Standard_Conventional/Hybrid_AS10
+,FORD,Mustang,Subcompact,Conventional/Hybrid,2.3,4,,AS10,X,,11.2,7.3,9.4,30,,,,,,,221,,,FORD_Mustang_Subcompact_Conventional/Hybrid_AS10
+,FORD,Mustang (Performance Pkg),Subcompact,Conventional/Hybrid,2.3,4,,AS10,X,,11.8,8.4,10.3,27,,,,,,,242,,,FORD_Mustang (Performance Pkg)_Subcompact_Conventional/Hybrid_AS10
+,FORD,Mustang (Performance Pkg),Subcompact,Conventional/Hybrid,2.3,4,,M6,X,,11.8,8.7,10.4,27,,,,,,,244,,,FORD_Mustang (Performance Pkg)_Subcompact_Conventional/Hybrid_M6
+,FORD,Mustang,Subcompact,Conventional/Hybrid,5.0,8,,AS10,X,,15.0,9.1,12.3,23,,,,,,,289,,,FORD_Mustang_Subcompact_Conventional/Hybrid_AS10
+,FORD,Ranger 4WD,Pickup Truck - Standard,Conventional/Hybrid,2.3,4,,AS10,X,,11.8,9.8,10.9,26,,,,,,,256,,,FORD_Ranger 4WD_Pickup Truck - Standard_Conventional/Hybrid_AS10
+,FORD,Transit Connect Van FFV,Special Purpose Vehicle,Conventional/Hybrid,2.0,4,,AS8,X,,9.8,8.8,9.3,30,,,,,,,219,,,FORD_Transit Connect Van FFV_Special Purpose Vehicle_Conventional/Hybrid_AS8
+,FORD,Transit Connect Van FFV,Special Purpose Vehicle,Conventional/Hybrid,2.0,4,,AS8,E,,13.3,11.8,12.6,22,,,,,,,209,,,FORD_Transit Connect Van FFV_Special Purpose Vehicle_Conventional/Hybrid_AS8
+,FORD,Transit Connect Wagon LWB,Special Purpose Vehicle,Conventional/Hybrid,2.0,4,,AS8,X,,9.9,8.2,9.2,31,,,,,,,214,,,FORD_Transit Connect Wagon LWB_Special Purpose Vehicle_Conventional/Hybrid_AS8
+,FORD,Transit Connect Wagon LWB FFV,Special Purpose Vehicle,Conventional/Hybrid,2.0,4,,AS8,X,,9.9,8.2,9.2,31,,,,,,,214,,,FORD_Transit Connect Wagon LWB FFV_Special Purpose Vehicle_Conventional/Hybrid_AS8
+,FORD,Transit Connect Wagon LWB FFV,Special Purpose Vehicle,Conventional/Hybrid,2.0,4,,AS8,E,,13.7,11.1,12.5,23,,,,,,,208,,,FORD_Transit Connect Wagon LWB FFV_Special Purpose Vehicle_Conventional/Hybrid_AS8
+,FORD,Transit Connect Wagon LWB,Special Purpose Vehicle,Conventional/Hybrid,2.5,4,,AS6,X,,12.1,9.0,10.7,26,,,,,,,251,,,FORD_Transit Connect Wagon LWB_Special Purpose Vehicle_Conventional/Hybrid_AS6
+,GENESIS,G70,Compact,Conventional/Hybrid,2.0,4,,M6,Z,,12.8,8.5,10.9,26,,,,,,,255,,,GENESIS_G70_Compact_Conventional/Hybrid_M6
+,GENESIS,G80 AWD,Full-Size,Conventional/Hybrid,3.3,6,,AS8,Z,,13.8,9.7,11.9,24,,,,,,,282,,,GENESIS_G80 AWD_Full-Size_Conventional/Hybrid_AS8
+,GENESIS,G80 AWD,Full-Size,Conventional/Hybrid,3.8,6,,AS8,X,,13.4,9.6,11.7,24,,,,,,,276,,,GENESIS_G80 AWD_Full-Size_Conventional/Hybrid_AS8
+,GENESIS,G80 AWD,Full-Size,Conventional/Hybrid,5.0,8,,AS8,Z,,15.6,10.4,13.2,21,,,,,,,312,,,GENESIS_G80 AWD_Full-Size_Conventional/Hybrid_AS8
+,GMC,Canyon,Pickup Truck - Small,Conventional/Hybrid,2.8,4,,A6,D,,11.8,7.9,10.1,28,,,,,,,270,,,GMC_Canyon_Pickup Truck - Small_Conventional/Hybrid_A6
+,GMC,Canyon 4WD,Pickup Truck - Small,Conventional/Hybrid,3.6,6,,A8,X,,14.0,9.9,12.2,23,,,,,,,286,,,GMC_Canyon 4WD_Pickup Truck - Small_Conventional/Hybrid_A8
+,GMC,Sierra,Pickup Truck - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.9,11.4,13.9,20,,,,,,,326,,,GMC_Sierra_Pickup Truck - Standard_Conventional/Hybrid_A6
+,GMC,Sierra 4WD,Pickup Truck - Standard,Conventional/Hybrid,6.2,8,,A10,Z,,15.5,11.9,13.9,20,,,,,,,326,,,GMC_Sierra 4WD_Pickup Truck - Standard_Conventional/Hybrid_A10
+,GMC,Sierra 4WD AT4,Pickup Truck - Standard,Conventional/Hybrid,6.2,8,,A10,Z,,15.7,12.4,14.2,20,,,,,,,332,,,GMC_Sierra 4WD AT4_Pickup Truck - Standard_Conventional/Hybrid_A10
+,GMC,Terrain AWD,Suv - Small,Conventional/Hybrid,2.0,4,,A9,Z,,11.2,9.0,10.2,28,,,,,,,239,,,GMC_Terrain AWD_Suv - Small_Conventional/Hybrid_A9
+,GMC,Yukon,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.7,10.5,13.4,21,,,,,,,314,,,GMC_Yukon_Suv - Standard_Conventional/Hybrid_A6
+,GMC,Yukon FFV,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.7,10.5,13.4,21,,,,,,,314,,,GMC_Yukon FFV_Suv - Standard_Conventional/Hybrid_A6
+,GMC,Yukon FFV,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,E,,21.2,13.9,17.9,16,,,,,,,298,,,GMC_Yukon FFV_Suv - Standard_Conventional/Hybrid_A6
+,GMC,Yukon 4WD FFV,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,E,,21.7,14.3,18.4,15,,,,,,,305,,,GMC_Yukon 4WD FFV_Suv - Standard_Conventional/Hybrid_A6
+,GMC,Yukon XL,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.7,10.5,13.4,21,,,,,,,314,,,GMC_Yukon XL_Suv - Standard_Conventional/Hybrid_A6
+,GMC,Yukon XL FFV,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,X,,15.7,10.5,13.4,21,,,,,,,314,,,GMC_Yukon XL FFV_Suv - Standard_Conventional/Hybrid_A6
+,GMC,Yukon XL FFV,Suv - Standard,Conventional/Hybrid,5.3,8,,A6,E,,21.2,13.9,17.9,16,,,,,,,298,,,GMC_Yukon XL FFV_Suv - Standard_Conventional/Hybrid_A6
+,HONDA,Accord,Full-Size,Conventional/Hybrid,1.5,4,,AV7,X,,8.2,6.8,7.6,37,,,,,,,177,,,HONDA_Accord_Full-Size_Conventional/Hybrid_AV7
+,HONDA,Accord,Full-Size,Conventional/Hybrid,1.5,4,,M6,X,,8.9,6.7,7.9,36,,,,,,,185,,,HONDA_Accord_Full-Size_Conventional/Hybrid_M6
+,HONDA,Accord,Full-Size,Conventional/Hybrid,2.0,4,,M6,X,,10.7,7.3,9.2,31,,,,,,,214,,,HONDA_Accord_Full-Size_Conventional/Hybrid_M6
+,HONDA,Accord Sport/Touring,Mid-Size,Conventional/Hybrid,2.0,4,,AS10,X,,10.4,7.4,9.1,31,,,,,,,211,,,HONDA_Accord Sport/Touring_Mid-Size_Conventional/Hybrid_AS10
+,HONDA,Accord Hybrid,Full-Size,Conventional/Hybrid,2.0,4,,AV,X,,5.0,5.0,5.0,56,,,,,,,117,,,HONDA_Accord Hybrid_Full-Size_Conventional/Hybrid_AV
+,HONDA,Civic Coupe,Compact,Conventional/Hybrid,1.5,4,,AV7,X,,7.8,6.4,7.2,39,,,,,,,167,,,HONDA_Civic Coupe_Compact_Conventional/Hybrid_AV7
+,HONDA,Civic Coupe,Compact,Conventional/Hybrid,2.0,4,,AV,X,,7.8,6.1,7.1,40,,,,,,,164,,,HONDA_Civic Coupe_Compact_Conventional/Hybrid_AV
+,HONDA,Civic Coupe,Compact,Conventional/Hybrid,2.0,4,,AV7,X,,8.3,6.6,7.5,38,,,,,,,176,,,HONDA_Civic Coupe_Compact_Conventional/Hybrid_AV7
+,HONDA,Civic Coupe,Compact,Conventional/Hybrid,2.0,4,,M6,X,,9.3,6.7,8.1,35,,,,,,,189,,,HONDA_Civic Coupe_Compact_Conventional/Hybrid_M6
+,HONDA,Civic Hatchback,Full-Size,Conventional/Hybrid,1.5,4,,AV,X,,7.7,6.0,6.9,41,,,,,,,162,,,HONDA_Civic Hatchback_Full-Size_Conventional/Hybrid_AV
+,HONDA,Civic Hatchback,Full-Size,Conventional/Hybrid,1.5,4,,M6,X,,8.0,6.2,7.2,39,,,,,,,167,,,HONDA_Civic Hatchback_Full-Size_Conventional/Hybrid_M6
+,HONDA,Civic Hatchback Sport,Full-Size,Conventional/Hybrid,1.5,4,,M6,Z,,8.0,6.2,7.2,39,,,,,,,167,,,HONDA_Civic Hatchback Sport_Full-Size_Conventional/Hybrid_M6
+,HONDA,Civic Sedan,Mid-Size,Conventional/Hybrid,1.5,4,,AV7,X,,7.8,6.2,7.1,40,,,,,,,165,,,HONDA_Civic Sedan_Mid-Size_Conventional/Hybrid_AV7
+,HONDA,Civic Sedan,Mid-Size,Conventional/Hybrid,2.0,4,,AV,X,,7.9,6.1,7.1,40,,,,,,,167,,,HONDA_Civic Sedan_Mid-Size_Conventional/Hybrid_AV
+,HONDA,Civic Sedan,Mid-Size,Conventional/Hybrid,2.0,4,,M6,X,,9.3,6.5,8.0,35,,,,,,,186,,,HONDA_Civic Sedan_Mid-Size_Conventional/Hybrid_M6
+,HONDA,Fit,Station Wagon - Small,Conventional/Hybrid,1.5,4,,AV,X,,7.0,5.9,6.5,43,,,,,,,151,,,HONDA_Fit_Station Wagon - Small_Conventional/Hybrid_AV
+,HONDA,Fit,Station Wagon - Small,Conventional/Hybrid,1.5,4,,AV7,X,,7.6,6.5,7.0,40,,,,,,,166,,,HONDA_Fit_Station Wagon - Small_Conventional/Hybrid_AV7
+,HONDA,Fit,Station Wagon - Small,Conventional/Hybrid,1.5,4,,M6,X,,8.1,6.6,7.4,38,,,,,,,174,,,HONDA_Fit_Station Wagon - Small_Conventional/Hybrid_M6
+,HONDA,HR-V,Station Wagon - Small,Conventional/Hybrid,1.8,4,,AV,X,,8.4,7.0,7.8,36,,,,,,,181,,,HONDA_HR-V_Station Wagon - Small_Conventional/Hybrid_AV
+,HONDA,HR-V AWD,Station Wagon - Small,Conventional/Hybrid,1.8,4,,AV,X,,8.8,7.5,8.2,34,,,,,,,193,,,HONDA_HR-V AWD_Station Wagon - Small_Conventional/Hybrid_AV
+,HONDA,Pilot AWD,Suv - Small,Conventional/Hybrid,3.5,6,,A6,X,,13.0,9.3,11.3,25,,,,,,,266,,,HONDA_Pilot AWD_Suv - Small_Conventional/Hybrid_A6
+,HONDA,Pilot AWD,Suv - Small,Conventional/Hybrid,3.5,6,,AS9,X,,12.4,9.3,11.0,26,,,,,,,257,,,HONDA_Pilot AWD_Suv - Small_Conventional/Hybrid_AS9
+,HYUNDAI,Elantra GT,Full-Size,Conventional/Hybrid,1.6,4,,AM7,X,,9.7,7.4,8.6,33,,,,,,,205,,,HYUNDAI_Elantra GT_Full-Size_Conventional/Hybrid_AM7
+,HYUNDAI,Elantra GT,Full-Size,Conventional/Hybrid,1.6,4,,M6,X,,10.3,7.9,9.2,31,,,,,,,218,,,HYUNDAI_Elantra GT_Full-Size_Conventional/Hybrid_M6
+,HYUNDAI,Elantra GT,Full-Size,Conventional/Hybrid,2.0,4,,M6,X,,9.8,7.4,8.7,32,,,,,,,207,,,HYUNDAI_Elantra GT_Full-Size_Conventional/Hybrid_M6
+,HYUNDAI,IONIQ Blue,Full-Size,Conventional/Hybrid,1.6,4,,AM6,X,,4.2,4.0,4.1,69,,,,,,,96,,,HYUNDAI_IONIQ Blue_Full-Size_Conventional/Hybrid_AM6
+,HYUNDAI,Kona AWD,Suv - Small,Conventional/Hybrid,1.6,4,,AM7,X,,9.0,8.0,8.6,33,,,,,,,201,,,HYUNDAI_Kona AWD_Suv - Small_Conventional/Hybrid_AM7
+,HYUNDAI,Kona AWD,Suv - Small,Conventional/Hybrid,2.0,4,,AS6,X,,9.2,7.8,8.6,33,,,,,,,202,,,HYUNDAI_Kona AWD_Suv - Small_Conventional/Hybrid_AS6
+,HYUNDAI,Santa Fe,Suv - Small,Conventional/Hybrid,2.4,4,,AS8,X,,10.8,8.0,9.6,29,,,,,,,225,,,HYUNDAI_Santa Fe_Suv - Small_Conventional/Hybrid_AS8
+,HYUNDAI,Tucson,Suv - Small,Conventional/Hybrid,2.0,4,,AS6,X,,10.0,7.9,9.1,31,,,,,,,216,,,HYUNDAI_Tucson_Suv - Small_Conventional/Hybrid_AS6
+,HYUNDAI,Tucson AWD,Suv - Small,Conventional/Hybrid,2.0,4,,AS6,X,,10.8,9.2,10.1,28,,,,,,,239,,,HYUNDAI_Tucson AWD_Suv - Small_Conventional/Hybrid_AS6
+,HYUNDAI,Veloster Turbo,Compact,Conventional/Hybrid,1.6,4,,AM7,X,,8.5,6.9,7.8,36,,,,,,,184,,,HYUNDAI_Veloster Turbo_Compact_Conventional/Hybrid_AM7
+,HYUNDAI,Veloster,Compact,Conventional/Hybrid,2.0,4,,AS6,X,,9.1,7.1,8.2,34,,,,,,,193,,,HYUNDAI_Veloster_Compact_Conventional/Hybrid_AS6
+,HYUNDAI,Veloster N,Compact,Conventional/Hybrid,2.0,4,,M6,X,,10.6,8.3,9.5,30,,,,,,,226,,,HYUNDAI_Veloster N_Compact_Conventional/Hybrid_M6
+,INFINITI,Q50 AWD Red Sport,Mid-Size,Conventional/Hybrid,3.0,6,,AS7,Z,,12.5,9.3,11.1,25,,,,,,,261,,,INFINITI_Q50 AWD Red Sport_Mid-Size_Conventional/Hybrid_AS7
+,INFINITI,Q60 AWD,Subcompact,Conventional/Hybrid,3.0,6,,AS7,Z,,12.3,8.7,10.7,26,,,,,,,251,,,INFINITI_Q60 AWD_Subcompact_Conventional/Hybrid_AS7
+,INFINITI,Q60 AWD Red Sport,Subcompact,Conventional/Hybrid,3.0,6,,AS7,Z,,12.5,9.2,11.0,26,,,,,,,259,,,INFINITI_Q60 AWD Red Sport_Subcompact_Conventional/Hybrid_AS7
+,INFINITI,QX60 AWD,Suv - Small,Conventional/Hybrid,3.5,6,,AV7,Z,,12.5,9.0,10.9,26,,,,,,,257,,,INFINITI_QX60 AWD_Suv - Small_Conventional/Hybrid_AV7
+,JAGUAR,E-PACE P250,Suv - Small,Conventional/Hybrid,2.0,4,,AS9,Z,,11.0,8.4,9.8,29,,,,,,,231,,,JAGUAR_E-PACE P250_Suv - Small_Conventional/Hybrid_AS9
+,JAGUAR,F-PACE 25t,Suv - Small,Conventional/Hybrid,2.0,4,,AS8,Z,,10.7,8.8,9.9,29,,,,,,,227,,,JAGUAR_F-PACE 25t_Suv - Small_Conventional/Hybrid_AS8
+,JAGUAR,F-TYPE Convertible,Two-Seater,Conventional/Hybrid,3.0,6,,AS8,Z,,11.9,8.5,10.4,27,,,,,,,242,,,JAGUAR_F-TYPE Convertible_Two-Seater_Conventional/Hybrid_AS8
+,JAGUAR,F-TYPE Convertible R-Dynamic,Two-Seater,Conventional/Hybrid,3.0,6,,AS8,Z,,12.4,8.8,10.8,26,,,,,,,253,,,JAGUAR_F-TYPE Convertible R-Dynamic_Two-Seater_Conventional/Hybrid_AS8
+,JAGUAR,F-TYPE Convertible R-Dynamic AWD,Two-Seater,Conventional/Hybrid,3.0,6,,AS8,Z,,13.0,9.2,11.3,25,,,,,,,265,,,JAGUAR_F-TYPE Convertible R-Dynamic AWD_Two-Seater_Conventional/Hybrid_AS8
+,JAGUAR,F-TYPE Coupe,Two-Seater,Conventional/Hybrid,3.0,6,,AS8,Z,,11.9,8.5,10.4,27,,,,,,,242,,,JAGUAR_F-TYPE Coupe_Two-Seater_Conventional/Hybrid_AS8
+,JAGUAR,F-TYPE Coupe R-Dynamic,Two-Seater,Conventional/Hybrid,3.0,6,,AS8,Z,,12.4,8.8,10.8,26,,,,,,,253,,,JAGUAR_F-TYPE Coupe R-Dynamic_Two-Seater_Conventional/Hybrid_AS8
+,JAGUAR,F-TYPE Coupe R-Dynamic AWD,Two-Seater,Conventional/Hybrid,3.0,6,,AS8,Z,,13.0,9.2,11.3,25,,,,,,,265,,,JAGUAR_F-TYPE Coupe R-Dynamic AWD_Two-Seater_Conventional/Hybrid_AS8
+,JAGUAR,XF 25t AWD,Mid-Size,Conventional/Hybrid,2.0,4,,AS8,Z,,10.1,7.2,8.8,32,,,,,,,207,,,JAGUAR_XF 25t AWD_Mid-Size_Conventional/Hybrid_AS8
+,JEEP,Cherokee,Suv - Small,Conventional/Hybrid,2.0,4,,A9,X,,10.4,7.6,9.1,31,,,,,,,214,,,JEEP_Cherokee_Suv - Small_Conventional/Hybrid_A9
+,JEEP,Cherokee,Suv - Small,Conventional/Hybrid,2.4,4,,A9,X,,10.8,7.6,9.3,30,,,,,,,219,,,JEEP_Cherokee_Suv - Small_Conventional/Hybrid_A9
+,JEEP,Cherokee,Suv - Small,Conventional/Hybrid,3.2,6,,A9,X,,11.9,8.2,10.2,28,,,,,,,240,,,JEEP_Cherokee_Suv - Small_Conventional/Hybrid_A9
+,JEEP,Cherokee 4X4 Active Drive I,Suv - Small,Conventional/Hybrid,2.0,4,,A9,X,,11.2,8.0,9.8,29,,,,,,,229,,,JEEP_Cherokee 4X4 Active Drive I_Suv - Small_Conventional/Hybrid_A9
+,JEEP,Cherokee 4X4 Active Drive I,Suv - Small,Conventional/Hybrid,2.4,4,,A9,X,,11.2,8.0,9.8,29,,,,,,,230,,,JEEP_Cherokee 4X4 Active Drive I_Suv - Small_Conventional/Hybrid_A9
+,JEEP,Cherokee 4X4 Active Drive I,Suv - Small,Conventional/Hybrid,3.2,6,,A9,X,,12.2,8.6,10.6,27,,,,,,,249,,,JEEP_Cherokee 4X4 Active Drive I_Suv - Small_Conventional/Hybrid_A9
+,JEEP,Cherokee 4X4 Active Drive II,Suv - Small,Conventional/Hybrid,2.0,4,,A9,X,,11.5,8.6,10.2,28,,,,,,,240,,,JEEP_Cherokee 4X4 Active Drive II_Suv - Small_Conventional/Hybrid_A9
+,JEEP,Cherokee 4X4 Active Drive II,Suv - Small,Conventional/Hybrid,3.2,6,,A9,X,,12.8,9.0,11.1,25,,,,,,,259,,,JEEP_Cherokee 4X4 Active Drive II_Suv - Small_Conventional/Hybrid_A9
+,JEEP,Cherokee 4X4 Active Drive Lock,Suv - Small,Conventional/Hybrid,2.0,4,,A9,X,,11.8,9.2,10.6,27,,,,,,,249,,,JEEP_Cherokee 4X4 Active Drive Lock_Suv - Small_Conventional/Hybrid_A9
+,JEEP,Cherokee 4X4 Active Drive Lock,Suv - Small,Conventional/Hybrid,3.2,6,,A9,X,,12.9,9.9,11.6,24,,,,,,,269,,,JEEP_Cherokee 4X4 Active Drive Lock_Suv - Small_Conventional/Hybrid_A9
+,JEEP,Compass,Suv - Small,Conventional/Hybrid,2.4,4,,A6,X,,10.6,7.6,9.3,30,,,,,,,218,,,JEEP_Compass_Suv - Small_Conventional/Hybrid_A6
+,JEEP,Compass,Suv - Small,Conventional/Hybrid,2.4,4,,M6,X,,10.4,7.3,9.0,31,,,,,,,211,,,JEEP_Compass_Suv - Small_Conventional/Hybrid_M6
+,JEEP,Compass 4X4,Suv - Small,Conventional/Hybrid,2.4,4,,A9,X,,10.8,7.8,9.5,30,,,,,,,222,,,JEEP_Compass 4X4_Suv - Small_Conventional/Hybrid_A9
+,JEEP,Compass 4X4,Suv - Small,Conventional/Hybrid,2.4,4,,M6,X,,10.8,7.6,9.4,30,,,,,,,221,,,JEEP_Compass 4X4_Suv - Small_Conventional/Hybrid_M6
+,JEEP,Grand Cherokee 4X4,Suv - Standard,Conventional/Hybrid,3.6,6,,A8,X,,12.7,9.6,11.3,25,,,,,,,265,,,JEEP_Grand Cherokee 4X4_Suv - Standard_Conventional/Hybrid_A8
+,JEEP,Grand Cherokee 4X4,Suv - Standard,Conventional/Hybrid,5.7,8,,A8,X,,16.7,10.9,14.1,20,,,,,,,331,,,JEEP_Grand Cherokee 4X4_Suv - Standard_Conventional/Hybrid_A8
+,JEEP,Grand Cherokee 4X4 Trackhawk,Suv - Standard,Conventional/Hybrid,6.2,8,,A8,Z,,20.9,13.8,17.7,16,,,,,,,413,,,JEEP_Grand Cherokee 4X4 Trackhawk_Suv - Standard_Conventional/Hybrid_A8
+,JEEP,Grand Cherokee 4X4 SRT,Suv - Standard,Conventional/Hybrid,6.4,8,,A8,Z,,18.3,12.6,15.7,18,,,,,,,368,,,JEEP_Grand Cherokee 4X4 SRT_Suv - Standard_Conventional/Hybrid_A8
+,JEEP,Renegade,Suv - Small,Conventional/Hybrid,1.3,4,,A9,X,,9.8,7.4,8.7,32,,,,,,,204,,,JEEP_Renegade_Suv - Small_Conventional/Hybrid_A9
+,JEEP,Renegade,Suv - Small,Conventional/Hybrid,2.4,4,,A9,X,,10.8,7.8,9.5,30,,,,,,,222,,,JEEP_Renegade_Suv - Small_Conventional/Hybrid_A9
+,JEEP,Renegade 4X4,Suv - Small,Conventional/Hybrid,1.3,4,,A9,X,,10.1,8.1,9.2,31,,,,,,,216,,,JEEP_Renegade 4X4_Suv - Small_Conventional/Hybrid_A9
+,JEEP,Renegade 4X4 Trailhawk,Suv - Small,Conventional/Hybrid,1.3,4,,A9,X,,10.8,8.7,9.9,29,,,,,,,230,,,JEEP_Renegade 4X4 Trailhawk_Suv - Small_Conventional/Hybrid_A9
+,JEEP,Renegade 4X4,Suv - Small,Conventional/Hybrid,2.4,4,,A9,X,,11.2,8.2,9.8,29,,,,,,,230,,,JEEP_Renegade 4X4_Suv - Small_Conventional/Hybrid_A9
+,KIA,Forte,Mid-Size,Conventional/Hybrid,2.0,4,,M6,X,,8.6,6.4,7.6,37,,,,,,,180,,,KIA_Forte_Mid-Size_Conventional/Hybrid_M6
+,KIA,Niro,Station Wagon - Small,Conventional/Hybrid,1.6,4,,AM6,X,,4.6,5.1,4.8,59,,,,,,,114,,,KIA_Niro_Station Wagon - Small_Conventional/Hybrid_AM6
+,KIA,Niro FE,Station Wagon - Small,Conventional/Hybrid,1.6,4,,AM6,X,,4.5,4.8,4.7,60,,,,,,,110,,,KIA_Niro FE_Station Wagon - Small_Conventional/Hybrid_AM6
+,KIA,Niro Touring,Station Wagon - Small,Conventional/Hybrid,1.6,4,,AM6,X,,5.1,5.8,5.4,52,,,,,,,129,,,KIA_Niro Touring_Station Wagon - Small_Conventional/Hybrid_AM6
+,KIA,Optima,Full-Size,Conventional/Hybrid,2.4,4,,AS6,X,,9.5,7.1,8.4,34,,,,,,,199,,,KIA_Optima_Full-Size_Conventional/Hybrid_AS6
+,KIA,Sorento AWD,Suv - Small,Conventional/Hybrid,2.4,4,,AS6,X,,11.2,9.0,10.2,28,,,,,,,242,,,KIA_Sorento AWD_Suv - Small_Conventional/Hybrid_AS6
+,KIA,Stinger AWD,Mid-Size,Conventional/Hybrid,3.3,6,,AS8,Z,,13.6,9.6,11.8,24,,,,,,,279,,,KIA_Stinger AWD_Mid-Size_Conventional/Hybrid_AS8
+,LAMBORGHINI,Aventador Roadster,Two-Seater,Conventional/Hybrid,6.5,12,,AM7,Z,,26.6,15.8,21.7,13,,,,,,,493,,,LAMBORGHINI_Aventador Roadster_Two-Seater_Conventional/Hybrid_AM7
+,LAMBORGHINI,Urus,Suv - Standard,Conventional/Hybrid,4.0,8,,AS8,Z,,19.2,14.1,16.9,17,,,,,,,384,,,LAMBORGHINI_Urus_Suv - Standard_Conventional/Hybrid_AS8
+,LAND ROVER,Discovery,Suv - Standard,Conventional/Hybrid,3.0,6,,AS8,Z,,14.8,11.4,13.3,21,,,,,,,311,,,LAND ROVER_Discovery_Suv - Standard_Conventional/Hybrid_AS8
+,LAND ROVER,Discovery TD6 Diesel,Suv - Standard,Conventional/Hybrid,3.0,6,,AS8,D,,11.3,9.2,10.4,27,,,,,,,279,,,LAND ROVER_Discovery TD6 Diesel_Suv - Standard_Conventional/Hybrid_AS8
+,LAND ROVER,Range Rover TD6 Diesel,Suv - Standard,Conventional/Hybrid,3.0,6,,AS8,D,,10.7,8.3,9.6,29,,,,,,,256,,,LAND ROVER_Range Rover TD6 Diesel_Suv - Standard_Conventional/Hybrid_AS8
+,LAND ROVER,Range Rover SVAutobiography LWB,Suv - Standard,Conventional/Hybrid,5.0,8,,AS8,Z,,17.9,12.7,15.5,18,,,,,,,365,,,LAND ROVER_Range Rover SVAutobiography LWB_Suv - Standard_Conventional/Hybrid_AS8
+,LAND ROVER,Range Rover Sport TD6 Diesel,Suv - Standard,Conventional/Hybrid,3.0,6,,AS8,D,,10.7,8.3,9.6,29,,,,,,,256,,,LAND ROVER_Range Rover Sport TD6 Diesel_Suv - Standard_Conventional/Hybrid_AS8
+,LAND ROVER,Range Rover Sport Supercharged,Suv - Standard,Conventional/Hybrid,5.0,8,,AS8,Z,,14.1,10.7,12.6,22,,,,,,,294,,,LAND ROVER_Range Rover Sport Supercharged_Suv - Standard_Conventional/Hybrid_AS8
+,LAND ROVER,Range Rover Velar P300,Suv - Small,Conventional/Hybrid,2.0,4,,AS8,Z,,11.7,9.2,10.6,27,,,,,,,248,,,LAND ROVER_Range Rover Velar P300_Suv - Small_Conventional/Hybrid_AS8
+,LAND ROVER,Range Rover Velar P380,Suv - Small,Conventional/Hybrid,3.0,6,,AS8,Z,,13.0,10.0,11.6,24,,,,,,,273,,,LAND ROVER_Range Rover Velar P380_Suv - Small_Conventional/Hybrid_AS8
+,LEXUS,ES 350 F SPORT,Mid-Size,Conventional/Hybrid,3.5,6,,AS8,X,,10.9,7.5,9.4,30,,,,,,,219,,,LEXUS_ES 350 F SPORT_Mid-Size_Conventional/Hybrid_AS8
+,LEXUS,GS 350 AWD,Mid-Size,Conventional/Hybrid,3.5,6,,AS6,Z,,12.3,9.1,10.9,26,,,,,,,254,,,LEXUS_GS 350 AWD_Mid-Size_Conventional/Hybrid_AS6
+,LEXUS,GS F,Compact,Conventional/Hybrid,5.0,8,,AS8,Z,,14.9,9.7,12.5,23,,,,,,,293,,,LEXUS_GS F_Compact_Conventional/Hybrid_AS8
+,LEXUS,IS 300,Compact,Conventional/Hybrid,2.0,4,,AS8,Z,,11.0,7.6,9.5,30,,,,,,,220,,,LEXUS_IS 300_Compact_Conventional/Hybrid_AS8
+,LEXUS,IS 300 AWD,Compact,Conventional/Hybrid,3.5,6,,AS6,Z,,12.3,9.1,10.9,26,,,,,,,254,,,LEXUS_IS 300 AWD_Compact_Conventional/Hybrid_AS6
+,LEXUS,IS 350 AWD,Compact,Conventional/Hybrid,3.5,6,,AS6,Z,,12.3,9.1,10.9,26,,,,,,,254,,,LEXUS_IS 350 AWD_Compact_Conventional/Hybrid_AS6
+,LEXUS,LC 500,Subcompact,Conventional/Hybrid,5.0,8,,AS10,Z,,15.1,9.5,12.6,22,,,,,,,294,,,LEXUS_LC 500_Subcompact_Conventional/Hybrid_AS10
+,LEXUS,LC 500h,Subcompact,Conventional/Hybrid,3.5,6,,AV10,Z,,9.0,7.1,8.1,35,,,,,,,189,,,LEXUS_LC 500h_Subcompact_Conventional/Hybrid_AV10
+,LEXUS,LS 500h AWD,Mid-Size,Conventional/Hybrid,3.5,6,,AV10,Z,,10.3,7.7,9.1,31,,,,,,,214,,,LEXUS_LS 500h AWD_Mid-Size_Conventional/Hybrid_AV10
+,LEXUS,NX 300 AWD,Suv - Small,Conventional/Hybrid,2.0,4,,AS6,Z,,10.7,8.5,9.7,29,,,,,,,226,,,LEXUS_NX 300 AWD_Suv - Small_Conventional/Hybrid_AS6
+,LEXUS,NX 300 AWD F SPORT,Suv - Small,Conventional/Hybrid,2.0,4,,AS6,Z,,10.8,8.9,9.9,29,,,,,,,232,,,LEXUS_NX 300 AWD F SPORT_Suv - Small_Conventional/Hybrid_AS6
+,LEXUS,NX 300h AWD,Suv - Small,Conventional/Hybrid,2.5,4,,AV6,X,,7.2,7.9,7.5,38,,,,,,,176,,,LEXUS_NX 300h AWD_Suv - Small_Conventional/Hybrid_AV6
+,LEXUS,RC 300 AWD,Subcompact,Conventional/Hybrid,3.5,6,,AS6,Z,,13.1,9.8,11.2,25,,,,,,,262,,,LEXUS_RC 300 AWD_Subcompact_Conventional/Hybrid_AS6
+,LEXUS,RC 350 AWD,Subcompact,Conventional/Hybrid,3.5,6,,AS6,Z,,13.1,9.8,11.2,25,,,,,,,262,,,LEXUS_RC 350 AWD_Subcompact_Conventional/Hybrid_AS6
+,LEXUS,RX 350 AWD,Suv - Small,Conventional/Hybrid,3.5,6,,AS8,X,,12.2,9.0,10.8,26,,,,,,,252,,,LEXUS_RX 350 AWD_Suv - Small_Conventional/Hybrid_AS8
+,LEXUS,RX 350 L AWD,Suv - Small,Conventional/Hybrid,3.5,6,,AS8,X,,13.1,9.4,11.1,25,,,,,,,268,,,LEXUS_RX 350 L AWD_Suv - Small_Conventional/Hybrid_AS8
+,LEXUS,RX 450h AWD,Suv - Standard,Conventional/Hybrid,3.5,6,,AV6,Z,,7.5,8.4,7.9,36,,,,,,,185,,,LEXUS_RX 450h AWD_Suv - Standard_Conventional/Hybrid_AV6
+,LEXUS,RX 450h L AWD,Suv - Standard,Conventional/Hybrid,3.5,6,,AV6,Z,,8.1,8.4,8.1,35,,,,,,,190,,,LEXUS_RX 450h L AWD_Suv - Standard_Conventional/Hybrid_AV6
+,LEXUS,UX 200,Mid-Size,Conventional/Hybrid,2.0,4,,AS10,X,,8.0,6.3,7.2,39,,,,,,,168,,,LEXUS_UX 200_Mid-Size_Conventional/Hybrid_AS10
+,LEXUS,UX 250h AWD,Compact,Conventional/Hybrid,2.0,4,,AV6,X,,5.7,6.2,6.0,47,,,,,,,140,,,LEXUS_UX 250h AWD_Compact_Conventional/Hybrid_AV6
+,LINCOLN,Continental AWD,Full-Size,Conventional/Hybrid,3.0,6,,AS6,X,,14.5,9.8,12.3,23,,,,,,,289,,,LINCOLN_Continental AWD_Full-Size_Conventional/Hybrid_AS6
+,LINCOLN,Continental AWD,Full-Size,Conventional/Hybrid,3.7,6,,AS6,X,,14.3,9.7,12.2,23,,,,,,,287,,,LINCOLN_Continental AWD_Full-Size_Conventional/Hybrid_AS6
+,LINCOLN,MKZ AWD,Mid-Size,Conventional/Hybrid,2.0,4,,AS6,X,,12.1,8.4,10.4,27,,,,,,,245,,,LINCOLN_MKZ AWD_Mid-Size_Conventional/Hybrid_AS6
+,MASERATI,Ghibli,Mid-Size,Conventional/Hybrid,3.0,6,,AS8,Z,,14.1,9.8,12.2,23,,,,,,,286,,,MASERATI_Ghibli_Mid-Size_Conventional/Hybrid_AS8
+,MASERATI,Levante,Suv - Standard,Conventional/Hybrid,3.0,6,,AS8,Z,,15.9,11.1,13.7,21,,,,,,,324,,,MASERATI_Levante_Suv - Standard_Conventional/Hybrid_AS8
+,MASERATI,Quattroporte GTS,Full-Size,Conventional/Hybrid,3.8,8,,AS8,Z,,16.0,10.8,13.7,21,,,,,,,321,,,MASERATI_Quattroporte GTS_Full-Size_Conventional/Hybrid_AS8
+,MAZDA,CX-3,Compact,Conventional/Hybrid,2.0,4,,AS6,X,,8.3,6.9,7.7,37,,,,,,,179,,,MAZDA_CX-3_Compact_Conventional/Hybrid_AS6
+,MAZDA,CX-3 4WD,Compact,Conventional/Hybrid,2.0,4,,AS6,X,,8.6,7.4,8.1,35,,,,,,,189,,,MAZDA_CX-3 4WD_Compact_Conventional/Hybrid_AS6
+,MAZDA,CX-5,Suv - Small,Conventional/Hybrid,2.5,4,,AS6,X,,9.7,7.8,8.8,32,,,,,,,206,,,MAZDA_CX-5_Suv - Small_Conventional/Hybrid_AS6
+,MAZDA,CX-5 (Cylinder Deactivation),Suv - Small,Conventional/Hybrid,2.5,4,,AS6,X,,9.3,7.6,8.5,33,,,,,,,201,,,MAZDA_CX-5 (Cylinder Deactivation)_Suv - Small_Conventional/Hybrid_AS6
+,MAZDA,CX-5 4WD,Suv - Small,Conventional/Hybrid,2.5,4,,AS6,X,,10.2,8.2,9.3,30,,,,,,,217,,,MAZDA_CX-5 4WD_Suv - Small_Conventional/Hybrid_AS6
+,MAZDA,CX-5 4WD (Cylinder Deactivation),Suv - Small,Conventional/Hybrid,2.5,4,,AS6,X,,9.8,7.9,9.0,31,,,,,,,208,,,MAZDA_CX-5 4WD (Cylinder Deactivation)_Suv - Small_Conventional/Hybrid_AS6
+,MAZDA,CX-5 Turbo 4WD,Suv - Small,Conventional/Hybrid,2.5,4,,AS6,X,,10.8,8.7,9.8,29,,,,,,,230,,,MAZDA_CX-5 Turbo 4WD_Suv - Small_Conventional/Hybrid_AS6
+,MAZDA,CX-9 4WD,Suv - Small,Conventional/Hybrid,2.5,4,,AS6,X,,11.6,9.1,10.5,27,,,,,,,244,,,MAZDA_CX-9 4WD_Suv - Small_Conventional/Hybrid_AS6
+,MAZDA,Mazda3 4-Door,Compact,Conventional/Hybrid,2.0,4,,AS6,X,,8.4,6.6,7.6,37,,,,,,,178,,,MAZDA_Mazda3 4-Door_Compact_Conventional/Hybrid_AS6
+,MAZDA,Mazda3 4-Door (SIL),Compact,Conventional/Hybrid,2.0,4,,M6,X,,8.7,6.4,7.7,37,,,,,,,180,,,MAZDA_Mazda3 4-Door (SIL)_Compact_Conventional/Hybrid_M6
+,MAZDA,Mazda3 4-Door,Compact,Conventional/Hybrid,2.5,4,,AS6,X,,8.8,6.4,7.7,37,,,,,,,181,,,MAZDA_Mazda3 4-Door_Compact_Conventional/Hybrid_AS6
+,MAZDA,Mazda3 4-Door (Cylinder Deactivation),Compact,Conventional/Hybrid,2.5,4,,AS6,X,,8.8,6.6,7.8,36,,,,,,,183,,,MAZDA_Mazda3 4-Door (Cylinder Deactivation)_Compact_Conventional/Hybrid_AS6
+,MAZDA,Mazda3 4-Door 4WD,Compact,Conventional/Hybrid,2.5,4,,AS6,X,,9.2,7.0,8.2,34,,,,,,,192,,,MAZDA_Mazda3 4-Door 4WD_Compact_Conventional/Hybrid_AS6
+,MAZDA,Mazda3 5-Door,Mid-Size,Conventional/Hybrid,2.0,4,,AS6,X,,8.6,6.7,7.7,37,,,,,,,181,,,MAZDA_Mazda3 5-Door_Mid-Size_Conventional/Hybrid_AS6
+,MAZDA,Mazda3 5-Door (SIL),Mid-Size,Conventional/Hybrid,2.0,4,,M6,X,,8.7,6.6,7.8,36,,,,,,,181,,,MAZDA_Mazda3 5-Door (SIL)_Mid-Size_Conventional/Hybrid_M6
+,MAZDA,Mazda3 5-Door,Mid-Size,Conventional/Hybrid,2.5,4,,AS6,X,,9.0,6.8,8.0,35,,,,,,,187,,,MAZDA_Mazda3 5-Door_Mid-Size_Conventional/Hybrid_AS6
+,MAZDA,Mazda3 5-Door 4WD,Mid-Size,Conventional/Hybrid,2.5,4,,AS6,X,,9.8,7.4,8.7,32,,,,,,,204,,,MAZDA_Mazda3 5-Door 4WD_Mid-Size_Conventional/Hybrid_AS6
+,MAZDA,Mazda6 Turbo,Mid-Size,Conventional/Hybrid,2.5,4,,AS6,X,,10.0,7.5,8.9,32,,,,,,,208,,,MAZDA_Mazda6 Turbo_Mid-Size_Conventional/Hybrid_AS6
+,MAZDA,MX-5,Two-Seater,Conventional/Hybrid,2.0,4,,AS6,Z,,9.0,6.6,7.9,36,,,,,,,186,,,MAZDA_MX-5_Two-Seater_Conventional/Hybrid_AS6
+,MAZDA,MX-5 (SIL),Two-Seater,Conventional/Hybrid,2.0,4,,M6,Z,,9.0,7.0,8.1,35,,,,,,,189,,,MAZDA_MX-5 (SIL)_Two-Seater_Conventional/Hybrid_M6
+,MERCEDES-BENZ,AMG C 43 4MATIC,Compact,Conventional/Hybrid,3.0,6,,A9,Z,,12.4,8.7,10.7,26,,,,,,,253,,,MERCEDES-BENZ_AMG C 43 4MATIC_Compact_Conventional/Hybrid_A9
+,MERCEDES-BENZ,AMG C 43 4MATIC Cabriolet,Subcompact,Conventional/Hybrid,3.0,6,,A9,Z,,12.7,9.2,11.2,25,,,,,,,263,,,MERCEDES-BENZ_AMG C 43 4MATIC Cabriolet_Subcompact_Conventional/Hybrid_A9
+,MERCEDES-BENZ,AMG C 43 4MATIC Coupe,Subcompact,Conventional/Hybrid,3.0,6,,A9,Z,,12.9,8.8,11.1,25,,,,,,,255,,,MERCEDES-BENZ_AMG C 43 4MATIC Coupe_Subcompact_Conventional/Hybrid_A9
+,MERCEDES-BENZ,AMG C 43 4MATIC Wagon,Station Wagon - Small,Conventional/Hybrid,3.0,6,,A9,Z,,12.4,8.9,10.8,26,,,,,,,255,,,MERCEDES-BENZ_AMG C 43 4MATIC Wagon_Station Wagon - Small_Conventional/Hybrid_A9
+,MERCEDES-BENZ,AMG C 63,Compact,Conventional/Hybrid,4.0,8,,A9,Z,,13.2,8.7,11.2,25,,,,,,,263,,,MERCEDES-BENZ_AMG C 63_Compact_Conventional/Hybrid_A9
+,MERCEDES-BENZ,AMG C 63 S,Compact,Conventional/Hybrid,4.0,8,,A9,Z,,13.2,8.7,11.2,25,,,,,,,263,,,MERCEDES-BENZ_AMG C 63 S_Compact_Conventional/Hybrid_A9
+,MERCEDES-BENZ,AMG C 63 S Cabriolet,Subcompact,Conventional/Hybrid,4.0,8,,A9,Z,,13.9,9.7,12.0,24,,,,,,,282,,,MERCEDES-BENZ_AMG C 63 S Cabriolet_Subcompact_Conventional/Hybrid_A9
+,MERCEDES-BENZ,AMG C 63 S Coupe,Subcompact,Conventional/Hybrid,4.0,8,,A9,Z,,13.9,9.2,11.8,24,,,,,,,277,,,MERCEDES-BENZ_AMG C 63 S Coupe_Subcompact_Conventional/Hybrid_A9
+,MERCEDES-BENZ,AMG CLS 53 4MATIC+,Compact,Conventional/Hybrid,3.0,6,,A9,Z,,12.4,8.7,10.7,26,,,,,,,235,,,MERCEDES-BENZ_AMG CLS 53 4MATIC+_Compact_Conventional/Hybrid_A9
+,MERCEDES-BENZ,AMG E 53 4MATIC+,Mid-Size,Conventional/Hybrid,3.0,6,,A9,Z,,11.2,8.3,9.9,29,,,,,,,232,,,MERCEDES-BENZ_AMG E 53 4MATIC+_Mid-Size_Conventional/Hybrid_A9
+,MERCEDES-BENZ,AMG E 53 4MATIC+ Cabriolet,Subcompact,Conventional/Hybrid,3.0,6,,A9,Z,,12.5,9.0,10.9,26,,,,,,,245,,,MERCEDES-BENZ_AMG E 53 4MATIC+ Cabriolet_Subcompact_Conventional/Hybrid_A9
+,MERCEDES-BENZ,AMG E 53 4MATIC+ Coupe,Subcompact,Conventional/Hybrid,3.0,6,,A9,Z,,12.3,8.5,10.6,27,,,,,,,237,,,MERCEDES-BENZ_AMG E 53 4MATIC+ Coupe_Subcompact_Conventional/Hybrid_A9
+,MERCEDES-BENZ,AMG E 63 S 4MATIC+,Mid-Size,Conventional/Hybrid,4.0,8,,A9,Z,,16.0,10.5,13.5,21,,,,,,,318,,,MERCEDES-BENZ_AMG E 63 S 4MATIC+_Mid-Size_Conventional/Hybrid_A9
+,MERCEDES-BENZ,AMG E 63 S 4MATIC+ Wagon,Station Wagon - Mid-Size,Conventional/Hybrid,4.0,8,,A9,Z,,14.6,10.4,12.7,22,,,,,,,299,,,MERCEDES-BENZ_AMG E 63 S 4MATIC+ Wagon_Station Wagon - Mid-Size_Conventional/Hybrid_A9
+,MERCEDES-BENZ,AMG G 63,Suv - Standard,Conventional/Hybrid,4.0,8,,A9,Z,,18.1,15.6,17.0,17,,,,,,,396,,,MERCEDES-BENZ_AMG G 63_Suv - Standard_Conventional/Hybrid_A9
+,MERCEDES-BENZ,AMG GLC 63 S 4MATIC+,Suv - Small,Conventional/Hybrid,4.0,8,,A9,Z,,15.0,10.9,13.2,21,,,,,,,309,,,MERCEDES-BENZ_AMG GLC 63 S 4MATIC+_Suv - Small_Conventional/Hybrid_A9
+,MERCEDES-BENZ,AMG GLC 63 S 4MATIC+ Coupe,Suv - Small,Conventional/Hybrid,4.0,8,,A9,Z,,15.0,10.9,13.2,21,,,,,,,309,,,MERCEDES-BENZ_AMG GLC 63 S 4MATIC+ Coupe_Suv - Small_Conventional/Hybrid_A9
+,MERCEDES-BENZ,AMG GT R Coupe,Two-Seater,Conventional/Hybrid,4.0,8,,AM7,Z,,15.9,11.8,14.0,20,,,,,,,327,,,MERCEDES-BENZ_AMG GT R Coupe_Two-Seater_Conventional/Hybrid_AM7
+,MERCEDES-BENZ,AMG S 63 4MATIC+,Full-Size,Conventional/Hybrid,4.0,8,,A9,Z,,14.1,8.9,11.8,24,,,,,,,275,,,MERCEDES-BENZ_AMG S 63 4MATIC+_Full-Size_Conventional/Hybrid_A9
+,MERCEDES-BENZ,AMG S 63 4MATIC+ Cabriolet,Subcompact,Conventional/Hybrid,4.0,8,,A9,Z,,15.8,9.8,13.1,22,,,,,,,306,,,MERCEDES-BENZ_AMG S 63 4MATIC+ Cabriolet_Subcompact_Conventional/Hybrid_A9
+,MERCEDES-BENZ,AMG S 63 4MATIC+ Coupe,Compact,Conventional/Hybrid,4.0,8,,A9,Z,,14.0,8.7,11.6,24,,,,,,,271,,,MERCEDES-BENZ_AMG S 63 4MATIC+ Coupe_Compact_Conventional/Hybrid_A9
+,MERCEDES-BENZ,AMG S 65,Full-Size,Conventional/Hybrid,6.0,12,,A7,Z,,18.6,10.9,15.1,19,,,,,,,356,,,MERCEDES-BENZ_AMG S 65_Full-Size_Conventional/Hybrid_A7
+,MERCEDES-BENZ,C 300 4MATIC,Compact,Conventional/Hybrid,2.0,4,,A9,Z,,11.0,7.3,9.4,30,,,,,,,219,,,MERCEDES-BENZ_C 300 4MATIC_Compact_Conventional/Hybrid_A9
+,MERCEDES-BENZ,C 300 4MATIC Cabriolet,Subcompact,Conventional/Hybrid,2.0,4,,A9,Z,,11.3,8.1,9.9,29,,,,,,,231,,,MERCEDES-BENZ_C 300 4MATIC Cabriolet_Subcompact_Conventional/Hybrid_A9
+,MERCEDES-BENZ,C 300 4MATIC Coupe,Subcompact,Conventional/Hybrid,2.0,4,,A9,Z,,10.9,7.7,9.5,30,,,,,,,221,,,MERCEDES-BENZ_C 300 4MATIC Coupe_Subcompact_Conventional/Hybrid_A9
+,MERCEDES-BENZ,C 300 4MATIC Wagon,Station Wagon - Small,Conventional/Hybrid,2.0,4,,A9,Z,,10.9,7.7,9.5,30,,,,,,,221,,,MERCEDES-BENZ_C 300 4MATIC Wagon_Station Wagon - Small_Conventional/Hybrid_A9
+,MERCEDES-BENZ,CLS 450 4MATIC,Compact,Conventional/Hybrid,3.0,6,,A9,Z,,11.3,7.9,9.8,29,,,,,,,213,,,MERCEDES-BENZ_CLS 450 4MATIC_Compact_Conventional/Hybrid_A9
+,MERCEDES-BENZ,E 450 4MATIC Cabriolet,Subcompact,Conventional/Hybrid,3.0,6,,A9,Z,,12.7,10.1,11.6,24,,,,,,,271,,,MERCEDES-BENZ_E 450 4MATIC Cabriolet_Subcompact_Conventional/Hybrid_A9
+,MERCEDES-BENZ,E 450 4MATIC Coupe,Subcompact,Conventional/Hybrid,3.0,6,,A9,Z,,12.5,9.1,11.0,26,,,,,,,257,,,MERCEDES-BENZ_E 450 4MATIC Coupe_Subcompact_Conventional/Hybrid_A9
+,MERCEDES-BENZ,G 550,Suv - Standard,Conventional/Hybrid,4.0,8,,A9,Z,,18.0,14.1,16.3,17,,,,,,,378,,,MERCEDES-BENZ_G 550_Suv - Standard_Conventional/Hybrid_A9
+,MERCEDES-BENZ,Maybach S 560 4MATIC,Full-Size,Conventional/Hybrid,4.0,8,,A9,Z,,14.4,9.5,12.2,23,,,,,,,286,,,MERCEDES-BENZ_Maybach S 560 4MATIC_Full-Size_Conventional/Hybrid_A9
+,MERCEDES-BENZ,Maybach S 650,Full-Size,Conventional/Hybrid,6.0,12,,A7,Z,,18.4,11.1,15.1,19,,,,,,,355,,,MERCEDES-BENZ_Maybach S 650_Full-Size_Conventional/Hybrid_A7
+,MERCEDES-BENZ,S 450 4MATIC SWB,Mid-Size,Conventional/Hybrid,3.0,6,,A9,Z,,12.8,8.5,10.8,26,,,,,,,253,,,MERCEDES-BENZ_S 450 4MATIC SWB_Mid-Size_Conventional/Hybrid_A9
+,MERCEDES-BENZ,S 560 4MATIC,Full-Size,Conventional/Hybrid,4.0,8,,A9,Z,,13.5,8.6,11.3,25,,,,,,,265,,,MERCEDES-BENZ_S 560 4MATIC_Full-Size_Conventional/Hybrid_A9
+,MERCEDES-BENZ,S 560 4MATIC SWB,Mid-Size,Conventional/Hybrid,4.0,8,,A9,Z,,13.5,8.6,11.3,25,,,,,,,265,,,MERCEDES-BENZ_S 560 4MATIC SWB_Mid-Size_Conventional/Hybrid_A9
+,MERCEDES-BENZ,SL 550,Two-Seater,Conventional/Hybrid,4.7,8,,A9,Z,,13.5,9.3,11.6,24,,,,,,,270,,,MERCEDES-BENZ_SL 550_Two-Seater_Conventional/Hybrid_A9
+,MERCEDES-BENZ,SLC 300,Two-Seater,Conventional/Hybrid,2.0,4,,A9,Z,,10.0,7.3,8.8,32,,,,,,,205,,,MERCEDES-BENZ_SLC 300_Two-Seater_Conventional/Hybrid_A9
+,MITSUBISHI,Eclipse Cross 4WD,Suv - Small,Conventional/Hybrid,1.5,4,,AV8,X,,9.6,8.9,9.3,30,,,,,,,216,,,MITSUBISHI_Eclipse Cross 4WD_Suv - Small_Conventional/Hybrid_AV8
+,MITSUBISHI,Mirage,Compact,Conventional/Hybrid,1.2,3,,AV,X,,6.6,5.6,6.2,46,,,,,,,143,,,MITSUBISHI_Mirage_Compact_Conventional/Hybrid_AV
+,MITSUBISHI,Mirage,Compact,Conventional/Hybrid,1.2,3,,M5,X,,7.1,5.8,6.5,43,,,,,,,151,,,MITSUBISHI_Mirage_Compact_Conventional/Hybrid_M5
+,MITSUBISHI,Outlander 4WD,Suv - Small,Conventional/Hybrid,2.4,4,,AV6,X,,9.9,8.1,9.1,31,,,,,,,212,,,MITSUBISHI_Outlander 4WD_Suv - Small_Conventional/Hybrid_AV6
+,MITSUBISHI,RVR,Suv - Small,Conventional/Hybrid,2.0,4,,AV6,X,,9.7,7.8,8.8,32,,,,,,,206,,,MITSUBISHI_RVR_Suv - Small_Conventional/Hybrid_AV6
+,MITSUBISHI,RVR 4WD,Suv - Small,Conventional/Hybrid,2.0,4,,AV6,X,,10.1,8.2,9.2,31,,,,,,,213,,,MITSUBISHI_RVR 4WD_Suv - Small_Conventional/Hybrid_AV6
+,MITSUBISHI,RVR 4WD,Suv - Small,Conventional/Hybrid,2.4,4,,AV6,X,,10.3,8.3,9.4,30,,,,,,,218,,,MITSUBISHI_RVR 4WD_Suv - Small_Conventional/Hybrid_AV6
+,NISSAN,370Z,Two-Seater,Conventional/Hybrid,3.7,6,,AS7,Z,,12.6,9.3,11.1,25,,,,,,,261,,,NISSAN_370Z_Two-Seater_Conventional/Hybrid_AS7
+,NISSAN,370Z,Two-Seater,Conventional/Hybrid,3.7,6,,M6,Z,,13.3,9.3,11.5,25,,,,,,,270,,,NISSAN_370Z_Two-Seater_Conventional/Hybrid_M6
+,NISSAN,370Z Roadster,Two-Seater,Conventional/Hybrid,3.7,6,,AS7,Z,,13.0,9.7,11.5,25,,,,,,,271,,,NISSAN_370Z Roadster_Two-Seater_Conventional/Hybrid_AS7
+,NISSAN,370Z Roadster,Two-Seater,Conventional/Hybrid,3.7,6,,M6,Z,,13.6,9.7,11.8,24,,,,,,,279,,,NISSAN_370Z Roadster_Two-Seater_Conventional/Hybrid_M6
+,NISSAN,Altima AWD,Mid-Size,Conventional/Hybrid,2.5,4,,AV,X,,9.1,6.5,7.9,36,,,,,,,186,,,NISSAN_Altima AWD_Mid-Size_Conventional/Hybrid_AV
+,NISSAN,Altima AWD SR/Platinum,Mid-Size,Conventional/Hybrid,2.5,4,,AV,X,,9.3,6.7,8.1,35,,,,,,,190,,,NISSAN_Altima AWD SR/Platinum_Mid-Size_Conventional/Hybrid_AV
+,NISSAN,Kicks,Mid-Size,Conventional/Hybrid,1.6,4,,AV,X,,7.7,6.6,7.2,39,,,,,,,169,,,NISSAN_Kicks_Mid-Size_Conventional/Hybrid_AV
+,NISSAN,Maxima,Mid-Size,Conventional/Hybrid,3.5,6,,AV7,Z,,11.6,7.9,9.9,29,,,,,,,233,,,NISSAN_Maxima_Mid-Size_Conventional/Hybrid_AV7
+,NISSAN,Murano,Station Wagon - Mid-Size,Conventional/Hybrid,3.5,6,,AV7,X,,11.7,8.3,10.2,28,,,,,,,240,,,NISSAN_Murano_Station Wagon - Mid-Size_Conventional/Hybrid_AV7
+,NISSAN,Murano AWD,Station Wagon - Mid-Size,Conventional/Hybrid,3.5,6,,AV7,X,,11.7,8.5,10.3,27,,,,,,,242,,,NISSAN_Murano AWD_Station Wagon - Mid-Size_Conventional/Hybrid_AV7
+,NISSAN,NV200 Cargo Van,Special Purpose Vehicle,Conventional/Hybrid,2.0,4,,AV,X,,9.8,8.8,9.3,30,,,,,,,218,,,NISSAN_NV200 Cargo Van_Special Purpose Vehicle_Conventional/Hybrid_AV
+,NISSAN,Pathfinder,Suv - Small,Conventional/Hybrid,3.5,6,,AV,X,,11.6,8.5,10.2,28,,,,,,,240,,,NISSAN_Pathfinder_Suv - Small_Conventional/Hybrid_AV
+,NISSAN,Rogue,Suv - Small,Conventional/Hybrid,2.5,4,,AV,X,,9.1,7.1,8.2,34,,,,,,,192,,,NISSAN_Rogue_Suv - Small_Conventional/Hybrid_AV
+,NISSAN,Rogue AWD,Suv - Small,Conventional/Hybrid,2.5,4,,AV,X,,9.6,7.5,8.7,32,,,,,,,204,,,NISSAN_Rogue AWD_Suv - Small_Conventional/Hybrid_AV
+,PORSCHE,Cayenne Turbo,Suv - Standard,Conventional/Hybrid,4.0,8,,AS8,Z,,15.6,12.4,14.1,20,,,,,,,329,,,PORSCHE_Cayenne Turbo_Suv - Standard_Conventional/Hybrid_AS8
+,PORSCHE,Macan,Suv - Small,Conventional/Hybrid,2.0,4,,AM7,Z,,12.2,10.2,11.3,25,,,,,,,264,,,PORSCHE_Macan_Suv - Small_Conventional/Hybrid_AM7
+,PORSCHE,Macan S,Suv - Small,Conventional/Hybrid,3.0,6,,AM7,Z,,12.9,10.2,11.7,24,,,,,,,272,,,PORSCHE_Macan S_Suv - Small_Conventional/Hybrid_AM7
+,PORSCHE,Panamera,Full-Size,Conventional/Hybrid,3.0,6,,AM8,Z,,12.4,8.7,10.7,26,,,,,,,250,,,PORSCHE_Panamera_Full-Size_Conventional/Hybrid_AM8
+,PORSCHE,Panamera 4,Full-Size,Conventional/Hybrid,3.0,6,,AM8,Z,,12.4,9.0,10.9,26,,,,,,,253,,,PORSCHE_Panamera 4_Full-Size_Conventional/Hybrid_AM8
+,PORSCHE,Panamera 4 Executive,Full-Size,Conventional/Hybrid,3.0,6,,AM8,Z,,12.4,9.0,10.9,26,,,,,,,253,,,PORSCHE_Panamera 4 Executive_Full-Size_Conventional/Hybrid_AM8
+,PORSCHE,Panamera 4 ST,Full-Size,Conventional/Hybrid,3.0,6,,AM8,Z,,12.2,8.9,10.7,26,,,,,,,250,,,PORSCHE_Panamera 4 ST_Full-Size_Conventional/Hybrid_AM8
+,PORSCHE,Panamera 4S,Full-Size,Conventional/Hybrid,2.9,6,,AM8,Z,,13.1,8.9,11.2,25,,,,,,,261,,,PORSCHE_Panamera 4S_Full-Size_Conventional/Hybrid_AM8
+,PORSCHE,Panamera 4S Executive,Full-Size,Conventional/Hybrid,2.9,6,,AM8,Z,,13.1,8.9,11.2,25,,,,,,,261,,,PORSCHE_Panamera 4S Executive_Full-Size_Conventional/Hybrid_AM8
+,PORSCHE,Panamera 4S ST,Full-Size,Conventional/Hybrid,2.9,6,,AM8,Z,,13.1,9.8,11.6,24,,,,,,,273,,,PORSCHE_Panamera 4S ST_Full-Size_Conventional/Hybrid_AM8
+,PORSCHE,Panamera GTS,Full-Size,Conventional/Hybrid,4.0,8,,AM8,Z,,14.5,10.2,12.6,22,,,,,,,295,,,PORSCHE_Panamera GTS_Full-Size_Conventional/Hybrid_AM8
+,PORSCHE,Panamera GTS ST,Full-Size,Conventional/Hybrid,4.0,8,,AM8,Z,,15.7,10.5,13.4,21,,,,,,,313,,,PORSCHE_Panamera GTS ST_Full-Size_Conventional/Hybrid_AM8
+,PORSCHE,Panamera Turbo,Full-Size,Conventional/Hybrid,4.0,8,,AM8,Z,,12.8,9.2,11.2,25,,,,,,,261,,,PORSCHE_Panamera Turbo_Full-Size_Conventional/Hybrid_AM8
+,PORSCHE,Panamera Turbo Executive,Full-Size,Conventional/Hybrid,4.0,8,,AM8,Z,,12.8,9.2,11.2,25,,,,,,,261,,,PORSCHE_Panamera Turbo Executive_Full-Size_Conventional/Hybrid_AM8
+,PORSCHE,Panamera Turbo ST,Full-Size,Conventional/Hybrid,4.0,8,,AM8,Z,,13.4,10.1,11.9,24,,,,,,,279,,,PORSCHE_Panamera Turbo ST_Full-Size_Conventional/Hybrid_AM8
+,RAM,1500 eTorque,Pickup Truck - Standard,Conventional/Hybrid,3.6,6,,A8,X,,11.9,9.4,10.8,26,,,,,,,253,,,RAM_1500 eTorque_Pickup Truck - Standard_Conventional/Hybrid_A8
+,RAM,1500,Pickup Truck - Standard,Conventional/Hybrid,5.7,8,,A8,X,,16.2,10.5,13.6,21,,,,,,,320,,,RAM_1500_Pickup Truck - Standard_Conventional/Hybrid_A8
+,RAM,1500 eTorque,Pickup Truck - Standard,Conventional/Hybrid,5.7,8,,A8,X,,14.1,10.3,12.4,23,,,,,,,290,,,RAM_1500 eTorque_Pickup Truck - Standard_Conventional/Hybrid_A8
+,RAM,1500 4X4 eTorque,Pickup Truck - Standard,Conventional/Hybrid,3.6,6,,A8,X,,12.2,9.7,11.1,25,,,,,,,260,,,RAM_1500 4X4 eTorque_Pickup Truck - Standard_Conventional/Hybrid_A8
+,RAM,1500 4X4,Pickup Truck - Standard,Conventional/Hybrid,5.7,8,,A8,X,,16.1,11.0,13.8,20,,,,,,,325,,,RAM_1500 4X4_Pickup Truck - Standard_Conventional/Hybrid_A8
+,RAM,1500 Classic,Pickup Truck - Standard,Conventional/Hybrid,5.7,8,,A8,X,,15.7,11.0,13.6,21,,,,,,,319,,,RAM_1500 Classic_Pickup Truck - Standard_Conventional/Hybrid_A8
+,RAM,ProMaster City,Special Purpose Vehicle,Conventional/Hybrid,2.4,4,,A9,X,,11.2,8.3,9.9,29,,,,,,,232,,,RAM_ProMaster City_Special Purpose Vehicle_Conventional/Hybrid_A9
+,ROLLS-ROYCE,Phantom,Full-Size,Conventional/Hybrid,6.7,12,,AS8,Z,,20.0,11.8,16.3,17,,,,,,,382,,,ROLLS-ROYCE_Phantom_Full-Size_Conventional/Hybrid_AS8
+,ROLLS-ROYCE,Phantom EWB,Full-Size,Conventional/Hybrid,6.7,12,,AS8,Z,,20.0,11.8,16.3,17,,,,,,,382,,,ROLLS-ROYCE_Phantom EWB_Full-Size_Conventional/Hybrid_AS8
+,SUBARU,Ascent AWD,Suv - Standard,Conventional/Hybrid,2.4,4,,AV8,X,,11.6,9.0,10.4,27,,,,,,,244,,,SUBARU_Ascent AWD_Suv - Standard_Conventional/Hybrid_AV8
+,SUBARU,BRZ,Minicompact,Conventional/Hybrid,2.0,4,,AS6,Z,,9.7,7.2,8.6,33,,,,,,,200,,,SUBARU_BRZ_Minicompact_Conventional/Hybrid_AS6
+,SUBARU,BRZ tS,Minicompact,Conventional/Hybrid,2.0,4,,M6,Z,,11.6,8.6,10.2,28,,,,,,,239,,,SUBARU_BRZ tS_Minicompact_Conventional/Hybrid_M6
+,SUBARU,Crosstrek AWD,Suv - Small,Conventional/Hybrid,2.0,4,,M6,X,,10.5,8.1,9.4,30,,,,,,,220,,,SUBARU_Crosstrek AWD_Suv - Small_Conventional/Hybrid_M6
+,SUBARU,Forester AWD,Suv - Small,Conventional/Hybrid,2.5,4,,AV7,X,,9.0,7.2,8.2,34,,,,,,,192,,,SUBARU_Forester AWD_Suv - Small_Conventional/Hybrid_AV7
+,SUBARU,Impreza 4-Door AWD,Mid-Size,Conventional/Hybrid,2.0,4,,AV7,X,,8.3,6.4,7.5,38,,,,,,,174,,,SUBARU_Impreza 4-Door AWD_Mid-Size_Conventional/Hybrid_AV7
+,SUBARU,Impreza 5-Door AWD,Station Wagon - Small,Conventional/Hybrid,2.0,4,,M5,X,,10.1,7.7,9.0,31,,,,,,,211,,,SUBARU_Impreza 5-Door AWD_Station Wagon - Small_Conventional/Hybrid_M5
+,TOYOTA,86,Minicompact,Conventional/Hybrid,2.0,4,,AS6,Z,,9.9,7.3,8.7,32,,,,,,,204,,,TOYOTA_86_Minicompact_Conventional/Hybrid_AS6
+,TOYOTA,Avalon,Mid-Size,Conventional/Hybrid,3.5,6,,AS8,X,,10.9,7.6,9.4,30,,,,,,,220,,,TOYOTA_Avalon_Mid-Size_Conventional/Hybrid_AS8
+,TOYOTA,C-HR,Compact,Conventional/Hybrid,2.0,4,,AS7,X,,8.7,7.5,8.2,34,,,,,,,189,,,TOYOTA_C-HR_Compact_Conventional/Hybrid_AS7
+,TOYOTA,Camry,Mid-Size,Conventional/Hybrid,2.5,4,,AS8,X,,8.1,5.7,6.9,41,,,,,,,164,,,TOYOTA_Camry_Mid-Size_Conventional/Hybrid_AS8
+,TOYOTA,Camry,Mid-Size,Conventional/Hybrid,3.5,6,,AS8,X,,10.5,7.1,9.0,31,,,,,,,210,,,TOYOTA_Camry_Mid-Size_Conventional/Hybrid_AS8
+,TOYOTA,Camry XSE,Mid-Size,Conventional/Hybrid,3.5,6,,AS8,X,,10.7,7.4,9.2,31,,,,,,,215,,,TOYOTA_Camry XSE_Mid-Size_Conventional/Hybrid_AS8
+,TOYOTA,Corolla Hatchback,Compact,Conventional/Hybrid,2.0,4,,M6,X,,8.4,6.3,7.5,38,,,,,,,174,,,TOYOTA_Corolla Hatchback_Compact_Conventional/Hybrid_M6
+,TOYOTA,Prius AWD,Mid-Size,Conventional/Hybrid,1.8,4,,AV,X,,4.5,4.9,4.7,60,,,,,,,109,,,TOYOTA_Prius AWD_Mid-Size_Conventional/Hybrid_AV
+,TOYOTA,Prius c,Compact,Conventional/Hybrid,1.5,4,,AV,X,,4.9,5.5,5.1,55,,,,,,,120,,,TOYOTA_Prius c_Compact_Conventional/Hybrid_AV
+,TOYOTA,Sienna AWD,Minivan,Conventional/Hybrid,3.5,6,,AS8,X,,13.4,9.6,11.7,24,,,,,,,274,,,TOYOTA_Sienna AWD_Minivan_Conventional/Hybrid_AS8
+,TOYOTA,Tacoma,Pickup Truck - Small,Conventional/Hybrid,2.7,4,,AS6,X,,12.1,10.1,11.2,25,,,,,,,263,,,TOYOTA_Tacoma_Pickup Truck - Small_Conventional/Hybrid_AS6
+,TOYOTA,Tacoma 4WD,Pickup Truck - Small,Conventional/Hybrid,2.7,4,,AS6,X,,12.7,10.6,11.7,24,,,,,,,274,,,TOYOTA_Tacoma 4WD_Pickup Truck - Small_Conventional/Hybrid_AS6
+,TOYOTA,Tacoma 4WD,Pickup Truck - Small,Conventional/Hybrid,3.5,6,,AS6,X,,13.0,10.5,11.9,24,,,,,,,278,,,TOYOTA_Tacoma 4WD_Pickup Truck - Small_Conventional/Hybrid_AS6
+,TOYOTA,Tacoma 4WD,Pickup Truck - Small,Conventional/Hybrid,3.5,6,,M6,X,,13.8,11.4,12.7,22,,,,,,,299,,,TOYOTA_Tacoma 4WD_Pickup Truck - Small_Conventional/Hybrid_M6
+,TOYOTA,Tundra,Pickup Truck - Standard,Conventional/Hybrid,5.7,8,,AS6,X,,17.7,13.6,15.9,18,,,,,,,371,,,TOYOTA_Tundra_Pickup Truck - Standard_Conventional/Hybrid_AS6
+,VOLKSWAGEN,Golf GTI,Compact,Conventional/Hybrid,2.0,4,,M6,X,,9.8,7.3,8.7,32,,,,,,,203,,,VOLKSWAGEN_Golf GTI_Compact_Conventional/Hybrid_M6
+,VOLKSWAGEN,Jetta,Compact,Conventional/Hybrid,1.4,4,,AS8,X,,7.8,5.9,7.0,40,,,,,,,162,,,VOLKSWAGEN_Jetta_Compact_Conventional/Hybrid_AS8
+,VOLKSWAGEN,Jetta,Compact,Conventional/Hybrid,1.4,4,,M6,X,,7.9,5.9,7.0,40,,,,,,,163,,,VOLKSWAGEN_Jetta_Compact_Conventional/Hybrid_M6
+,VOLKSWAGEN,Jetta GLI,Compact,Conventional/Hybrid,2.0,4,,AM7,X,,9.3,7.2,8.4,34,,,,,,,196,,,VOLKSWAGEN_Jetta GLI_Compact_Conventional/Hybrid_AM7

@@ -1,0 +1,71 @@
+{
+    "source_file": "/Users/chenlike/Documents/GitHub/data-engineering-group5/project/architecture/data/bronze/vehicles_bronze.csv",
+    "silver_file": "/Users/chenlike/Documents/GitHub/data-engineering-group5/project/architecture/data/silver/vehicles_silver.csv",
+    "original_row_count": 8974,
+    "final_row_count": 7870,
+    "column_count": 25,
+    "exact_duplicate_rows_found": 1104,
+    "missing_values_summary_file": "/Users/chenlike/Documents/GitHub/data-engineering-group5/project/architecture/reports/quality/missing_values_report.csv",
+    "numeric_summary_file": "/Users/chenlike/Documents/GitHub/data-engineering-group5/project/architecture/reports/quality/numeric_summary.csv",
+    "duplicate_rows_file": "/Users/chenlike/Documents/GitHub/data-engineering-group5/project/architecture/reports/quality/duplicate_rows.csv",
+    "outlier_report_file": "/Users/chenlike/Documents/GitHub/data-engineering-group5/project/architecture/reports/quality/outlier_report.csv",
+    "range_issue_counts": {
+        "Model_Year_out_of_expected_range": 0,
+        "Engine_Size_L_negative": 0,
+        "Cylinders_nonpositive": 0,
+        "Motor_kW_negative": 0,
+        "Fuel_Cons_City_L100km_negative": 0,
+        "Fuel_Cons_Hwy_L100km_negative": 0,
+        "Fuel_Cons_Comb_L100km_negative": 0,
+        "Fuel_Cons_Comb_mpg_nonpositive": 0,
+        "Elec_Cons_City_kWh100km_negative": 0,
+        "Elec_Cons_Hwy_kWh100km_negative": 0,
+        "Elec_Cons_Comb_kWh100km_negative": 0,
+        "Elec_Range_km_negative": 0,
+        "Total_Range_km_negative": 0,
+        "Recharge_Time_h_negative": 0,
+        "CO2_Emissions_g_km_negative": 0,
+        "CO2_Rating_out_of_range": 0,
+        "Smog_Rating_out_of_range": 0
+    },
+    "categorical_issue_counts": {
+        "invalid_vehicle_type_count": 0,
+        "invalid_fuel_type_primary_count": 355,
+        "invalid_fuel_type_secondary_count": 0
+    },
+    "transmission_issue_counts": {
+        "invalid_transmission_prefix_count": 0
+    },
+    "retained_columns": [
+        "Model_Year",
+        "Make",
+        "Model",
+        "Vehicle_Class",
+        "Vehicle_Type",
+        "Engine_Size_L",
+        "Cylinders",
+        "Motor_kW",
+        "Transmission",
+        "Fuel_Type_Primary",
+        "Fuel_Type_Secondary",
+        "Fuel_Cons_City_L100km",
+        "Fuel_Cons_Hwy_L100km",
+        "Fuel_Cons_Comb_L100km",
+        "Fuel_Cons_Comb_mpg",
+        "Elec_Cons_City_kWh100km",
+        "Elec_Cons_Hwy_kWh100km",
+        "Elec_Cons_Comb_kWh100km",
+        "Elec_Range_km",
+        "Total_Range_km",
+        "Recharge_Time_h",
+        "CO2_Emissions_g_km",
+        "CO2_Rating",
+        "Smog_Rating",
+        "vehicle_id"
+    ],
+    "notes": [
+        "Structural missing values are retained because they reflect vehicle-type-specific non-applicability.",
+        "Outliers are reported, not automatically removed, because extreme values may represent valid vehicle designs.",
+        "Silver retains a wide schema to support downstream gold preparation and clustering feature engineering."
+    ]
+}

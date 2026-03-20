@@ -1,0 +1,325 @@
+"""
+CO2 Emissions Regression Modelling
+===================================
+Trains multiple linear regression models across different feature subsets
+on the vehicles_gold_ml dataset. Compiles results into a single summary
+DataFrame with metrics and preprocessing notes.
+"""
+
+import pandas as pd
+import numpy as np
+from sklearn.linear_model import LinearRegression, Ridge
+from sklearn.ensemble import GradientBoostingRegressor, RandomForestRegressor
+from sklearn.model_selection import cross_val_score, train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.pipeline import Pipeline
+from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
+import warnings
+warnings.filterwarnings("ignore")
+
+# ─────────────────────────────────────────
+# 1. LOAD DATA
+# ─────────────────────────────────────────
+PATH = r"C:\Users\Kritvi Gera\Downloads\vehicles_gold_ml.csv"
+df = pd.read_csv(PATH)
+
+print(f"Raw dataset: {df.shape[0]} rows × {df.shape[1]} columns")
+
+
+# ─────────────────────────────────────────
+# 2. PREPROCESSING (applied to ALL models)
+# ─────────────────────────────────────────
+
+# 2a. Drop BEVs — they always have CO2 = 0 by definition (structural zero-inflation),
+#     which would distort regression coefficients if mixed with combustion vehicles.
+df = df[df["is_bev"] == 0].copy()
+print(f"After dropping BEVs: {df.shape[0]} rows")
+
+# 2b. Drop rows missing the target
+df = df.dropna(subset=["CO2_Emissions_g_km"])
+print(f"After dropping missing target: {df.shape[0]} rows")
+
+# 2c. Group FUEL TYPE into 3 broad categories
+#   • 'fossil'    – regular (X) + premium (Z) gasoline + diesel (D)
+#   • 'alt_fuel'  – ethanol (E), natural gas (N)
+#   • 'phev_elec' – PHEV electric-primary codes (B, B/Z*, B/X*, B/Z, B/X)
+def map_fuel(code):
+    if pd.isna(code):
+        return "fossil"
+    code = str(code).strip()
+    if code in ("X", "Z", "D"):
+        return "fossil"
+    if code in ("E", "N"):
+        return "alt_fuel"
+    return "phev_elec"      # B, B/Z*, B/X*, B/Z, B/X
+
+df["fuel_group"] = df["Fuel_Type_Primary"].apply(map_fuel)
+
+# 2d. Group VEHICLE CLASS into 4 broad size tiers
+small_classes = {
+    "minicompact", "subcompact", "compact", "two-seater",
+    "station wagon - small", "station wagon: small"
+}
+mid_classes = {
+    "mid-size", "mid_size", "full-size", "full_size",
+    "station wagon - mid-size", "station wagon: mid-size"
+}
+suv_truck_classes = {
+    "suv - small", "suv - standard",
+    "sport utility vehicle: small", "sport utility vehicle: standard",
+    "pickup truck - small", "pickup truck - standard",
+    "pickup truck: standard", "special purpose vehicle"
+}
+van_classes = {"minivan", "van - passenger", "van - cargo"}
+
+def map_class(vc):
+    if pd.isna(vc):
+        return "other"
+    vc_lower = vc.strip().lower()
+    if vc_lower in small_classes:
+        return "small"
+    elif vc_lower in mid_classes:
+        return "mid"
+    elif vc_lower in suv_truck_classes:
+        return "suv_truck"
+    elif vc_lower in van_classes:
+        return "van"
+    return "other"
+
+df["size_class"] = df["Vehicle_Class"].apply(map_class)
+
+# 2e. Simplify TRANSMISSION into base type (ignore gear count)
+def map_trans(t):
+    if pd.isna(t):
+        return "unknown"
+    t = str(t).strip().upper()
+    if t.startswith("AS") or t.startswith("A"):
+        return "automatic"
+    if t.startswith("AM"):
+        return "automated_manual"
+    if t.startswith("AV"):
+        return "cvt"
+    if t.startswith("M"):
+        return "manual"
+    return "other"
+
+df["trans_group"] = df["Transmission"].apply(map_trans)
+
+# 2f. PHEV flag (already in dataset but rename for clarity)
+df["phev_flag"] = df["is_phev"].astype(int)
+
+# 2g. Cylinder buckets (low ≤4, mid = 6, high ≥8)
+def cyl_bucket(c):
+    if pd.isna(c):
+        return "na"
+    c = int(c)
+    if c <= 4:
+        return "low"
+    elif c == 6:
+        return "mid"
+    else:
+        return "high"
+
+df["cyl_group"] = df["Cylinders"].apply(cyl_bucket)
+
+print(f"\nFeature engineering complete. Working rows: {df.shape[0]}")
+print("fuel_group distribution:\n", df["fuel_group"].value_counts().to_string())
+print("size_class distribution:\n", df["size_class"].value_counts().to_string())
+
+
+# ─────────────────────────────────────────
+# 3. HELPER – encode & fit/evaluate a model
+# ─────────────────────────────────────────
+
+def evaluate_model(feature_cols, model, df, model_label, subset_label, preprocessing_note):
+    """
+    One-hot encodes categoricals, splits 80/20, fits model, returns metric dict.
+    """
+    sub = df[feature_cols + ["CO2_Emissions_g_km"]].dropna().copy()
+
+    # One-hot encode any string/object columns
+    cat_cols = [c for c in feature_cols if sub[c].dtype == object or sub[c].dtype.name == "object"]
+    # Also catch newly engineered string cols stored as generic objects
+    cat_cols = [c for c in feature_cols
+                if c in sub.columns and sub[c].apply(lambda x: isinstance(x, str)).any()]
+    if cat_cols:
+        sub = pd.get_dummies(sub, columns=cat_cols, drop_first=True, dtype=float)
+
+    X = sub.drop("CO2_Emissions_g_km", axis=1).astype(float)
+    y = sub["CO2_Emissions_g_km"].astype(float)
+
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=0.2, random_state=42
+    )
+
+    pipe = Pipeline([("scaler", StandardScaler()), ("model", model)])
+    pipe.fit(X_train, y_train)
+    y_pred = pipe.predict(X_test)
+
+    r2    = r2_score(y_test, y_pred)
+    mae   = mean_absolute_error(y_test, y_pred)
+    rmse  = np.sqrt(mean_squared_error(y_test, y_pred))
+    cv_r2 = cross_val_score(pipe, X, y, cv=5, scoring="r2").mean()
+
+    return {
+        "Subset"             : subset_label,
+        "Model"              : model_label,
+        "Features"           : ", ".join(feature_cols),
+        "N_Features_Raw"     : len(feature_cols),
+        "N_Rows_Used"        : len(sub),
+        "Test_R2"            : round(r2, 4),
+        "CV_R2_5fold"        : round(cv_r2, 4),
+        "MAE_g_km"           : round(mae, 2),
+        "RMSE_g_km"          : round(rmse, 2),
+        "Preprocessing_Notes": preprocessing_note,
+    }
+
+
+# ─────────────────────────────────────────
+# 4. DEFINE FEATURE SUBSETS & MODEL COMBOS
+# ─────────────────────────────────────────
+
+models = {
+    "LinearRegression" : LinearRegression(),
+    "Ridge"            : Ridge(alpha=1.0),
+    "GradientBoosting" : GradientBoostingRegressor(n_estimators=200, max_depth=4,
+                                                    learning_rate=0.1, random_state=42),
+    "RandomForest"     : RandomForestRegressor(n_estimators=200, max_depth=6,
+                                               random_state=42, n_jobs=-1),
+}
+
+BASE_NOTE = (
+    "BEVs excluded (structural CO2=0). "
+    "Fuel types grouped → fossil/alt_fuel/phev_elec. "
+    "Vehicle class grouped → small/mid/suv_truck/van/other. "
+    "Transmission grouped → automatic/cvt/manual/automated_manual. "
+    "Cylinders bucketed → low(≤4)/mid(6)/high(≥8). "
+    "PHEV binary flag added. "
+    "Categorical features one-hot encoded. "
+    "All features standardised via StandardScaler inside pipeline."
+)
+
+feature_subsets = {
+
+    # ── S1: Absolute minimum – combustion metrics only ──────────────────────
+    "S1_fuel_consumption_only": {
+        "features": ["Fuel_Cons_Comb_L100km"],
+        "note": BASE_NOTE + " | Only combined fuel consumption used (L/100 km)."
+    },
+
+    # ── S2: Engine fundamentals ──────────────────────────────────────────────
+    "S2_engine_fundamentals": {
+        "features": ["Engine_Size_L", "Cylinders", "Fuel_Cons_Comb_L100km"],
+        "note": BASE_NOTE + " | Engine size (L), raw cylinder count, combined fuel consumption."
+    },
+
+    # ── S3: Grouped engine + fuel type ──────────────────────────────────────
+    "S3_grouped_engine_fuel": {
+        "features": ["Engine_Size_L", "cyl_group", "fuel_group"],
+        "note": BASE_NOTE + " | Engine size (L), cylinder bucket (low/mid/high), grouped fuel type."
+    },
+
+    # ── S4: Size class + fuel group (no engine numerics) ────────────────────
+    "S4_class_fuel_group": {
+        "features": ["size_class", "fuel_group", "phev_flag"],
+        "note": BASE_NOTE + " | Vehicle size tier, grouped fuel type, PHEV binary flag. "
+                "No continuous engine metrics."
+    },
+
+    # ── S5: Fuel consumption + grouped categoricals ──────────────────────────
+    "S5_fuelcons_grouped_cats": {
+        "features": ["Fuel_Cons_Comb_L100km", "fuel_group", "size_class", "phev_flag"],
+        "note": BASE_NOTE + " | Combined fuel consumption + grouped fuel type, size class, PHEV flag."
+    },
+
+    # ── S6: Transmission + fuel group + size class ──────────────────────────
+    "S6_trans_fuel_class": {
+        "features": ["trans_group", "fuel_group", "size_class", "phev_flag"],
+        "note": BASE_NOTE + " | Grouped transmission type, fuel type, size class, PHEV flag. "
+                "No continuous features."
+    },
+
+    # ── S7: Engine numerics + grouped cats (balanced) ───────────────────────
+    "S7_engine_and_grouped_cats": {
+        "features": ["Engine_Size_L", "Cylinders", "fuel_group", "size_class", "phev_flag"],
+        "note": BASE_NOTE + " | Engine size, raw cylinders, grouped fuel type, size class, PHEV flag."
+    },
+
+    # ── S8: Fuel consumption + engine size + grouped cats ───────────────────
+    "S8_fuelcons_engine_cats": {
+        "features": ["Fuel_Cons_Comb_L100km", "Engine_Size_L", "cyl_group",
+                     "fuel_group", "size_class"],
+        "note": BASE_NOTE + " | Fuel consumption, engine size, cylinder bucket, fuel group, size class."
+    },
+
+    # ── S9: Full grouped feature set ─────────────────────────────────────────
+    "S9_full_grouped": {
+        "features": ["Engine_Size_L", "Cylinders", "fuel_group", "size_class",
+                     "trans_group", "phev_flag", "Fuel_Cons_Comb_L100km"],
+        "note": BASE_NOTE + " | All grouped features + fuel consumption + raw engine numerics."
+    },
+}
+
+
+# ─────────────────────────────────────────
+# 5. RUN ALL COMBINATIONS
+# ─────────────────────────────────────────
+
+results = []
+total = len(feature_subsets) * len(models)
+done  = 0
+
+for subset_name, cfg in feature_subsets.items():
+    for model_name, model_obj in models.items():
+        done += 1
+        print(f"[{done}/{total}] {subset_name} | {model_name} ...", end=" ")
+        try:
+            row = evaluate_model(
+                feature_cols        = cfg["features"],
+                model               = model_obj,
+                df                  = df,
+                model_label         = model_name,
+                subset_label        = subset_name,
+                preprocessing_note  = cfg["note"],
+            )
+            results.append(row)
+            print(f"R²={row['Test_R2']:.4f}  MAE={row['MAE_g_km']:.1f}")
+        except Exception as e:
+            print(f"ERROR: {e}")
+
+# ─────────────────────────────────────────
+# 6. COMPILE RESULTS TABLE
+# ─────────────────────────────────────────
+
+results_df = pd.DataFrame(results)
+results_df = results_df.sort_values("CV_R2_5fold", ascending=False).reset_index(drop=True)
+results_df.insert(0, "Rank", results_df.index + 1)
+
+output_path = r"C:\Users\Kritvi Gera\Downloads\co2_regression_results.csv"
+results_df.to_csv(output_path, index=False)
+
+print("\n" + "="*70)
+print("RESULTS SUMMARY (sorted by 5-fold CV R²)")
+print("="*70)
+display_cols = ["Rank", "Subset", "Model", "N_Features_Raw",
+                "Test_R2", "CV_R2_5fold", "MAE_g_km", "RMSE_g_km"]
+print(results_df[display_cols].to_string(index=False))
+
+print(f"\n✅ Full results (with preprocessing notes) saved to:\n   {output_path}")
+
+# ─────────────────────────────────────────
+# 7. BEST MODEL SUMMARY
+# ─────────────────────────────────────────
+
+best = results_df.iloc[0]
+print("\n" + "="*70)
+print("BEST MODEL")
+print("="*70)
+print(f"  Subset     : {best['Subset']}")
+print(f"  Algorithm  : {best['Model']}")
+print(f"  Features   : {best['Features']}")
+print(f"  Test R²    : {best['Test_R2']}")
+print(f"  CV R²      : {best['CV_R2_5fold']}")
+print(f"  MAE        : {best['MAE_g_km']} g/km")
+print(f"  RMSE       : {best['RMSE_g_km']} g/km")
+print(f"\nPreprocessing:\n  {best['Preprocessing_Notes']}")

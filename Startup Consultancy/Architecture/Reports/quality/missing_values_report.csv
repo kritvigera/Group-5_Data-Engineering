@@ -1,0 +1,26 @@
+column,missing_count,missing_pct,classification,notes
+Model_Year,6281,79.81,Mostly structural missingness,Expected missing for vehicle types: ['Conventional/Hybrid']
+Make,0,0.0,No missing,
+Model,0,0.0,No missing,
+Vehicle_Class,0,0.0,No missing,
+Vehicle_Type,0,0.0,No missing,
+Engine_Size_L,1195,15.18,Mostly structural missingness,Expected missing for vehicle types: ['Battery Electric (BEV)']
+Cylinders,1195,15.18,Mostly structural missingness,Expected missing for vehicle types: ['Battery Electric (BEV)']
+Motor_kW,6281,79.81,Mostly structural missingness,Expected missing for vehicle types: ['Conventional/Hybrid']
+Transmission,0,0.0,No missing,
+Fuel_Type_Primary,0,0.0,No missing,
+Fuel_Type_Secondary,7476,94.99,Mostly structural missingness,"Expected missing for vehicle types: ['Conventional/Hybrid', 'Battery Electric (BEV)']"
+Fuel_Cons_City_L100km,1195,15.18,Mostly structural missingness,Expected missing for vehicle types: ['Battery Electric (BEV)']
+Fuel_Cons_Hwy_L100km,1195,15.18,Mostly structural missingness,Expected missing for vehicle types: ['Battery Electric (BEV)']
+Fuel_Cons_Comb_L100km,1195,15.18,Mostly structural missingness,Expected missing for vehicle types: ['Battery Electric (BEV)']
+Fuel_Cons_Comb_mpg,1589,20.19,Mostly structural missingness,"Expected missing for vehicle types: ['Battery Electric (BEV)', 'Plug-in Hybrid (PHEV)']"
+Elec_Cons_City_kWh100km,6675,84.82,Mostly structural missingness,"Expected missing for vehicle types: ['Conventional/Hybrid', 'Plug-in Hybrid (PHEV)']"
+Elec_Cons_Hwy_kWh100km,6675,84.82,Mostly structural missingness,"Expected missing for vehicle types: ['Conventional/Hybrid', 'Plug-in Hybrid (PHEV)']"
+Elec_Cons_Comb_kWh100km,6281,79.81,Mostly structural missingness,Expected missing for vehicle types: ['Conventional/Hybrid']
+Elec_Range_km,6281,79.81,Mostly structural missingness,Expected missing for vehicle types: ['Conventional/Hybrid']
+Total_Range_km,6281,79.81,Mostly structural missingness,Expected missing for vehicle types: ['Conventional/Hybrid']
+Recharge_Time_h,6281,79.81,Mostly structural missingness,Expected missing for vehicle types: ['Conventional/Hybrid']
+CO2_Emissions_g_km,0,0.0,No missing,
+CO2_Rating,6335,80.5,Mostly structural missingness,Expected missing for vehicle types: ['Conventional/Hybrid']
+Smog_Rating,6378,81.04,Mostly structural missingness,Expected missing for vehicle types: ['Conventional/Hybrid']
+vehicle_id,0,0.0,No missing,

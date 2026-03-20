@@ -1,0 +1,255 @@
+"""
+Vehicle CO2 Emissions — Neural Network Regression
+===================================================
+Dataset : vehicles_gold_ml.csv  (NRCan, Canada)
+Target  : CO2_Emissions_g_km
+Models  : 5 MLP architectures compared via Train R² vs 5-fold CV R²
+
+Usage
+-----
+    python vehicle_co2_neural_network.py
+
+Requirements
+------------
+    pip install pandas numpy scikit-learn openpyxl
+"""
+
+import warnings
+warnings.filterwarnings("ignore")
+
+import numpy as np
+import pandas as pd
+from sklearn.neural_network import MLPRegressor
+from sklearn.model_selection import cross_val_score, KFold
+from sklearn.preprocessing import StandardScaler
+from sklearn.pipeline import Pipeline
+from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
+
+# ─────────────────────────────────────────────────────────────
+# 1. LOAD DATA
+# ─────────────────────────────────────────────────────────────
+
+PATH = "vehicles_gold_ml.csv"   # update path if needed
+df = pd.read_csv(PATH)
+print(f"Loaded: {df.shape[0]} rows × {df.shape[1]} columns")
+
+
+# ─────────────────────────────────────────────────────────────
+# 2. FEATURE ENGINEERING
+# ─────────────────────────────────────────────────────────────
+
+# Fuel Type → 3 groups
+#   fossil    : X (regular gasoline) + Z (premium gasoline) + D (diesel)
+#   alt_fuel  : E (ethanol/E85) + N (natural gas)
+#   electric  : B, B/Z*, B/X*, B/Z, B/X  (BEV & PHEV electric codes)
+def map_fuel(code):
+    if pd.isna(code):
+        return "fossil"
+    code = str(code).strip()
+    if code in ("X", "Z", "D"):
+        return "fossil"
+    if code in ("E", "N"):
+        return "alt_fuel"
+    return "electric"
+
+df["fuel_group"] = df["Fuel_Type_Primary"].apply(map_fuel)
+
+
+# Vehicle Class → 4 size tiers
+#   small     : minicompact, subcompact, two-seater, small wagons
+#   mid       : compact, mid-size, full-size, mid wagons
+#   suv_truck : SUVs, pickups, special purpose
+#   van       : minivan, passenger van, cargo van
+def map_class(vc):
+    if pd.isna(vc):
+        return "other"
+    v = vc.strip().lower()
+    if any(x in v for x in ["minicompact", "subcompact", "two-seat", "two-seater", "small"]):
+        return "small"
+    if any(x in v for x in ["compact", "mid-size", "mid_size", "full-size", "full_size", "station wagon"]):
+        return "mid"
+    if any(x in v for x in ["suv", "pickup", "sport utility", "special purpose"]):
+        return "suv_truck"
+    if any(x in v for x in ["minivan", "van"]):
+        return "van"
+    return "other"
+
+df["size_class"] = df["Vehicle_Class"].apply(map_class)
+
+
+# Transmission → 5 base types (ignoring gear count suffix)
+#   automatic, auto_select (AS), cvt, automated_manual (AM), manual
+def map_trans(t):
+    if pd.isna(t):
+        return "other"
+    t = str(t).strip().upper()
+    if t.startswith("AM"):  return "automated_manual"
+    if t.startswith("AS"):  return "auto_select"
+    if t.startswith("AV"):  return "cvt"
+    if t.startswith("A"):   return "automatic"
+    if t.startswith("M"):   return "manual"
+    return "other"
+
+df["trans_group"] = df["Transmission"].apply(map_trans)
+
+
+# Cylinders → 3 buckets
+#   low : ≤ 4 cylinders  |  mid : 6 cylinders  |  high : 8+ cylinders
+#   na  : BEVs (no combustion engine)
+def cyl_bucket(c):
+    if pd.isna(c):
+        return "na"
+    c = int(c)
+    if c <= 4: return "low"
+    if c == 6: return "mid"
+    return "high"
+
+df["cyl_group"] = df["Cylinders"].apply(cyl_bucket)
+
+
+# ─────────────────────────────────────────────────────────────
+# 3. BUILD FEATURE MATRIX
+# ─────────────────────────────────────────────────────────────
+
+feature_cols = [
+    # Continuous
+    "Engine_Size_L",           # ICE displacement (L); 0 for BEVs
+    "Cylinders",               # Raw cylinder count;   0 for BEVs
+    "Fuel_Cons_Comb_L100km",   # Combined fuel consumption; 0 for BEVs
+    "Motor_kW",                # Peak electric motor power; 0 for Conv/Hybrid
+    "Elec_Cons_Comb_kWh100km", # Combined electric consumption; 0 for Conv/Hybrid
+    # Binary flags
+    "is_phev",
+    "is_bev",
+    "is_conv_hybrid",
+    # Grouped categoricals (will be one-hot encoded)
+    "fuel_group",
+    "size_class",
+    "trans_group",
+    "cyl_group",
+]
+
+sub = df[feature_cols + ["CO2_Emissions_g_km"]].copy()
+
+# Fill structural NaNs with 0 (not applicable, not missing)
+for col in ["Engine_Size_L", "Cylinders", "Fuel_Cons_Comb_L100km",
+            "Motor_kW", "Elec_Cons_Comb_kWh100km"]:
+    sub[col] = sub[col].fillna(0)
+
+# One-hot encode grouped categoricals
+sub = pd.get_dummies(
+    sub,
+    columns=["fuel_group", "size_class", "trans_group", "cyl_group"],
+    drop_first=False,
+    dtype=float,
+)
+
+X = sub.drop("CO2_Emissions_g_km", axis=1).astype(float)
+y = sub["CO2_Emissions_g_km"].astype(float)
+
+print(f"Feature matrix: {X.shape[0]} rows × {X.shape[1]} features")
+print(f"Features: {X.columns.tolist()}\n")
+
+
+# ─────────────────────────────────────────────────────────────
+# 4. DEFINE NEURAL NETWORK ARCHITECTURES
+# ─────────────────────────────────────────────────────────────
+#
+#  All models share:
+#   - activation  : ReLU
+#   - optimizer   : Adam (default)
+#   - early_stop  : True  (prevents overfitting; uses 10% validation split)
+#   - max_iter    : 500 epochs
+#   - random_state: 42 (reproducibility)
+#   - StandardScaler inside Pipeline (features normalised per fold)
+
+configs = {
+    "Simple NN (64)": MLPRegressor(
+        hidden_layer_sizes=(64,),
+        activation="relu", max_iter=500,
+        random_state=42, early_stopping=True,
+    ),
+    "Medium NN (128-64)": MLPRegressor(
+        hidden_layer_sizes=(128, 64),
+        activation="relu", max_iter=500,
+        random_state=42, early_stopping=True,
+    ),
+    "Deep NN (256-128-64-32)": MLPRegressor(
+        hidden_layer_sizes=(256, 128, 64, 32),
+        activation="relu", max_iter=500,
+        random_state=42, early_stopping=True,
+    ),
+    "Wide NN (512-256)": MLPRegressor(
+        hidden_layer_sizes=(512, 256),
+        activation="relu", max_iter=500,
+        random_state=42, early_stopping=True,
+    ),
+    "Regularized NN (128-64, α=0.01)": MLPRegressor(
+        hidden_layer_sizes=(128, 64),
+        activation="relu", max_iter=500,
+        random_state=42, early_stopping=True,
+        alpha=0.01,          # L2 regularisation
+    ),
+}
+
+
+# ─────────────────────────────────────────────────────────────
+# 5. TRAIN & EVALUATE ALL MODELS
+# ─────────────────────────────────────────────────────────────
+
+kf = KFold(n_splits=5, shuffle=True, random_state=42)
+results = []
+
+print("=" * 70)
+print(f"{'Model':<35} {'Train R²':>9} {'CV R²':>9} {'Gap':>8} {'MAE':>8}")
+print("=" * 70)
+
+for name, nn in configs.items():
+    pipe = Pipeline([("scaler", StandardScaler()), ("nn", nn)])
+
+    # Fit on full data → Train R²
+    pipe.fit(X, y)
+    train_r2 = pipe.score(X, y)
+    y_pred   = pipe.predict(X)
+    mae      = mean_absolute_error(y, y_pred)
+    rmse     = np.sqrt(mean_squared_error(y, y_pred))
+
+    # 5-fold CV R²
+    cv_scores = cross_val_score(pipe, X, y, cv=kf, scoring="r2")
+    cv_mean   = cv_scores.mean()
+    cv_std    = cv_scores.std()
+    gap       = train_r2 - cv_mean
+
+    results.append({
+        "Model":            name,
+        "Train_R2":         round(train_r2, 4),
+        "CV_R2_5fold":      round(cv_mean,  4),
+        "CV_Std":           round(cv_std,   4),
+        "Gap":              round(gap,       4),
+        "MAE_g_km":         round(mae,       2),
+        "RMSE_g_km":        round(rmse,      2),
+        "CV_Fold_1":        round(cv_scores[0], 4),
+        "CV_Fold_2":        round(cv_scores[1], 4),
+        "CV_Fold_3":        round(cv_scores[2], 4),
+        "CV_Fold_4":        round(cv_scores[3], 4),
+        "CV_Fold_5":        round(cv_scores[4], 4),
+    })
+
+    print(f"{name:<35} {train_r2:>9.4f} {cv_mean:>9.4f} {gap:>8.4f} {mae:>7.1f} g/km")
+
+print("=" * 70)
+
+results_df = pd.DataFrame(results).sort_values("CV_R2_5fold", ascending=False)
+results_df.insert(0, "Rank", range(1, len(results_df) + 1))
+
+# ─────────────────────────────────────────────────────────────
+# 6. BEST MODEL SUMMARY
+# ─────────────────────────────────────────────────────────────
+
+best = results_df.iloc[0]
+print(f"\n★  BEST MODEL : {best['Model']}")
+print(f"   Train R²   : {best['Train_R2']}")
+print(f"   CV R²      : {best['CV_R2_5fold']} ± {best['CV_Std']}")
+print(f"   Gap        : {best['Gap']}  (near-zero → no overfitting)")
+print(f"   MAE        : {best['MAE_g_km']} g/km")
+print(f"   RMSE       : {best['RMSE_g_km']} g/km")

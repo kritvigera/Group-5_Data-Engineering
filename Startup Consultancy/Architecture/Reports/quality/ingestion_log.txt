@@ -1,0 +1,9 @@
+=== INGESTION LOG ===
+Ingestion time: 2026-03-07 16:07:18
+Source file: /Users/chenlike/Documents/GitHub/data-engineering-group5/project/architecture/data/raw/vehicles_integrated.csv
+Bronze file: /Users/chenlike/Documents/GitHub/data-engineering-group5/project/architecture/data/bronze/vehicles_bronze.csv
+Row count: 8974
+Column count: 24
+
+Column names:
+Model_Year, Make, Model, Vehicle_Class, Vehicle_Type, Engine_Size_L, Cylinders, Motor_kW, Transmission, Fuel_Type_Primary, Fuel_Type_Secondary, Fuel_Cons_City_L100km, Fuel_Cons_Hwy_L100km, Fuel_Cons_Comb_L100km, Fuel_Cons_Comb_mpg, Elec_Cons_City_kWh100km, Elec_Cons_Hwy_kWh100km, Elec_Cons_Comb_kWh100km, Elec_Range_km, Total_Range_km, Recharge_Time_h, CO2_Emissions_g_km, CO2_Rating, Smog_Rating
